@@ -1,5 +1,553 @@
 [
   {
+    "id": "cassandra",
+    "name": "Cassandra",
+    "description": "Highly scalable NoSQL distributed database",
+    "category": "Database"
+  },
+  {
+    "id": "cockroachdb",
+    "name": "CockroachDB",
+    "description": "Distributed SQL database with horizontal scaling",
+    "category": "Database"
+  },
+  {
+    "id": "supabase",
+    "name": "Supabase",
+    "description": "Open-source Firebase alternative with PostgreSQL",
+    "category": "Database"
+  },
+  {
+    "id": "firebase",
+    "name": "Firebase",
+    "description": "Google's backend-as-a-service with real-time database",
+    "category": "Database"
+  },
+  {
+    "id": "dynamodb",
+    "name": "DynamoDB",
+    "description": "AWS NoSQL database with seamless scaling",
+    "category": "Database"
+  },
+  {
+    "id": "argo-cd",
+    "name": "Argo CD",
+    "description": "Declarative GitOps tool for Kubernetes",
+    "category": "DevOps"
+  },
+  {
+    "id": "istio",
+    "name": "Istio",
+    "description": "Service mesh for microservices management",
+    "category": "DevOps"
+  },
+  {
+    "id": "helm",
+    "name": "Helm",
+    "description": "Package manager for Kubernetes",
+    "category": "DevOps"
+  },
+  {
+    "id": "pulumi",
+    "name": "Pulumi",
+    "description": "Infrastructure as code using general-purpose languages",
+    "category": "DevOps"
+  },
+  {
+    "id": "vercel",
+    "name": "Vercel",
+    "description": "Cloud platform for frontend frameworks and static sites",
+    "category": "Platform"
+  },
+  {
+    "id": "netlify",
+    "name": "Netlify",
+    "description": "All-in-one platform for automating web projects",
+    "category": "Platform"
+  },
+  {
+    "id": "prisma",
+    "name": "Prisma",
+    "description": "Next-generation ORM for Node.js and TypeScript",
+    "category": "Tool"
+  },
+  {
+    "id": "esbuild",
+    "name": "esbuild",
+    "description": "Extremely fast JavaScript bundler",
+    "category": "Tool"
+  },
+  {
+    "id": "swc",
+    "name": "SWC",
+    "description": "Rust-based JavaScript/TypeScript compiler",
+    "category": "Tool"
+  },
+  {
+    "id": "turborepo",
+    "name": "Turborepo",
+    "description": "High-performance build system for monorepos",
+    "category": "Tool"
+  },
+  {
+    "id": "nx",
+    "name": "Nx",
+    "description": "Smart, extensible build system for monorepos",
+    "category": "Tool"
+  },
+  {
+    "id": "docker-compose",
+    "name": "Docker Compose",
+    "description": "Tool for defining and running multi-container Docker apps",
+    "category": "Tool"
+  },
+  {
+    "id": "ubuntu",
+    "name": "Ubuntu",
+    "description": "Popular Linux distribution based on Debian",
+    "category": "OS"
+  },
+  {
+    "id": "fedora",
+    "name": "Fedora",
+    "description": "Linux distribution sponsored by Red Hat",
+    "category": "OS"
+  },
+  {
+    "id": "raspberry-pi-os",
+    "name": "Raspberry Pi OS",
+    "description": "Official OS for Raspberry Pi devices",
+    "category": "OS"
+  },
+  {
+    "id": "cloudflare-workers",
+    "name": "Cloudflare Workers",
+    "description": "Serverless platform for edge computing",
+    "category": "Platform"
+  },
+  {
+    "id": "tensorflow",
+    "name": "TensorFlow",
+    "description": "Open-source machine learning framework",
+    "category": "Tool"
+  },
+  {
+    "id": "pytorch",
+    "name": "PyTorch",
+    "description": "Flexible deep learning framework",
+    "category": "Tool"
+  },
+  {
+    "id": "spring-batch",
+    "name": "Spring Batch",
+    "description": "Framework for batch processing in enterprise applications",
+    "category": "Framework"
+  },
+  {
+    "id": "spring-integration",
+    "name": "Spring Integration",
+    "description": "Extends Spring for enterprise integration patterns (EIP)",
+    "category": "Framework"
+  },
+  {
+    "id": "spring-graphql",
+    "name": "Spring GraphQL",
+    "description": "Official GraphQL support for Spring applications",
+    "category": "Framework"
+  },
+  {
+    "id": "quarkus",
+    "name": "Quarkus",
+    "description": "Kubernetes-native Java framework for cloud-native apps",
+    "category": "Framework"
+  },
+  {
+    "id": "micronaut",
+    "name": "Micronaut",
+    "description": "JVM-based framework for modular, lightweight applications",
+    "category": "Framework"
+  },
+  {
+    "id": "flask",
+    "name": "Flask",
+    "description": "Lightweight Python web framework",
+    "category": "Framework"
+  },
+  {
+    "id": "django",
+    "name": "Django",
+    "description": "High-level Python web framework for rapid development",
+    "category": "Framework"
+  },
+  {
+    "id": "laravel",
+    "name": "Laravel",
+    "description": "PHP web framework with expressive syntax",
+    "category": "Framework"
+  },
+  {
+    "id": "remix",
+    "name": "Remix",
+    "description": "Full-stack React framework for modern web apps",
+    "category": "Framework"
+  },
+  {
+    "id": "astro",
+    "name": "Astro",
+    "description": "Static-site builder with dynamic UI components",
+    "category": "Framework"
+  },
+  {
+    "id": "solidjs",
+    "name": "SolidJS",
+    "description": "Declarative JavaScript library for building UIs",
+    "category": "Framework"
+  },
+  {
+    "id": "swift",
+    "name": "Swift",
+    "description": "Powerful and intuitive programming language for macOS, iOS, and more",
+    "category": "Language"
+  },
+  {
+    "id": "dart",
+    "name": "Dart",
+    "description": "Client-optimized language for fast apps on multiple platforms (Flutter)",
+    "category": "Language"
+  },
+  {
+    "id": "ruby",
+    "name": "Ruby",
+    "description": "Dynamic, open-source language with a focus on simplicity and productivity",
+    "category": "Language"
+  },
+  {
+    "id": "php",
+    "name": "PHP",
+    "description": "Server-side scripting language for web development",
+    "category": "Language"
+  },
+  {
+    "id": "scala",
+    "name": "Scala",
+    "description": "Strong static type system with functional and object-oriented paradigms",
+    "category": "Language"
+  },
+  {
+    "id": "elixir",
+    "name": "Elixir",
+    "description": "Functional, concurrent language for scalable applications (runs on Erlang VM)",
+    "category": "Language"
+  },
+
+  {
+    "id": "java",
+    "name": "Java",
+    "description": "High-level, class-based, object-oriented programming language",
+    "category": "Language"
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "description": "Lightweight, interpreted, or just-in-time compiled programming language with first-class functions",
+    "category": "Language"
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "description": "Strongly typed programming language that builds on JavaScript",
+    "category": "Language"
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "description": "High-level, interpreted, general-purpose programming language",
+    "category": "Language"
+  },
+  {
+    "id": "go",
+    "name": "Go",
+    "description": "Statically typed, compiled programming language designed at Google",
+    "category": "Language"
+  },
+  {
+    "id": "rust",
+    "name": "Rust",
+    "description": "Multi-paradigm, high-level, general-purpose programming language",
+    "category": "Language"
+  },
+  {
+    "id": "kotlin",
+    "name": "Kotlin",
+    "description": "Cross-platform, statically typed, general-purpose programming language with type inference",
+    "category": "Language"
+  },
+  {
+    "id": "nodejs",
+    "name": "Node.js",
+    "description": "JavaScript runtime built on Chrome's V8 JavaScript engine",
+    "category": "Platform"
+  },
+  {
+    "id": "bun",
+    "name": "Bun",
+    "description": "Fast JavaScript runtime, bundler, test runner, and package manager",
+    "category": "Platform"
+  },
+  {
+    "id": "deno",
+    "name": "Deno",
+    "description": "Secure JavaScript and TypeScript runtime",
+    "category": "Platform"
+  },
+  {
+    "id": "spring-boot",
+    "name": "Spring Boot",
+    "description": "Framework for creating stand-alone, production-grade Spring based Applications",
+    "category": "Framework"
+  },
+  {
+    "id": "spring-mvc",
+    "name": "Spring MVC",
+    "description": "Web framework built on the Servlet API",
+    "category": "Framework"
+  },
+  {
+    "id": "spring-data",
+    "name": "Spring Data",
+    "description": "Provides a consistent approach to data access",
+    "category": "Framework"
+  },
+  {
+    "id": "spring-security",
+    "name": "Spring Security",
+    "description": "Powerful and highly customizable authentication and access-control framework",
+    "category": "Framework"
+  },
+  {
+    "id": "spring-cloud",
+    "name": "Spring Cloud",
+    "description": "Provides tools for developers to quickly build distributed systems",
+    "category": "Framework"
+  },
+  {
+    "id": "express",
+    "name": "Express",
+    "description": "Fast, unopinionated, minimalist web framework for Node.js",
+    "category": "Framework"
+  },
+  {
+    "id": "react",
+    "name": "React",
+    "description": "JavaScript library for building user interfaces",
+    "category": "Framework"
+  },
+  {
+    "id": "vue",
+    "name": "Vue.js",
+    "description": "Progressive JavaScript framework for building UI on the web",
+    "category": "Framework"
+  },
+  {
+    "id": "angular",
+    "name": "Angular",
+    "description": "Platform and framework for building single-page client applications",
+    "category": "Framework"
+  },
+  {
+    "id": "svelte",
+    "name": "Svelte",
+    "description": "Component framework that compiles to highly efficient vanilla JS",
+    "category": "Framework"
+  },
+  {
+    "id": "nextjs",
+    "name": "Next.js",
+    "description": "React framework for production with hybrid static & server rendering",
+    "category": "Framework"
+  },
+  {
+    "id": "nuxtjs",
+    "name": "Nuxt.js",
+    "description": "Vue.js framework for creating modern web applications",
+    "category": "Framework"
+  },
+  {
+    "id": "nestjs",
+    "name": "NestJS",
+    "description": "Progressive Node.js framework for building efficient server-side applications",
+    "category": "Framework"
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "description": "Platform for developing, shipping, and running applications in containers",
+    "category": "DevOps"
+  },
+  {
+    "id": "kubernetes",
+    "name": "Kubernetes",
+    "description": "Container orchestration system for automating deployment, scaling, and management",
+    "category": "DevOps"
+  },
+  {
+    "id": "terraform",
+    "name": "Terraform",
+    "description": "Infrastructure as code tool for building, changing, and versioning infrastructure",
+    "category": "DevOps"
+  },
+  {
+    "id": "ansible",
+    "name": "Ansible",
+    "description": "Configuration management and application deployment tool",
+    "category": "DevOps"
+  },
+  {
+    "id": "linux",
+    "name": "Linux",
+    "description": "Family of open-source Unix-like operating systems",
+    "category": "OS"
+  },
+  {
+    "id": "windows",
+    "name": "Windows",
+    "description": "Proprietary graphical operating system developed by Microsoft",
+    "category": "OS"
+  },
+  {
+    "id": "macos",
+    "name": "macOS",
+    "description": "Unix operating system developed and marketed by Apple Inc.",
+    "category": "OS"
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "description": "Powerful, open source object-relational database system",
+    "category": "Database"
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "description": "Source-available cross-platform document-oriented database program",
+    "category": "Database"
+  },
+  {
+    "id": "mysql",
+    "name": "MySQL",
+    "description": "Open-source relational database management system",
+    "category": "Database"
+  },
+  {
+    "id": "redis",
+    "name": "Redis",
+    "description": "In-memory data structure store used as a database, cache, and message broker",
+    "category": "Database"
+  },
+  {
+    "id": "elasticsearch",
+    "name": "Elasticsearch",
+    "description": "Search engine based on the Lucene library",
+    "category": "Database"
+  },
+  {
+    "id": "git",
+    "name": "Git",
+    "description": "Distributed version control system",
+    "category": "Tool"
+  },
+  {
+    "id": "vscode",
+    "name": "VS Code",
+    "description": "Source-code editor developed by Microsoft",
+    "category": "Tool"
+  },
+  {
+    "id": "intellij",
+    "name": "IntelliJ IDEA",
+    "description": "Integrated development environment written in Java",
+    "category": "Tool"
+  },
+  {
+    "id": "gradle",
+    "name": "Gradle",
+    "description": "Build automation tool for multi-language software development",
+    "category": "Tool"
+  },
+  {
+    "id": "maven",
+    "name": "Maven",
+    "description": "Build automation tool used primarily for Java projects",
+    "category": "Tool"
+  },
+  {
+    "id": "webpack",
+    "name": "Webpack",
+    "description": "Static module bundler for modern JavaScript applications",
+    "category": "Tool"
+  },
+  {
+    "id": "vite",
+    "name": "Vite",
+    "description": "Next generation frontend tooling with native ES modules",
+    "category": "Tool"
+  },
+  {
+    "id": "graphql",
+    "name": "GraphQL",
+    "description": "Query language for APIs and a runtime for fulfilling those queries",
+    "category": "Tool"
+  },
+  {
+    "id": "kafka",
+    "name": "Kafka",
+    "description": "Distributed event streaming platform",
+    "category": "Tool"
+  },
+  {
+    "id": "prometheus",
+    "name": "Prometheus",
+    "description": "Open-source systems monitoring and alerting toolkit",
+    "category": "DevOps"
+  },
+  {
+    "id": "grafana",
+    "name": "Grafana",
+    "description": "Multi-platform open source analytics and interactive visualization web application",
+    "category": "DevOps"
+  },
+  {
+    "id": "jenkins",
+    "name": "Jenkins",
+    "description": "Open source automation server for CI/CD",
+    "category": "DevOps"
+  },
+  {
+    "id": "github-actions",
+    "name": "GitHub Actions",
+    "description": "CI/CD platform that allows automation of workflows",
+    "category": "DevOps"
+  },
+  {
+    "id": "aws",
+    "name": "Amazon Web Services",
+    "description": "Comprehensive cloud computing platform",
+    "category": "Platform"
+  },
+  {
+    "id": "azure",
+    "name": "Microsoft Azure",
+    "description": "Cloud computing service created by Microsoft",
+    "category": "Platform"
+  },
+  {
+    "id": "gcp",
+    "name": "Google Cloud Platform",
+    "description": "Suite of cloud computing services",
+    "category": "Platform"
+  }
+,
+  {
     "id": "c",
     "name": "C",
     "description": "General-purpose programming language",

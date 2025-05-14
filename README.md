@@ -35,7 +35,7 @@ A blazing fast React + TypeScript application built using **Vite** that helps yo
 
 ```bash
 # Clone the repo
-git clone [https://github.com/seeranjeeviramavel/gitignore-generator)]https://github.com/seeranjeeviramavel/gitignore-generator)
+git clone https://github.com/seeranjeeviramavel/gitignore-generator
 cd gitignore-generator
 
 # Install dependencies

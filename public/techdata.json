@@ -1,3964 +1,3812 @@
 [
-  {
-    "id": "cassandra",
-    "name": "Cassandra",
-    "description": "Highly scalable NoSQL distributed database",
-    "category": "Database"
-  },
-  {
-    "id": "cockroachdb",
-    "name": "CockroachDB",
-    "description": "Distributed SQL database with horizontal scaling",
-    "category": "Database"
-  },
-  {
-    "id": "supabase",
-    "name": "Supabase",
-    "description": "Open-source Firebase alternative with PostgreSQL",
-    "category": "Database"
-  },
-  {
-    "id": "firebase",
-    "name": "Firebase",
-    "description": "Google's backend-as-a-service with real-time database",
-    "category": "Database"
-  },
-  {
-    "id": "dynamodb",
-    "name": "DynamoDB",
-    "description": "AWS NoSQL database with seamless scaling",
-    "category": "Database"
-  },
-  {
-    "id": "argo-cd",
-    "name": "Argo CD",
-    "description": "Declarative GitOps tool for Kubernetes",
-    "category": "DevOps"
-  },
-  {
-    "id": "istio",
-    "name": "Istio",
-    "description": "Service mesh for microservices management",
-    "category": "DevOps"
-  },
-  {
-    "id": "helm",
-    "name": "Helm",
-    "description": "Package manager for Kubernetes",
-    "category": "DevOps"
-  },
-  {
-    "id": "pulumi",
-    "name": "Pulumi",
-    "description": "Infrastructure as code using general-purpose languages",
-    "category": "DevOps"
-  },
-  {
-    "id": "vercel",
-    "name": "Vercel",
-    "description": "Cloud platform for frontend frameworks and static sites",
-    "category": "Platform"
-  },
-  {
-    "id": "netlify",
-    "name": "Netlify",
-    "description": "All-in-one platform for automating web projects",
-    "category": "Platform"
-  },
-  {
-    "id": "prisma",
-    "name": "Prisma",
-    "description": "Next-generation ORM for Node.js and TypeScript",
-    "category": "Tool"
-  },
-  {
-    "id": "esbuild",
-    "name": "esbuild",
-    "description": "Extremely fast JavaScript bundler",
-    "category": "Tool"
-  },
-  {
-    "id": "swc",
-    "name": "SWC",
-    "description": "Rust-based JavaScript/TypeScript compiler",
-    "category": "Tool"
-  },
-  {
-    "id": "turborepo",
-    "name": "Turborepo",
-    "description": "High-performance build system for monorepos",
-    "category": "Tool"
-  },
-  {
-    "id": "nx",
-    "name": "Nx",
-    "description": "Smart, extensible build system for monorepos",
-    "category": "Tool"
-  },
-  {
-    "id": "docker-compose",
-    "name": "Docker Compose",
-    "description": "Tool for defining and running multi-container Docker apps",
-    "category": "Tool"
-  },
-  {
-    "id": "ubuntu",
-    "name": "Ubuntu",
-    "description": "Popular Linux distribution based on Debian",
-    "category": "OS"
-  },
-  {
-    "id": "fedora",
-    "name": "Fedora",
-    "description": "Linux distribution sponsored by Red Hat",
-    "category": "OS"
-  },
-  {
-    "id": "raspberry-pi-os",
-    "name": "Raspberry Pi OS",
-    "description": "Official OS for Raspberry Pi devices",
-    "category": "OS"
-  },
-  {
-    "id": "cloudflare-workers",
-    "name": "Cloudflare Workers",
-    "description": "Serverless platform for edge computing",
-    "category": "Platform"
-  },
-  {
-    "id": "tensorflow",
-    "name": "TensorFlow",
-    "description": "Open-source machine learning framework",
-    "category": "Tool"
-  },
-  {
-    "id": "pytorch",
-    "name": "PyTorch",
-    "description": "Flexible deep learning framework",
-    "category": "Tool"
-  },
-  {
-    "id": "spring-batch",
-    "name": "Spring Batch",
-    "description": "Framework for batch processing in enterprise applications",
-    "category": "Framework"
-  },
-  {
-    "id": "spring-integration",
-    "name": "Spring Integration",
-    "description": "Extends Spring for enterprise integration patterns (EIP)",
-    "category": "Framework"
-  },
-  {
-    "id": "spring-graphql",
-    "name": "Spring GraphQL",
-    "description": "Official GraphQL support for Spring applications",
-    "category": "Framework"
-  },
-  {
-    "id": "quarkus",
-    "name": "Quarkus",
-    "description": "Kubernetes-native Java framework for cloud-native apps",
-    "category": "Framework"
-  },
-  {
-    "id": "micronaut",
-    "name": "Micronaut",
-    "description": "JVM-based framework for modular, lightweight applications",
-    "category": "Framework"
-  },
-  {
-    "id": "flask",
-    "name": "Flask",
-    "description": "Lightweight Python web framework",
-    "category": "Framework"
-  },
-  {
-    "id": "django",
-    "name": "Django",
-    "description": "High-level Python web framework for rapid development",
-    "category": "Framework"
-  },
-  {
-    "id": "laravel",
-    "name": "Laravel",
-    "description": "PHP web framework with expressive syntax",
-    "category": "Framework"
-  },
-  {
-    "id": "remix",
-    "name": "Remix",
-    "description": "Full-stack React framework for modern web apps",
-    "category": "Framework"
-  },
-  {
-    "id": "astro",
-    "name": "Astro",
-    "description": "Static-site builder with dynamic UI components",
-    "category": "Framework"
-  },
-  {
-    "id": "solidjs",
-    "name": "SolidJS",
-    "description": "Declarative JavaScript library for building UIs",
-    "category": "Framework"
-  },
-  {
-    "id": "swift",
-    "name": "Swift",
-    "description": "Powerful and intuitive programming language for macOS, iOS, and more",
-    "category": "Language"
-  },
-  {
-    "id": "dart",
-    "name": "Dart",
-    "description": "Client-optimized language for fast apps on multiple platforms (Flutter)",
-    "category": "Language"
-  },
-  {
-    "id": "ruby",
-    "name": "Ruby",
-    "description": "Dynamic, open-source language with a focus on simplicity and productivity",
-    "category": "Language"
-  },
-  {
-    "id": "php",
-    "name": "PHP",
-    "description": "Server-side scripting language for web development",
-    "category": "Language"
-  },
-  {
-    "id": "scala",
-    "name": "Scala",
-    "description": "Strong static type system with functional and object-oriented paradigms",
-    "category": "Language"
-  },
-  {
-    "id": "elixir",
-    "name": "Elixir",
-    "description": "Functional, concurrent language for scalable applications (runs on Erlang VM)",
-    "category": "Language"
-  },
-
-  {
-    "id": "java",
-    "name": "Java",
-    "description": "High-level, class-based, object-oriented programming language",
-    "category": "Language"
-  },
-  {
-    "id": "javascript",
-    "name": "JavaScript",
-    "description": "Lightweight, interpreted, or just-in-time compiled programming language with first-class functions",
-    "category": "Language"
-  },
-  {
-    "id": "typescript",
-    "name": "TypeScript",
-    "description": "Strongly typed programming language that builds on JavaScript",
-    "category": "Language"
-  },
-  {
-    "id": "python",
-    "name": "Python",
-    "description": "High-level, interpreted, general-purpose programming language",
-    "category": "Language"
-  },
-  {
-    "id": "go",
-    "name": "Go",
-    "description": "Statically typed, compiled programming language designed at Google",
-    "category": "Language"
-  },
-  {
-    "id": "rust",
-    "name": "Rust",
-    "description": "Multi-paradigm, high-level, general-purpose programming language",
-    "category": "Language"
-  },
-  {
-    "id": "kotlin",
-    "name": "Kotlin",
-    "description": "Cross-platform, statically typed, general-purpose programming language with type inference",
-    "category": "Language"
-  },
-  {
-    "id": "nodejs",
-    "name": "Node.js",
-    "description": "JavaScript runtime built on Chrome's V8 JavaScript engine",
-    "category": "Platform"
-  },
-  {
-    "id": "bun",
-    "name": "Bun",
-    "description": "Fast JavaScript runtime, bundler, test runner, and package manager",
-    "category": "Platform"
-  },
-  {
-    "id": "deno",
-    "name": "Deno",
-    "description": "Secure JavaScript and TypeScript runtime",
-    "category": "Platform"
-  },
-  {
-    "id": "spring-boot",
-    "name": "Spring Boot",
-    "description": "Framework for creating stand-alone, production-grade Spring based Applications",
-    "category": "Framework"
-  },
-  {
-    "id": "spring-mvc",
-    "name": "Spring MVC",
-    "description": "Web framework built on the Servlet API",
-    "category": "Framework"
-  },
-  {
-    "id": "spring-data",
-    "name": "Spring Data",
-    "description": "Provides a consistent approach to data access",
-    "category": "Framework"
-  },
-  {
-    "id": "spring-security",
-    "name": "Spring Security",
-    "description": "Powerful and highly customizable authentication and access-control framework",
-    "category": "Framework"
-  },
-  {
-    "id": "spring-cloud",
-    "name": "Spring Cloud",
-    "description": "Provides tools for developers to quickly build distributed systems",
-    "category": "Framework"
-  },
-  {
-    "id": "express",
-    "name": "Express",
-    "description": "Fast, unopinionated, minimalist web framework for Node.js",
-    "category": "Framework"
-  },
-  {
-    "id": "react",
-    "name": "React",
-    "description": "JavaScript library for building user interfaces",
-    "category": "Framework"
-  },
-  {
-    "id": "vue",
-    "name": "Vue.js",
-    "description": "Progressive JavaScript framework for building UI on the web",
-    "category": "Framework"
-  },
-  {
-    "id": "angular",
-    "name": "Angular",
-    "description": "Platform and framework for building single-page client applications",
-    "category": "Framework"
-  },
-  {
-    "id": "svelte",
-    "name": "Svelte",
-    "description": "Component framework that compiles to highly efficient vanilla JS",
-    "category": "Framework"
-  },
-  {
-    "id": "nextjs",
-    "name": "Next.js",
-    "description": "React framework for production with hybrid static & server rendering",
-    "category": "Framework"
-  },
-  {
-    "id": "nuxtjs",
-    "name": "Nuxt.js",
-    "description": "Vue.js framework for creating modern web applications",
-    "category": "Framework"
-  },
-  {
-    "id": "nestjs",
-    "name": "NestJS",
-    "description": "Progressive Node.js framework for building efficient server-side applications",
-    "category": "Framework"
-  },
-  {
-    "id": "docker",
-    "name": "Docker",
-    "description": "Platform for developing, shipping, and running applications in containers",
-    "category": "DevOps"
-  },
-  {
-    "id": "kubernetes",
-    "name": "Kubernetes",
-    "description": "Container orchestration system for automating deployment, scaling, and management",
-    "category": "DevOps"
-  },
-  {
-    "id": "terraform",
-    "name": "Terraform",
-    "description": "Infrastructure as code tool for building, changing, and versioning infrastructure",
-    "category": "DevOps"
-  },
-  {
-    "id": "ansible",
-    "name": "Ansible",
-    "description": "Configuration management and application deployment tool",
-    "category": "DevOps"
-  },
-  {
-    "id": "linux",
-    "name": "Linux",
-    "description": "Family of open-source Unix-like operating systems",
-    "category": "OS"
-  },
-  {
-    "id": "windows",
-    "name": "Windows",
-    "description": "Proprietary graphical operating system developed by Microsoft",
-    "category": "OS"
-  },
-  {
-    "id": "macos",
-    "name": "macOS",
-    "description": "Unix operating system developed and marketed by Apple Inc.",
-    "category": "OS"
-  },
-  {
-    "id": "postgresql",
-    "name": "PostgreSQL",
-    "description": "Powerful, open source object-relational database system",
-    "category": "Database"
-  },
-  {
-    "id": "mongodb",
-    "name": "MongoDB",
-    "description": "Source-available cross-platform document-oriented database program",
-    "category": "Database"
-  },
-  {
-    "id": "mysql",
-    "name": "MySQL",
-    "description": "Open-source relational database management system",
-    "category": "Database"
-  },
-  {
-    "id": "redis",
-    "name": "Redis",
-    "description": "In-memory data structure store used as a database, cache, and message broker",
-    "category": "Database"
-  },
-  {
-    "id": "elasticsearch",
-    "name": "Elasticsearch",
-    "description": "Search engine based on the Lucene library",
-    "category": "Database"
-  },
-  {
-    "id": "git",
-    "name": "Git",
-    "description": "Distributed version control system",
-    "category": "Tool"
-  },
-  {
-    "id": "vscode",
-    "name": "VS Code",
-    "description": "Source-code editor developed by Microsoft",
-    "category": "Tool"
-  },
-  {
-    "id": "intellij",
-    "name": "IntelliJ IDEA",
-    "description": "Integrated development environment written in Java",
-    "category": "Tool"
-  },
-  {
-    "id": "gradle",
-    "name": "Gradle",
-    "description": "Build automation tool for multi-language software development",
-    "category": "Tool"
-  },
-  {
-    "id": "maven",
-    "name": "Maven",
-    "description": "Build automation tool used primarily for Java projects",
-    "category": "Tool"
-  },
-  {
-    "id": "webpack",
-    "name": "Webpack",
-    "description": "Static module bundler for modern JavaScript applications",
-    "category": "Tool"
-  },
-  {
-    "id": "vite",
-    "name": "Vite",
-    "description": "Next generation frontend tooling with native ES modules",
-    "category": "Tool"
-  },
-  {
-    "id": "graphql",
-    "name": "GraphQL",
-    "description": "Query language for APIs and a runtime for fulfilling those queries",
-    "category": "Tool"
-  },
-  {
-    "id": "kafka",
-    "name": "Kafka",
-    "description": "Distributed event streaming platform",
-    "category": "Tool"
-  },
-  {
-    "id": "prometheus",
-    "name": "Prometheus",
-    "description": "Open-source systems monitoring and alerting toolkit",
-    "category": "DevOps"
-  },
-  {
-    "id": "grafana",
-    "name": "Grafana",
-    "description": "Multi-platform open source analytics and interactive visualization web application",
-    "category": "DevOps"
-  },
-  {
-    "id": "jenkins",
-    "name": "Jenkins",
-    "description": "Open source automation server for CI/CD",
-    "category": "DevOps"
-  },
-  {
-    "id": "github-actions",
-    "name": "GitHub Actions",
-    "description": "CI/CD platform that allows automation of workflows",
-    "category": "DevOps"
-  },
-  {
-    "id": "aws",
-    "name": "Amazon Web Services",
-    "description": "Comprehensive cloud computing platform",
-    "category": "Platform"
-  },
-  {
-    "id": "azure",
-    "name": "Microsoft Azure",
-    "description": "Cloud computing service created by Microsoft",
-    "category": "Platform"
-  },
-  {
-    "id": "gcp",
-    "name": "Google Cloud Platform",
-    "description": "Suite of cloud computing services",
-    "category": "Platform"
-  }
-,
-  {
-    "id": "c",
-    "name": "C",
-    "description": "General-purpose programming language",
-    "category": "Language"
-  },
-  {
-    "id": "d",
-    "name": "D",
-    "description": "Systems programming language with C-like syntax",
-    "category": "Language"
-  },
-  {
-    "id": "r",
-    "name": "R",
-    "description": "Programming language for statistical computing",
-    "category": "Language"
-  },
-  {
-    "id": "1c",
-    "name": "1C",
-    "description": "Russian business application platform",
-    "category": "Platform"
-  },
-  {
-    "id": "al",
-    "name": "AL",
-    "description": "Programming language for Microsoft Dynamics",
-    "category": "Language"
-  },
-  {
-    "id": "dm",
-    "name": "DM",
-    "description": "DreamMaker language for BYOND game development",
-    "category": "Language"
-  },
-  {
-    "id": "go",
-    "name": "Go",
-    "description": "Statically typed, compiled programming language",
-    "category": "Language"
-  },
-  {
-    "id": "qt",
-    "name": "Qt",
-    "description": "Cross-platform application framework",
-    "category": "Framework"
-  },
-  {
-    "id": "vs",
-    "name": "VS",
-    "description": "Visual Studio development environment",
-    "category": "Tool"
-  },
-  {
-    "id": "ada",
-    "name": "Ada",
-    "description": "Structured, statically typed programming language",
-    "category": "Language"
-  },
-  {
-    "id": "ate",
-    "name": "ATE",
-    "description": "Automated test equipment software",
-    "category": "Tool"
-  },
-  {
-    "id": "ats",
-    "name": "ATS",
-    "description": "Functional programming language",
-    "category": "Language"
-  },
-  {
-    "id": "awr",
-    "name": "AWR",
-    "description": "RF/microwave electronic design automation",
-    "category": "Tool"
-  },
-  {
-    "id": "c++",
-    "name": "C++",
-    "description": "General-purpose programming language",
-    "category": "Language"
-  },
-  {
-    "id": "coq",
-    "name": "Coq",
-    "description": "Proof assistant and programming language",
-    "category": "Language"
-  },
-  {
-    "id": "cvs",
-    "name": "CVS",
-    "description": "Concurrent Versions System version control",
-    "category": "Tool"
-  },
-  {
-    "id": "dbt",
-    "name": "dbt",
-    "description": "Data build tool for analytics engineering",
-    "category": "Tool"
-  },
-  {
-    "id": "elm",
-    "name": "Elm",
-    "description": "Functional programming language for web apps",
-    "category": "Language"
-  },
-  {
-    "id": "gis",
-    "name": "GIS",
-    "description": "Geographic Information System software",
-    "category": "Tool"
-  },
-  {
-    "id": "git",
-    "name": "Git",
-    "description": "Distributed version control system",
-    "category": "Tool"
-  },
-  {
-    "id": "gpg",
-    "name": "GPG",
-    "description": "GNU Privacy Guard encryption tool",
-    "category": "Tool"
-  },
-  {
-    "id": "gwt",
-    "name": "GWT",
-    "description": "Google Web Toolkit for Java web apps",
-    "category": "Framework"
-  },
-  {
-    "id": "hol",
-    "name": "HOL",
-    "description": "Higher-order logic theorem prover",
-    "category": "Tool"
-  },
-  {
-    "id": "hsp",
-    "name": "HSP",
-    "description": "Hot Soup Processor scripting language",
-    "category": "Language"
-  },
-  {
-    "id": "iar",
-    "name": "IAR",
-    "description": "IAR Embedded Workbench IDE",
-    "category": "Tool"
-  },
-  {
-    "id": "joe",
-    "name": "Joe",
-    "description": "JOE text editor",
-    "category": "Tool"
-  },
-  {
-    "id": "lua",
-    "name": "Lua",
-    "description": "Lightweight scripting language",
-    "category": "Language"
-  },
-  {
-    "id": "lyx",
-    "name": "LyX",
-    "description": "Document processor based on LaTeX",
-    "category": "Tool"
-  },
-  {
-    "id": "nim",
-    "name": "Nim",
-    "description": "Statically typed compiled language",
-    "category": "Language"
-  },
-  {
-    "id": "now",
-    "name": "now",
-    "description": "Vercel deployment platform (formerly Now)",
-    "category": "Platform"
-  },
-  {
-    "id": "opa",
-    "name": "Opa",
-    "description": "Web application framework and language",
-    "category": "Framework"
-  },
-  {
-    "id": "osx",
-    "name": "OSX",
-    "description": "Apple macOS operating system",
-    "category": "OS"
-  },
-  {
-    "id": "pvs",
-    "name": "PVS",
-    "description": "Prototype Verification System",
-    "category": "Tool"
-  },
-  {
-    "id": "qml",
-    "name": "QML",
-    "description": "Qt Modeling Language",
-    "category": "Language"
-  },
-  {
-    "id": "red",
-    "name": "Red",
-    "description": "Programming language inspired by REBOL",
-    "category": "Language"
-  },
-  {
-    "id": "ros",
-    "name": "ROS",
-    "description": "Robot Operating System",
-    "category": "Platform"
-  },
-  {
-    "id": "sam",
-    "name": "SAM",
-    "description": "AWS Serverless Application Model",
-    "category": "Tool"
-  },
-  {
-    "id": "sas",
-    "name": "SAS",
-    "description": "Statistical analysis software",
-    "category": "Tool"
-  },
-  {
-    "id": "sbt",
-    "name": "SBT",
-    "description": "Scala build tool",
-    "category": "Tool"
-  },
-  {
-    "id": "ssh",
-    "name": "SSH",
-    "description": "Secure Shell protocol",
-    "category": "Tool"
-  },
-  {
-    "id": "svn",
-    "name": "SVN",
-    "description": "Apache Subversion version control",
-    "category": "Tool"
-  },
-  {
-    "id": "tex",
-    "name": "TeX",
-    "description": "Typesetting system",
-    "category": "Tool"
-  },
-  {
-    "id": "tye",
-    "name": "Tye",
-    "description": "Developer tool for microservices",
-    "category": "Tool"
-  },
-  {
-    "id": "vim",
-    "name": "Vim",
-    "description": "Highly configurable text editor",
-    "category": "Tool"
-  },
-  {
-    "id": "vue",
-    "name": "Vue",
-    "description": "Progressive JavaScript framework",
-    "category": "Framework"
-  },
-  {
-    "id": "waf",
-    "name": "Waf",
-    "description": "Python-based build system",
-    "category": "Tool"
-  },
-  {
-    "id": "web",
-    "name": "Web",
-    "description": "Web development technologies",
-    "category": "Platform"
-  },
-  {
-    "id": "y86",
-    "name": "Y86",
-    "description": "Educational computer architecture",
-    "category": "Platform"
-  },
-  {
-    "id": "yii",
-    "name": "Yii",
-    "description": "PHP web application framework",
-    "category": "Framework"
-  },
-  {
-    "id": "zig",
-    "name": "zig",
-    "description": "General-purpose programming language",
-    "category": "Language"
-  },
-  {
-    "id": "zsh",
-    "name": "Zsh",
-    "description": "Z Shell command interpreter",
-    "category": "Tool"
-  },
-  {
-    "id": "agda",
-    "name": "Agda",
-    "description": "Dependently typed functional language",
-    "category": "Language"
-  },
-  {
-    "id": "asdf",
-    "name": "asdf",
-    "description": "Extendable version manager",
-    "category": "Tool"
-  },
-  {
-    "id": "buck",
-    "name": "Buck",
-    "description": "Facebook build system",
-    "category": "Tool"
-  },
-  {
-    "id": "cake",
-    "name": "Cake",
-    "description": "C# build system",
-    "category": "Tool"
-  },
-  {
-    "id": "cuda",
-    "name": "CUDA",
-    "description": "NVIDIA parallel computing platform",
-    "category": "Platform"
-  },
-  {
-    "id": "dart",
-    "name": "Dart",
-    "description": "Programming language for Flutter",
-    "category": "Language"
-  },
-  {
-    "id": "data",
-    "name": "Data",
-    "description": "Data processing and storage",
-    "category": "Platform"
-  },
-  {
-    "id": "deno",
-    "name": "Deno",
-    "description": "Secure JavaScript/TypeScript runtime",
-    "category": "Platform"
-  },
-  {
-    "id": "diff",
-    "name": "Diff",
-    "description": "File comparison tool",
-    "category": "Tool"
-  },
-  {
-    "id": "docz",
-    "name": "Docz",
-    "description": "Documentation generator",
-    "category": "Tool"
-  },
-  {
-    "id": "fish",
-    "name": "Fish",
-    "description": "Friendly interactive shell",
-    "category": "Tool"
-  },
-  {
-    "id": "flex",
-    "name": "Flex",
-    "description": "Fast Lexical Analyzer Generator",
-    "category": "Tool"
-  },
-  {
-    "id": "font",
-    "name": "Font",
-    "description": "Font design and development",
-    "category": "Tool"
-  },
-  {
-    "id": "gcov",
-    "name": "Gcov",
-    "description": "GNU code coverage tool",
-    "category": "Tool"
-  },
-  {
-    "id": "geth",
-    "name": "Geth",
-    "description": "Go Ethereum client",
-    "category": "Tool"
-  },
-  {
-    "id": "ggts",
-    "name": "GGTS",
-    "description": "Groovy/Grails Tool Suite",
-    "category": "Tool"
-  },
-  {
-    "id": "helm",
-    "name": "Helm",
-    "description": "Kubernetes package manager",
-    "category": "Tool"
-  },
-  {
-    "id": "hexo",
-    "name": "Hexo",
-    "description": "Blog framework powered by Node.js",
-    "category": "Framework"
-  },
-  {
-    "id": "hugo",
-    "name": "Hugo",
-    "description": "Fast static site generator",
-    "category": "Tool"
-  },
-  {
-    "id": "java",
-    "name": "Java",
-    "description": "High-level, class-based language",
-    "category": "Language"
-  },
-  {
-    "id": "jenv",
-    "name": "JEnv",
-    "description": "Java environment manager",
-    "category": "Tool"
-  },
-  {
-    "id": "jspm",
-    "name": "jspm",
-    "description": "JavaScript package manager",
-    "category": "Tool"
-  },
-  {
-    "id": "kate",
-    "name": "Kate",
-    "description": "Advanced text editor",
-    "category": "Tool"
-  },
-  {
-    "id": "keil",
-    "name": "Keil",
-    "description": "Embedded development tools",
-    "category": "Tool"
-  },
-  {
-    "id": "lamp",
-    "name": "LAMP",
-    "description": "Linux, Apache, MySQL, PHP stack",
-    "category": "Platform"
-  },
-  {
-    "id": "less",
-    "name": "Less",
-    "description": "CSS preprocessor language",
-    "category": "Language"
-  },
-  {
-    "id": "mean",
-    "name": "MEAN",
-    "description": "MongoDB, Express, Angular, Node.js stack",
-    "category": "Platform"
-  },
-  {
-    "id": "mill",
-    "name": "Mill",
-    "description": "Scala build tool",
-    "category": "Tool"
-  },
-  {
-    "id": "modx",
-    "name": "MODX",
-    "description": "Content management system",
-    "category": "Platform"
-  },
-  {
-    "id": "mule",
-    "name": "mule",
-    "description": "MuleSoft integration platform",
-    "category": "Platform"
-  },
-  {
-    "id": "nesc",
-    "name": "NesC",
-    "description": "Programming language for embedded systems",
-    "category": "Language"
-  },
-  {
-    "id": "node",
-    "name": "Node",
-    "description": "JavaScript runtime environment",
-    "category": "Platform"
-  },
-  {
-    "id": "nova",
-    "name": "nova",
-    "description": "DigitalOcean cloud platform",
-    "category": "Platform"
-  },
-  {
-    "id": "nwjs",
-    "name": "NW.js",
-    "description": "Node-Webkit framework",
-    "category": "Framework"
-  },
-  {
-    "id": "otto",
-    "name": "Otto",
-    "description": "Development tool for HashiCorp",
-    "category": "Tool"
-  },
-  {
-    "id": "pawn",
-    "name": "PAWN",
-    "description": "Scripting language",
-    "category": "Language"
-  },
-  {
-    "id": "perl",
-    "name": "Perl",
-    "description": "High-level scripting language",
-    "category": "Language"
-  },
-  {
-    "id": "root",
-    "name": "ROOT",
-    "description": "Data analysis framework",
-    "category": "Framework"
-  },
-  {
-    "id": "ros2",
-    "name": "ROS2",
-    "description": "Robot Operating System 2",
-    "category": "Platform"
-  },
-  {
-    "id": "ruby",
-    "name": "Ruby",
-    "description": "Dynamic, object-oriented language",
-    "category": "Language"
-  },
-  {
-    "id": "rust",
-    "name": "Rust",
-    "description": "Systems programming language",
-    "category": "Language"
-  },
-  {
-    "id": "sass",
-    "name": "Sass",
-    "description": "CSS preprocessor",
-    "category": "Language"
-  },
-  {
-    "id": "sdcc",
-    "name": "Sdcc",
-    "description": "Small Device C Compiler",
-    "category": "Tool"
-  },
-  {
-    "id": "snap",
-    "name": "Snap",
-    "description": "Snapcraft package system",
-    "category": "Tool"
-  },
-  {
-    "id": "snyk",
-    "name": "Snyk",
-    "description": "Developer security platform",
-    "category": "Tool"
-  },
-  {
-    "id": "tags",
-    "name": "Tags",
-    "description": "Tagging systems",
-    "category": "Tool"
-  },
-  {
-    "id": "test",
-    "name": "Test",
-    "description": "Testing frameworks",
-    "category": "Tool"
-  },
-  {
-    "id": "text",
-    "name": "Text",
-    "description": "Text processing tools",
-    "category": "Tool"
-  },
-  {
-    "id": "tla+",
-    "name": "TLA+",
-    "description": "Formal specification language",
-    "category": "Language"
-  },
-  {
-    "id": "toit",
-    "name": "Toit",
-    "description": "IoT programming language",
-    "category": "Language"
-  },
-  {
-    "id": "venv",
-    "name": "venv",
-    "description": "Python virtual environment",
-    "category": "Tool"
-  },
-  {
-    "id": "vlab",
-    "name": "VLab",
-    "description": "Virtual laboratory environment",
-    "category": "Platform"
-  },
-  {
-    "id": "vvvv",
-    "name": "VVVV",
-    "description": "Visual programming environment",
-    "category": "Tool"
-  },
-  {
-    "id": "wyam",
-    "name": "Wyam",
-    "description": "Static site generator",
-    "category": "Tool"
-  },
-  {
-    "id": "xill",
-    "name": "Xill",
-    "description": "Robot process automation",
-    "category": "Platform"
-  },
-  {
-    "id": "xojo",
-    "name": "Xojo",
-    "description": "Cross-platform development tool",
-    "category": "Tool"
-  },
-  {
-    "id": "yalc",
-    "name": "yalc",
-    "description": "Local package manager",
-    "category": "Tool"
-  },
-  {
-    "id": "yarn",
-    "name": "Yarn",
-    "description": "JavaScript package manager",
-    "category": "Tool"
-  },
-  {
-    "id": "yii2",
-    "name": "Yii2",
-    "description": "PHP framework version 2",
-    "category": "Framework"
-  },
-  {
-    "id": "adobe",
-    "name": "Adobe",
-    "description": "Creative software suite",
-    "category": "Tool"
-  },
-  {
-    "id": "astro",
-    "name": "Astro",
-    "description": "Static site builder",
-    "category": "Framework"
-  },
-  {
-    "id": "audio",
-    "name": "Audio",
-    "description": "Audio processing tools",
-    "category": "Tool"
-  },
-  {
-    "id": "basic",
-    "name": "Basic",
-    "description": "Beginner's All-purpose Symbolic Instruction Code",
-    "category": "Language"
-  },
-  {
-    "id": "batch",
-    "name": "Batch",
-    "description": "Windows shell scripting",
-    "category": "Language"
-  },
-  {
-    "id": "bazel",
-    "name": "Bazel",
-    "description": "Build and test tool",
-    "category": "Tool"
-  },
-  {
-    "id": "bloop",
-    "name": "Bloop",
-    "description": "Scala build server",
-    "category": "Tool"
-  },
-  {
-    "id": "bluej",
-    "name": "bluej",
-    "description": "Java development environment",
-    "category": "Tool"
-  },
-  {
-    "id": "bower",
-    "name": "Bower",
-    "description": "Package manager for the web",
-    "category": "Tool"
-  },
-  {
-    "id": "clean",
-    "name": "Clean",
-    "description": "Functional programming language",
-    "category": "Language"
-  },
-  {
-    "id": "clion",
-    "name": "CLion",
-    "description": "C/C++ IDE from JetBrains",
-    "category": "Tool"
-  },
-  {
-    "id": "cmake",
-    "name": "CMake",
-    "description": "Cross-platform build system",
-    "category": "Tool"
-  },
-  {
-    "id": "conan",
-    "name": "Conan",
-    "description": "C/C++ package manager",
-    "category": "Tool"
-  },
-  {
-    "id": "docfx",
-    "name": "DocFx",
-    "description": "Documentation generator",
-    "category": "Tool"
-  },
-  {
-    "id": "eagle",
-    "name": "Eagle",
-    "description": "PCB design software",
-    "category": "Tool"
-  },
-  {
-    "id": "elisp",
-    "name": "Elisp",
-    "description": "Emacs Lisp programming language",
-    "category": "Language"
-  },
-  {
-    "id": "emacs",
-    "name": "Emacs",
-    "description": "Extensible text editor",
-    "category": "Tool"
-  },
-  {
-    "id": "ember",
-    "name": "Ember",
-    "description": "JavaScript framework",
-    "category": "Framework"
-  },
-  {
-    "id": "extjs",
-    "name": "ExtJs",
-    "description": "JavaScript framework",
-    "category": "Framework"
-  },
-  {
-    "id": "fancy",
-    "name": "Fancy",
-    "description": "Dynamic object-oriented language",
-    "category": "Language"
-  },
-  {
-    "id": "flask",
-    "name": "Flask",
-    "description": "Python web framework",
-    "category": "Framework"
-  },
-  {
-    "id": "games",
-    "name": "Games",
-    "description": "Game development tools",
-    "category": "Platform"
-  },
-  {
-    "id": "godot",
-    "name": "Godot",
-    "description": "Game engine",
-    "category": "Framework"
-  },
-  {
-    "id": "grunt",
-    "name": "grunt",
-    "description": "JavaScript task runner",
-    "category": "Tool"
-  },
-  {
-    "id": "idris",
-    "name": "Idris",
-    "description": "Functional programming language",
-    "category": "Language"
-  },
-  {
-    "id": "infer",
-    "name": "infer",
-    "description": "Static analysis tool",
-    "category": "Tool"
-  },
-  {
-    "id": "janet",
-    "name": "Janet",
-    "description": "Functional programming language",
-    "category": "Language"
-  },
-  {
-    "id": "jboss",
-    "name": "JBoss",
-    "description": "Application server",
-    "category": "Platform"
-  },
-  {
-    "id": "julia",
-    "name": "Julia",
-    "description": "High-level programming language",
-    "category": "Language"
-  },
-  {
-    "id": "kaldi",
-    "name": "kaldi",
-    "description": "Speech recognition toolkit",
-    "category": "Tool"
-  },
-  {
-    "id": "kicad",
-    "name": "KiCad",
-    "description": "PCB design software",
-    "category": "Tool"
-  },
-  {
-    "id": "latex",
-    "name": "LaTeX",
-    "description": "Document preparation system",
-    "category": "Tool"
-  },
-  {
-    "id": "linux",
-    "name": "Linux",
-    "description": "Open-source operating system",
-    "category": "OS"
-  },
-  {
-    "id": "macos",
-    "name": "macOS",
-    "description": "Apple operating system",
-    "category": "OS"
-  },
-  {
-    "id": "maven",
-    "name": "Maven",
-    "description": "Java build tool",
-    "category": "Tool"
-  },
-  {
-    "id": "meson",
-    "name": "Meson",
-    "description": "Build system",
-    "category": "Tool"
-  },
-  {
-    "id": "moban",
-    "name": "Moban",
-    "description": "Template engine",
-    "category": "Tool"
-  },
-  {
-    "id": "nanoc",
-    "name": "Nanoc",
-    "description": "Static site generator",
-    "category": "Tool"
-  },
-  {
-    "id": "nette",
-    "name": "Nette",
-    "description": "PHP framework",
-    "category": "Framework"
-  },
-  {
-    "id": "ninja",
-    "name": "Ninja",
-    "description": "Build system",
-    "category": "Tool"
-  },
-  {
-    "id": "nohup",
-    "name": "Nohup",
-    "description": "Unix command",
-    "category": "Tool"
-  },
-  {
-    "id": "ocaml",
-    "name": "OCaml",
-    "description": "Functional programming language",
-    "category": "Language"
-  },
-  {
-    "id": "orcad",
-    "name": "OrCAD",
-    "description": "PCB design software",
-    "category": "Tool"
-  },
-  {
-    "id": "pants",
-    "name": "Pants",
-    "description": "Build system",
-    "category": "Tool"
-  },
-  {
-    "id": "patch",
-    "name": "Patch",
-    "description": "File patching tool",
-    "category": "Tool"
-  },
-  {
-    "id": "perl6",
-    "name": "Perl6",
-    "description": "Programming language (now Raku)",
-    "category": "Language"
-  },
-  {
-    "id": "pico8",
-    "name": "pico8",
-    "description": "Fantasy console",
-    "category": "Platform"
-  },
-  {
-    "id": "plone",
-    "name": "Plone",
-    "description": "Content management system",
-    "category": "Platform"
-  },
-  {
-    "id": "putty",
-    "name": "PuTTY",
-    "description": "SSH and telnet client",
-    "category": "Tool"
-  },
-  {
-    "id": "pydev",
-    "name": "pydev",
-    "description": "Python IDE",
-    "category": "Tool"
-  },
-  {
-    "id": "rails",
-    "name": "Rails",
-    "description": "Ruby web framework",
-    "category": "Framework"
-  },
-  {
-    "id": "react",
-    "name": "react",
-    "description": "JavaScript library for building user interfaces",
-    "category": "Framework"
-  },
-  {
-    "id": "redis",
-    "name": "Redis",
-    "description": "In-memory data store",
-    "category": "Database"
-  },
-  {
-    "id": "remix",
-    "name": "Remix",
-    "description": "Web framework",
-    "category": "Framework"
-  },
-  {
-    "id": "renpy",
-    "name": "Renpy",
-    "description": "Visual novel engine",
-    "category": "Framework"
-  },
-  {
-    "id": "rider",
-    "name": "Rider",
-    "description": ".NET IDE from JetBrains",
-    "category": "Tool"
-  },
-  {
-    "id": "scala",
-    "name": "Scala",
-    "description": "Functional programming language for JVM",
-    "category": "Language"
-  },
-  {
-    "id": "scons",
-    "name": "SCons",
-    "description": "Build tool",
-    "category": "Tool"
-  },
-  {
-    "id": "sonar",
-    "name": "Sonar",
-    "description": "Code quality tool",
-    "category": "Tool"
-  },
-  {
-    "id": "spark",
-    "name": "Spark",
-    "description": "Apache Spark data processing",
-    "category": "Framework"
-  },
-  {
-    "id": "stata",
-    "name": "Stata",
-    "description": "Statistical software",
-    "category": "Tool"
-  },
-  {
-    "id": "swift",
-    "name": "Swift",
-    "description": "Apple programming language",
-    "category": "Language"
-  },
-  {
-    "id": "tower",
-    "name": "Tower",
-    "description": "Git client",
-    "category": "Tool"
-  },
-  {
-    "id": "turbo",
-    "name": "Turbo",
-    "description": "Hotwire framework component",
-    "category": "Framework"
-  },
-  {
-    "id": "typo3",
-    "name": "Typo3",
-    "description": "Content management system",
-    "category": "Platform"
-  },
-  {
-    "id": "unity",
-    "name": "Unity",
-    "description": "Game engine",
-    "category": "Framework"
-  },
-  {
-    "id": "vapor",
-    "name": "Vapor",
-    "description": "Swift web framework",
-    "category": "Framework"
-  },
-  {
-    "id": "vcpkg",
-    "name": "vcpkg",
-    "description": "C++ package manager",
-    "category": "Tool"
-  },
-  {
-    "id": "vertx",
-    "name": "Vertx",
-    "description": "Toolkit for reactive apps",
-    "category": "Framework"
-  },
-  {
-    "id": "video",
-    "name": "Video",
-    "description": "Video processing tools",
-    "category": "Tool"
-  },
-  {
-    "id": "vuejs",
-    "name": "Vuejs",
-    "description": "JavaScript framework",
-    "category": "Framework"
-  },
-  {
-    "id": "xcode",
-    "name": "Xcode",
-    "description": "Apple development environment",
-    "category": "Tool"
-  },
-  {
-    "id": "xmake",
-    "name": "xmake",
-    "description": "Build system",
-    "category": "Tool"
-  },
-  {
-    "id": "xtext",
-    "name": "XText",
-    "description": "Language development framework",
-    "category": "Framework"
-  },
-  {
-    "id": "altium",
-    "name": "Altium",
-    "description": "PCB design software",
-    "category": "Tool"
-  },
-  {
-    "id": "anjuta",
-    "name": "Anjuta",
-    "description": "GNOME development environment",
-    "category": "Tool"
-  },
-  {
-    "id": "backup",
-    "name": "Backup",
-    "description": "Backup systems",
-    "category": "Tool"
-  },
-  {
-    "id": "bazaar",
-    "name": "Bazaar",
-    "description": "Version control system",
-    "category": "Tool"
-  },
-  {
-    "id": "bitrix",
-    "name": "Bitrix",
-    "description": "Content management system",
-    "category": "Platform"
-  },
-  {
-    "id": "ceylon",
-    "name": "Ceylon",
-    "description": "Programming language",
-    "category": "Language"
-  },
-  {
-    "id": "cloud9",
-    "name": "Cloud9",
-    "description": "Cloud IDE",
-    "category": "Tool"
-  },
-  {
-    "id": "codeio",
-    "name": "Codeio",
-    "description": "Development platform",
-    "category": "Tool"
-  },
-  {
-    "id": "csharp",
-    "name": "Csharp",
-    "description": "C# programming language",
-    "category": "Language"
-  },
-  {
-    "id": "defold",
-    "name": "Defold",
-    "description": "Game engine",
-    "category": "Framework"
-  },
-  {
-    "id": "delphi",
-    "name": "Delphi",
-    "description": "Object Pascal IDE",
-    "category": "Tool"
-  },
-  {
-    "id": "dframe",
-    "name": "Dframe",
-    "description": "Data framework",
-    "category": "Framework"
-  },
-  {
-    "id": "direnv",
-    "name": "direnv",
-    "description": "Environment switcher",
-    "category": "Tool"
-  },
-  {
-    "id": "django",
-    "name": "Django",
-    "description": "Python web framework",
-    "category": "Framework"
-  },
-  {
-    "id": "dotenv",
-    "name": "dotenv",
-    "description": "Environment variable loader",
-    "category": "Tool"
-  },
-  {
-    "id": "drupal",
-    "name": "Drupal",
-    "description": "Content management system",
-    "category": "Platform"
-  },
-  {
-    "id": "elixir",
-    "name": "Elixir",
-    "description": "Functional programming language",
-    "category": "Language"
-  },
-  {
-    "id": "ensime",
-    "name": "Ensime",
-    "description": "Scala IDE",
-    "category": "Tool"
-  },
-  {
-    "id": "erlang",
-    "name": "Erlang",
-    "description": "Functional programming language",
-    "category": "Language"
-  },
-  {
-    "id": "finale",
-    "name": "Finale",
-    "description": "Music notation software",
-    "category": "Tool"
-  },
-  {
-    "id": "fsharp",
-    "name": "fsharp",
-    "description": "F# programming language",
-    "category": "Language"
-  },
-  {
-    "id": "gatsby",
-    "name": "Gatsby",
-    "description": "Static site generator",
-    "category": "Framework"
-  },
-  {
-    "id": "goland",
-    "name": "GoLand",
-    "description": "Go IDE from JetBrains",
-    "category": "Tool"
-  },
-  {
-    "id": "gradle",
-    "name": "Gradle",
-    "description": "Build tool",
-    "category": "Tool"
-  },
-  {
-    "id": "grails",
-    "name": "Grails",
-    "description": "Groovy web framework",
-    "category": "Framework"
-  },
-  {
-    "id": "groovy",
-    "name": "Groovy",
-    "description": "Dynamic language for JVM",
-    "category": "Language"
-  },
-  {
-    "id": "idapro",
-    "name": "IDAPro",
-    "description": "Disassembler and debugger",
-    "category": "Tool"
-  },
-  {
-    "id": "images",
-    "name": "Images",
-    "description": "Image processing tools",
-    "category": "Tool"
-  },
-  {
-    "id": "ionic3",
-    "name": "Ionic3",
-    "description": "Mobile app framework",
-    "category": "Framework"
-  },
-  {
-    "id": "jabref",
-    "name": "JabRef",
-    "description": "Bibliography manager",
-    "category": "Tool"
-  },
-  {
-    "id": "jboss4",
-    "name": "JBoss4",
-    "description": "Application server version 4",
-    "category": "Platform"
-  },
-  {
-    "id": "jboss6",
-    "name": "JBoss6",
-    "description": "Application server version 6",
-    "category": "Platform"
-  },
-  {
-    "id": "jekyll",
-    "name": "Jekyll",
-    "description": "Static site generator",
-    "category": "Tool"
-  },
-  {
-    "id": "jgiven",
-    "name": "JGiven",
-    "description": "Testing framework",
-    "category": "Tool"
-  },
-  {
-    "id": "jigsaw",
-    "name": "Jigsaw",
-    "description": "Java module system",
-    "category": "Tool"
-  },
-  {
-    "id": "jmeter",
-    "name": "JMeter",
-    "description": "Load testing tool",
-    "category": "Tool"
-  },
-  {
-    "id": "joomla",
-    "name": "Joomla",
-    "description": "Content management system",
-    "category": "Platform"
-  },
-  {
-    "id": "kdiff3",
-    "name": "KDiff3",
-    "description": "Diff and merge tool",
-    "category": "Tool"
-  },
-  {
-    "id": "kirby2",
-    "name": "Kirby2",
-    "description": "CMS version 2",
-    "category": "Platform"
-  },
-  {
-    "id": "kirby3",
-    "name": "Kirby3",
-    "description": "CMS version 3",
-    "category": "Platform"
-  },
-  {
-    "id": "kobalt",
-    "name": "Kobalt",
-    "description": "Build tool",
-    "category": "Tool"
-  },
-  {
-    "id": "kohana",
-    "name": "Kohana",
-    "description": "PHP framework",
-    "category": "Framework"
-  },
-  {
-    "id": "kotlin",
-    "name": "Kotlin",
-    "description": "JVM programming language",
-    "category": "Language"
-  },
-  {
-    "id": "matlab",
-    "name": "MATLAB",
-    "description": "Numerical computing environment",
-    "category": "Tool"
-  },
-  {
-    "id": "mdbook",
-    "name": "MdBook",
-    "description": "Tool",
-    "category": "Tool"
-  },
-  {
-    "id": "metals",
-    "name": "Metals",
-    "description": "Scala language server",
-    "category": "Tool"
-  },
-  {
-    "id": "meteor",
-    "name": "Meteor",
-    "description": "JavaScript framework",
-    "category": "Framework"
-  },
-  {
-    "id": "mikroc",
-    "name": "MikroC",
-    "description": "C compiler for microcontrollers",
-    "category": "Tool"
-  },
-  {
-    "id": "mplabx",
-    "name": "MPLabX",
-    "description": "Microchip development environment",
-    "category": "Tool"
-  },
-  {
-    "id": "nextjs",
-    "name": "NextJS",
-    "description": "React framework",
-    "category": "Framework"
-  },
-  {
-    "id": "nikola",
-    "name": "Nikola",
-    "description": "Static site generator",
-    "category": "Tool"
-  },
-  {
-    "id": "nuxtjs",
-    "name": "NuxtJS",
-    "description": "Vue framework",
-    "category": "Framework"
-  },
-  {
-    "id": "octave",
-    "name": "Octave",
-    "description": "Numerical computing software",
-    "category": "Tool"
-  },
-  {
-    "id": "opencv",
-    "name": "OpenCV",
-    "description": "Computer vision library",
-    "category": "Framework"
-  },
-  {
-    "id": "packer",
-    "name": "Packer",
-    "description": "Image builder",
-    "category": "Tool"
-  },
-  {
-    "id": "ph7cms",
-    "name": "pH7CMS",
-    "description": "Dating site CMS",
-    "category": "Platform"
-  },
-  {
-    "id": "pulumi",
-    "name": "Pulumi",
-    "description": "Infrastructure as code",
-    "category": "Tool"
-  },
-  {
-    "id": "puppet",
-    "name": "Puppet",
-    "description": "Configuration management",
-    "category": "Tool"
-  },
-  {
-    "id": "python",
-    "name": "Python",
-    "description": "General-purpose programming language",
-    "category": "Language"
-  },
-  {
-    "id": "racket",
-    "name": "Racket",
-    "description": "Programming language",
-    "category": "Language"
-  },
-  {
-    "id": "redcar",
-    "name": "Redcar",
-    "description": "Text editor",
-    "category": "Tool"
-  },
-  {
-    "id": "replit",
-    "name": "replit",
-    "description": "Online IDE",
-    "category": "Tool"
-  },
-  {
-    "id": "retool",
-    "name": "retool",
-    "description": "Internal tools builder",
-    "category": "Tool"
-  },
-  {
-    "id": "scheme",
-    "name": "Scheme",
-    "description": "Functional programming language",
-    "category": "Language"
-  },
-  {
-    "id": "splunk",
-    "name": "Splunk",
-    "description": "Log analysis tool",
-    "category": "Tool"
-  },
-  {
-    "id": "stdlib",
-    "name": "StdLib",
-    "description": "Standard library for various programming languages",
-    "category": "Framework"
-  },
-  {
-    "id": "stella",
-    "name": "Stella",
-    "description": "A framework for building web applications",
-    "category": "Framework"
-  },
-  {
-    "id": "strapi",
-    "name": "Strapi",
-    "description": "Open-source headless CMS for building APIs",
-    "category": "Platform"
-  },
-  {
-    "id": "crystal",
-    "name": "Crystal",
-    "description": "A statically typed, compiled language with Ruby-like syntax",
-    "category": "Language"
-  },
-  {
-    "id": "cs-cart",
-    "name": "CS-Cart",
-    "description": "E-commerce platform for online stores",
-    "category": "Platform"
-  },
-  {
-    "id": "dbeaver",
-    "name": "DBeaver",
-    "description": "Universal database tool and SQL client",
-    "category": "Database"
-  },
-  {
-    "id": "doxygen",
-    "name": "Doxygen",
-    "description": "Documentation generator for multiple programming languages",
-    "category": "Tool"
-  },
-  {
-    "id": "dropbox",
-    "name": "Dropbox",
-    "description": "Cloud storage and file synchronization service",
-    "category": "Tool"
-  },
-  {
-    "id": "drupal7",
-    "name": "Drupal 7",
-    "description": "Content management system (CMS) version 7",
-    "category": "Platform"
-  },
-  {
-    "id": "drupal8",
-    "name": "Drupal 8",
-    "description": "Content management system (CMS) version 8",
-    "category": "Platform"
-  },
-  {
-    "id": "eclipse",
-    "name": "Eclipse",
-    "description": "Integrated development environment (IDE)",
-    "category": "Tool"
-  },
-  {
-    "id": "flatpak",
-    "name": "Flatpak",
-    "description": "Software deployment and package management",
-    "category": "DevOps"
-  },
-  {
-    "id": "flutter",
-    "name": "Flutter",
-    "description": "UI toolkit for building natively compiled applications",
-    "category": "Framework"
-  },
-  {
-    "id": "fortran",
-    "name": "Fortran",
-    "description": "General-purpose, compiled imperative programming language",
-    "category": "Language"
-  },
-  {
-    "id": "freecad",
-    "name": "FreeCad",
-    "description": "Parametric 3D CAD modeler",
-    "category": "Tool"
-  },
-  {
-    "id": "fuelphp",
-    "name": "FuelPHP",
-    "description": "PHP web framework",
-    "category": "Framework"
-  },
-  {
-    "id": "gitbook",
-    "name": "GitBook",
-    "description": "Modern documentation platform",
-    "category": "Tool"
-  },
-  {
-    "id": "haskell",
-    "name": "Haskell",
-    "description": "Standardized, general-purpose purely functional language",
-    "category": "Language"
-  },
-  {
-    "id": "igorpro",
-    "name": "IGOR Pro",
-    "description": "Scientific data analysis software",
-    "category": "Tool"
-  },
-  {
-    "id": "jsonnet",
-    "name": "Jsonnet",
-    "description": "Domain-specific configuration language",
-    "category": "Language"
-  },
-  {
-    "id": "kentico",
-    "name": "Kentico",
-    "description": "Content management system and customer experience platform",
-    "category": "Platform"
-  },
-  {
-    "id": "labview",
-    "name": "LabVIEW",
-    "description": "System-design platform and development environment",
-    "category": "Tool"
-  },
-  {
-    "id": "laravel",
-    "name": "Laravel",
-    "description": "PHP web application framework",
-    "category": "Framework"
-  },
-  {
-    "id": "lazarus",
-    "name": "Lazarus",
-    "description": "Free Pascal RAD IDE",
-    "category": "Tool"
-  },
-  {
-    "id": "lithium",
-    "name": "Lithium",
-    "description": "RAD framework for PHP",
-    "category": "Framework"
-  },
-  {
-    "id": "logtalk",
-    "name": "Logtalk",
-    "description": "Object-oriented logic programming language",
-    "category": "Language"
-  },
-  {
-    "id": "lsspice",
-    "name": "LTSpice",
-    "description": "SPICE simulator for electronic circuit design",
-    "category": "Tool"
-  },
-  {
-    "id": "ltspice",
-    "name": "LTSpice",
-    "description": "SPICE simulator for electronic circuit design",
-    "category": "Tool"
-  },
-  {
-    "id": "magento",
-    "name": "Magento",
-    "description": "E-commerce platform",
-    "category": "Platform"
-  },
-  {
-    "id": "mercury",
-    "name": "Mercury",
-    "description": "Functional logic programming language",
-    "category": "Language"
-  },
-  {
-    "id": "ncrunch",
-    "name": "NCrunch",
-    "description": "Automated concurrent testing tool for .NET",
-    "category": "Tool"
-  },
-  {
-    "id": "phalcon",
-    "name": "Phalcon",
-    "description": "PHP web framework implemented as a C extension",
-    "category": "Framework"
-  },
-  {
-    "id": "phoenix",
-    "name": "Phoenix",
-    "description": "Web development framework for Elixir",
-    "category": "Framework"
-  },
-  {
-    "id": "phpunit",
-    "name": "PHPUnit",
-    "description": "Unit testing framework for PHP",
-    "category": "Tool"
-  },
-  {
-    "id": "pimcore",
-    "name": "Pimcore",
-    "description": "Open-source content management platform",
-    "category": "Platform"
-  },
-  {
-    "id": "polymer",
-    "name": "Polymer",
-    "description": "JavaScript library for building web applications",
-    "category": "Framework"
-  },
-  {
-    "id": "prepros",
-    "name": "Prepros",
-    "description": "Compiler for preprocessing languages",
-    "category": "Tool"
-  },
-  {
-    "id": "pycharm",
-    "name": "PyCharm",
-    "description": "Python IDE by JetBrains",
-    "category": "Tool"
-  },
-  {
-    "id": "qooxdoo",
-    "name": "Qooxdoo",
-    "description": "Universal JavaScript framework",
-    "category": "Framework"
-  },
-  {
-    "id": "seamgen",
-    "name": "SeamGen",
-    "description": "Code generator for Java EE applications",
-    "category": "Tool"
-  },
-  {
-    "id": "stellar",
-    "name": "Stellar",
-    "description": "Platform for building financial products",
-    "category": "Tool"
-  },
-  {
-    "id": "swiftpm",
-    "name": "SwiftPM",
-    "description": "Swift Package Manager",
-    "category": "Tool"
-  },
-  {
-    "id": "symfony",
-    "name": "Symfony",
-    "description": "PHP web application framework",
-    "category": "Framework"
-  },
-  {
-    "id": "typings",
-    "name": "Typings",
-    "description": "TypeScript definition manager",
-    "category": "Tool"
-  },
-  {
-    "id": "umbraco",
-    "name": "Umbraco",
-    "description": "Open-source .NET CMS",
-    "category": "Platform"
-  },
-  {
-    "id": "vagrant",
-    "name": "Vagrant",
-    "description": "Tool for building and managing virtual environments",
-    "category": "DevOps"
-  },
-  {
-    "id": "wakanda",
-    "name": "Wakanda",
-    "description": "JavaScript platform for enterprise applications",
-    "category": "Framework"
-  },
-  {
-    "id": "windows",
-    "name": "Windows",
-    "description": "Microsoft operating system",
-    "category": "OS"
-  },
-  {
-    "id": "arcanist",
-    "name": "Arcanist",
-    "description": "Command-line interface for Phabricator",
-    "category": "Tool"
-  },
-  {
-    "id": "archives",
-    "name": "Archives",
-    "description": "File archives and compression formats",
-    "category": "Tool"
-  },
-  {
-    "id": "basercms",
-    "name": "baserCMS",
-    "description": "Open-source CMS built with CakePHP",
-    "category": "Platform"
-  },
-  {
-    "id": "bookdown",
-    "name": "Bookdown",
-    "description": "Authoring books with R Markdown",
-    "category": "Tool"
-  },
-  {
-    "id": "cakephp2",
-    "name": "CakePHP 2",
-    "description": "PHP framework version 2",
-    "category": "Framework"
-  },
-  {
-    "id": "cakephp3",
-    "name": "CakePHP 3",
-    "description": "PHP framework version 3",
-    "category": "Framework"
-  },
-  {
-    "id": "calabash",
-    "name": "Calabash",
-    "description": "Automated testing technology for mobile apps",
-    "category": "Tool"
-  },
-  {
-    "id": "carthage",
-    "name": "Carthage",
-    "description": "Dependency manager for Cocoa applications",
-    "category": "Tool"
-  },
-  {
-    "id": "cfwheels",
-    "name": "CFWheels",
-    "description": "ColdFusion framework",
-    "category": "Framework"
-  },
-  {
-    "id": "cocos2dx",
-    "name": "Cocos2d-x",
-    "description": "Game development framework",
-    "category": "Framework"
-  },
-  {
-    "id": "compodoc",
-    "name": "Compodoc",
-    "description": "Documentation tool for Angular applications",
-    "category": "Tool"
-  },
-  {
-    "id": "composer",
-    "name": "Composer",
-    "description": "Dependency manager for PHP",
-    "category": "Tool"
-  },
-  {
-    "id": "craftcms",
-    "name": "Craft CMS",
-    "description": "Content management system",
-    "category": "Platform"
-  },
-  {
-    "id": "crossbar",
-    "name": "Crossbar",
-    "description": "Open-source application router",
-    "category": "Tool"
-  },
-  {
-    "id": "database",
-    "name": "Database",
-    "description": "Database files and configurations",
-    "category": "Database"
-  },
-  {
-    "id": "docpress",
-    "name": "Docpress",
-    "description": "Documentation website generator",
-    "category": "Tool"
-  },
-  {
-    "id": "e2studio",
-    "name": "e2studio",
-    "description": "Development environment for embedded systems",
-    "category": "Tool"
-  },
-  {
-    "id": "easybook",
-    "name": "easybook",
-    "description": "Book publishing as easy as it should be",
-    "category": "Tool"
-  },
-  {
-    "id": "espresso",
-    "name": "Espresso",
-    "description": "Web editor for Mac",
-    "category": "Tool"
-  },
-  {
-    "id": "exercism",
-    "name": "Exercism",
-    "description": "Coding practice platform",
-    "category": "Tool"
-  },
-  {
-    "id": "fastlane",
-    "name": "fastlane",
-    "description": "Automation tool for iOS and Android deployment",
-    "category": "DevOps"
-  },
-  {
-    "id": "firebase",
-    "name": "Firebase",
-    "description": "Google's mobile development platform",
-    "category": "Platform"
-  },
-  {
-    "id": "floobits",
-    "name": "Floobits",
-    "description": "Collaborative code editing",
-    "category": "Tool"
-  },
-  {
-    "id": "goodsync",
-    "name": "GoodSync",
-    "description": "File synchronization and backup software",
-    "category": "Tool"
-  },
-  {
-    "id": "homebrew",
-    "name": "Homebrew",
-    "description": "Package manager for macOS",
-    "category": "Tool"
-  },
-  {
-    "id": "inforcms",
-    "name": "Infor CMS",
-    "description": "Content management system",
-    "category": "Platform"
-  },
-  {
-    "id": "inforcrm",
-    "name": "Infor CRM",
-    "description": "Customer relationship management software",
-    "category": "Platform"
-  },
-  {
-    "id": "intellij",
-    "name": "IntelliJ IDEA",
-    "description": "Java IDE by JetBrains",
-    "category": "Tool"
-  },
-  {
-    "id": "justcode",
-    "name": "JustCode",
-    "description": ".NET code analysis and refactoring tool",
-    "category": "Tool"
-  },
-  {
-    "id": "lilypond",
-    "name": "LilyPond",
-    "description": "Music engraving program",
-    "category": "Tool"
-  },
-  {
-    "id": "magento1",
-    "name": "Magento 1",
-    "description": "E-commerce platform version 1",
-    "category": "Platform"
-  },
-  {
-    "id": "magento2",
-    "name": "Magento 2",
-    "description": "E-commerce platform version 2",
-    "category": "Platform"
-  },
-  {
-    "id": "meteorjs",
-    "name": "Meteor JS",
-    "description": "Full-stack JavaScript platform",
-    "category": "Framework"
-  },
-  {
-    "id": "modelsim",
-    "name": "ModelSim",
-    "description": "HDL simulation software",
-    "category": "Tool"
-  },
-  {
-    "id": "netbeans",
-    "name": "NetBeans",
-    "description": "Integrated development environment",
-    "category": "Tool"
-  },
-  {
-    "id": "obsidian",
-    "name": "Obsidian",
-    "description": "Knowledge base and note-taking application",
-    "category": "Tool"
-  },
-  {
-    "id": "opencart",
-    "name": "OpenCart",
-    "description": "Open-source e-commerce platform",
-    "category": "Platform"
-  },
-  {
-    "id": "openfoam",
-    "name": "OpenFOAM",
-    "description": "Computational fluid dynamics software",
-    "category": "Tool"
-  },
-  {
-    "id": "particle",
-    "name": "Particle",
-    "description": "IoT development platform",
-    "category": "Platform"
-  },
-  {
-    "id": "phpstorm",
-    "name": "PhpStorm",
-    "description": "PHP IDE by JetBrains",
-    "category": "Tool"
-  },
-  {
-    "id": "pimcore4",
-    "name": "Pimcore 4",
-    "description": "Content management platform version 4",
-    "category": "Platform"
-  },
-  {
-    "id": "pimcore5",
-    "name": "Pimcore 5",
-    "description": "Content management platform version 5",
-    "category": "Platform"
-  },
-  {
-    "id": "pinegrow",
-    "name": "Pinegrow",
-    "description": "Web editor for responsive websites",
-    "category": "Tool"
-  },
-  {
-    "id": "reasonml",
-    "name": "ReasonML",
-    "description": "Syntax extension and toolchain for OCaml",
-    "category": "Language"
-  },
-  {
-    "id": "rubymine",
-    "name": "RubyMine",
-    "description": "Ruby IDE by JetBrains",
-    "category": "Tool"
-  },
-  {
-    "id": "shopware",
-    "name": "Shopware",
-    "description": "E-commerce platform",
-    "category": "Platform"
-  },
-  {
-    "id": "sketchup",
-    "name": "SketchUp",
-    "description": "3D modeling software",
-    "category": "Tool"
-  },
-  {
-    "id": "solidity",
-    "name": "Solidity",
-    "description": "Contract-oriented programming language",
-    "category": "Language"
-  },
-  {
-    "id": "specflow",
-    "name": "SpecFlow",
-    "description": "BDD framework for .NET",
-    "category": "Tool"
-  },
-  {
-    "id": "sugarcrm",
-    "name": "SugarCRM",
-    "description": "Customer relationship management system",
-    "category": "Platform"
-  },
-  {
-    "id": "textmate",
-    "name": "TextMate",
-    "description": "Graphical text editor for macOS",
-    "category": "Tool"
-  },
-  {
-    "id": "thinkphp",
-    "name": "ThinkPHP",
-    "description": "Chinese PHP framework",
-    "category": "Framework"
-  },
-  {
-    "id": "twincat3",
-    "name": "TwinCAT 3",
-    "description": "Automation software from Beckhoff",
-    "category": "Tool"
-  },
-  {
-    "id": "valgrind",
-    "name": "Valgrind",
-    "description": "Programming tool for memory debugging",
-    "category": "Tool"
-  },
-  {
-    "id": "virtuoso",
-    "name": "Virtuoso",
-    "description": "Universal server for data management",
-    "category": "Database"
-  },
-  {
-    "id": "webstorm",
-    "name": "WebStorm",
-    "description": "JavaScript IDE by JetBrains",
-    "category": "Tool"
-  },
-  {
-    "id": "1c-bitrix",
-    "name": "1C-Bitrix",
-    "description": "Russian CMS and e-commerce platform",
-    "category": "Platform"
-  },
-  {
-    "id": "appengine",
-    "name": "App Engine",
-    "description": "Google's platform as a service",
-    "category": "Tool"
-  },
-  {
-    "id": "assembler",
-    "name": "Assembler",
-    "description": "Low-level programming language",
-    "category": "Language"
-  },
-  {
-    "id": "autotools",
-    "name": "Autotools",
-    "description": "Build system for Unix-like systems",
-    "category": "Tool"
-  },
-  {
-    "id": "ballerina",
-    "name": "Ballerina",
-    "description": "Cloud-native programming language",
-    "category": "Language"
-  },
-  {
-    "id": "clion+all",
-    "name": "CLion (all files)",
-    "description": "C/C++ IDE configuration files",
-    "category": "Tool"
-  },
-  {
-    "id": "clion+iml",
-    "name": "CLion (iml files)",
-    "description": "C/C++ IDE module files",
-    "category": "Tool"
-  },
-  {
-    "id": "cocoapods",
-    "name": "CocoaPods",
-    "description": "Dependency manager for Swift and Objective-C",
-    "category": "Tool"
-  },
-  {
-    "id": "concrete5",
-    "name": "Concrete5",
-    "description": "Open-source CMS",
-    "category": "Platform"
-  },
-  {
-    "id": "cypressio",
-    "name": "Cypress IO",
-    "description": "JavaScript end-to-end testing framework",
-    "category": "Tool"
-  },
-  {
-    "id": "diskimage",
-    "name": "Disk Image",
-    "description": "Disk image file formats",
-    "category": "Tool"
-  },
-  {
-    "id": "episerver",
-    "name": "EPiServer",
-    "description": "Web content management platform",
-    "category": "Platform"
-  },
-  {
-    "id": "fontforge",
-    "name": "FontForge",
-    "description": "Font editor software",
-    "category": "Tool"
-  },
-  {
-    "id": "fusetools",
-    "name": "Fuse Tools",
-    "description": "Mobile app development tools",
-    "category": "Tool"
-  },
-  {
-    "id": "genero4gl",
-    "name": "Genero 4GL",
-    "description": "Application development language",
-    "category": "Language"
-  },
-  {
-    "id": "greenfoot",
-    "name": "Greenfoot",
-    "description": "Educational Java development environment",
-    "category": "Tool"
-  },
-  {
-    "id": "iar_ewarm",
-    "name": "IAR EWARM",
-    "description": "Embedded development environment for ARM",
-    "category": "Tool"
-  },
-  {
-    "id": "jboss-6-x",
-    "name": "JBoss 6.x",
-    "description": "Application server version 6.x",
-    "category": "Tool"
-  },
-  {
-    "id": "jetbrains",
-    "name": "JetBrains",
-    "description": "Integrated development environments",
-    "category": "Tool"
-  },
-  {
-    "id": "kdevelop4",
-    "name": "KDevelop 4",
-    "description": "Integrated development environment for Linux",
-    "category": "Tool"
-  },
-  {
-    "id": "leiningen",
-    "name": "Leiningen",
-    "description": "Build tool for Clojure",
-    "category": "Tool"
-  },
-  {
-    "id": "liberosoc",
-    "name": "Libero SoC",
-    "description": "FPGA design software",
-    "category": "Tool"
-  },
-  {
-    "id": "magic-xpa",
-    "name": "Magic xpa",
-    "description": "Rapid application development platform",
-    "category": "Tool"
-  },
-  {
-    "id": "mercurial",
-    "name": "Mercurial",
-    "description": "Distributed version control system",
-    "category": "Tool"
-  },
-  {
-    "id": "momentics",
-    "name": "Momentics",
-    "description": "IDE for QNX development",
-    "category": "Tool"
-  },
-  {
-    "id": "notepadpp",
-    "name": "Notepad++",
-    "description": "Source code editor for Windows",
-    "category": "Tool"
-  },
-  {
-    "id": "oxideshop",
-    "name": "Oxid eShop",
-    "description": "E-commerce platform",
-    "category": "Platform"
-  },
-  {
-    "id": "purebasic",
-    "name": "PureBasic",
-    "description": "Programming language based on BASIC",
-    "category": "Language"
-  },
-  {
-    "id": "qtcreator",
-    "name": "Qt Creator",
-    "description": "Cross-platform IDE for Qt development",
-    "category": "Tool"
-  },
-  {
-    "id": "remix+arc",
-    "name": "Remix + Arc",
-    "description": "Ethereum development environment with Arc",
-    "category": "Tool"
-  },
-  {
-    "id": "scrivener",
-    "name": "Scrivener",
-    "description": "Writing software for authors",
-    "category": "Tool"
-  },
-  {
-    "id": "slickedit",
-    "name": "SlickEdit",
-    "description": "Cross-platform code editor",
-    "category": "Tool"
-  },
-  {
-    "id": "smalltalk",
-    "name": "Smalltalk",
-    "description": "Object-oriented programming language",
-    "category": "Language"
-  },
-  {
-    "id": "snapcraft",
-    "name": "Snapcraft",
-    "description": "Package management system",
-    "category": "Tool"
-  },
-  {
-    "id": "sonarqube",
-    "name": "SonarQube",
-    "description": "Platform for code quality analysis",
-    "category": "Tool"
-  },
-  {
-    "id": "terraform",
-    "name": "Terraform",
-    "description": "Infrastructure as code software tool",
-    "category": "DevOps"
-  },
-  {
-    "id": "testinfra",
-    "name": "Testinfra",
-    "description": "Infrastructure testing framework",
-    "category": "Tool"
-  },
-  {
-    "id": "wordpress",
-    "name": "WordPress",
-    "description": "Content management system",
-    "category": "Platform"
-  },
-  {
-    "id": "xilinxise",
-    "name": "Xilinx ISE",
-    "description": "Integrated development environment for FPGA design",
-    "category": "Tool"
-  },
-  {
-    "id": "appbuilder",
-    "name": "AppBuilder",
-    "description": "Cross-platform mobile development tool",
-    "category": "Tool"
-  },
-  {
-    "id": "aspnetcore",
-    "name": "ASP.NET Core",
-    "description": "Open-source web framework",
-    "category": "Framework"
-  },
-  {
-    "id": "autohotkey",
-    "name": "AutoHotkey",
-    "description": "Scripting language for Windows automation",
-    "category": "Language"
-  },
-  {
-    "id": "bittorrent",
-    "name": "BitTorrent",
-    "description": "Peer-to-peer file sharing protocol",
-    "category": "Tool"
-  },
-  {
-    "id": "chocolatey",
-    "name": "Chocolatey",
-    "description": "Package manager for Windows",
-    "category": "Tool"
-  },
-  {
-    "id": "codeblocks",
-    "name": "Code::Blocks",
-    "description": "Open-source C/C++ IDE",
-    "category": "Tool"
-  },
-  {
-    "id": "commonlisp",
-    "name": "Common Lisp",
-    "description": "Dialect of the Lisp programming language",
-    "category": "Language"
-  },
-  {
-    "id": "compressed",
-    "name": "Compressed",
-    "description": "Compressed file formats",
-    "category": "Tool"
-  },
-  {
-    "id": "darteditor",
-    "name": "Dart Editor",
-    "description": "Editor for Dart programming language",
-    "category": "Tool"
-  },
-  {
-    "id": "docusaurus",
-    "name": "Docusaurus",
-    "description": "Documentation website generator",
-    "category": "Tool"
-  },
-  {
-    "id": "dotfilessh",
-    "name": "Dotfiles Shell",
-    "description": "Shell configuration files",
-    "category": "Tool"
-  },
-  {
-    "id": "dotnetcore",
-    "name": ".NET Core",
-    "description": "Cross-platform .NET implementation",
-    "category": "Framework"
-  },
-  {
-    "id": "executable",
-    "name": "Executable",
-    "description": "Executable file formats",
-    "category": "Tool"
-  },
-  {
-    "id": "freepascal",
-    "name": "Free Pascal",
-    "description": "Pascal compiler",
-    "category": "Tool"
-  },
-  {
-    "id": "goland+all",
-    "name": "GoLand (all files)",
-    "description": "Go IDE configuration files",
-    "category": "Tool"
-  },
-  {
-    "id": "goland+iml",
-    "name": "GoLand (iml files)",
-    "description": "Go IDE module files",
-    "category": "Tool"
-  },
-  {
-    "id": "jdeveloper",
-    "name": "JDeveloper",
-    "description": "Java IDE from Oracle",
-    "category": "Tool"
-  },
-  {
-    "id": "keystonejs",
-    "name": "KeystoneJS",
-    "description": "Node.js CMS and web application platform",
-    "category": "Framework"
-  },
-  {
-    "id": "komodoedit",
-    "name": "Komodo Edit",
-    "description": "Free multi-language code editor",
-    "category": "Tool"
-  },
-  {
-    "id": "labviewnxg",
-    "name": "LabVIEW NXG",
-    "description": "Next generation of LabVIEW system design software",
-    "category": "Tool"
-  },
-  {
-    "id": "lemonstand",
-    "name": "LemonStand",
-    "description": "E-commerce platform",
-    "category": "Platform"
-  },
-  {
-    "id": "localstack",
-    "name": "LocalStack",
-    "description": "Local AWS cloud stack",
-    "category": "DevOps"
-  },
-  {
-    "id": "mavensmate",
-    "name": "MavensMate",
-    "description": "Salesforce development tools",
-    "category": "Tool"
-  },
-  {
-    "id": "metalsmith",
-    "name": "Metalsmith",
-    "description": "Static site generator",
-    "category": "Tool"
-  },
-  {
-    "id": "octobercms",
-    "name": "October CMS",
-    "description": "Self-hosted CMS based on Laravel",
-    "category": "Platform"
-  },
-  {
-    "id": "platformio",
-    "name": "PlatformIO",
-    "description": "IoT development platform",
-    "category": "Tool"
-  },
-  {
-    "id": "powershell",
-    "name": "PowerShell",
-    "description": "Task automation and configuration management",
-    "category": "Tool"
-  },
-  {
-    "id": "prestashop",
-    "name": "PrestaShop",
-    "description": "Open-source e-commerce solution",
-    "category": "Platform"
-  },
-  {
-    "id": "processing",
-    "name": "Processing",
-    "description": "Programming language for visual arts",
-    "category": "Language"
-  },
-  {
-    "id": "purescript",
-    "name": "PureScript",
-    "description": "Strongly-typed functional programming language",
-    "category": "Language"
-  },
-  {
-    "id": "salesforce",
-    "name": "Salesforce",
-    "description": "Customer relationship management platform",
-    "category": "Platform"
-  },
-  {
-    "id": "sam+config",
-    "name": "SAM Config",
-    "description": "Serverless Application Model configuration",
-    "category": "DevOps"
-  },
-  {
-    "id": "serverless",
-    "name": "Serverless",
-    "description": "Serverless application framework",
-    "category": "Framework"
-  },
-  {
-    "id": "sourcepawn",
-    "name": "SourcePawn",
-    "description": "Scripting language for Source engine",
-    "category": "Language"
-  },
-  {
-    "id": "standardml",
-    "name": "Standard ML",
-    "description": "General-purpose functional language",
-    "category": "Language"
-  },
-  {
-    "id": "terragrunt",
-    "name": "Terragrunt",
-    "description": "Thin wrapper for Terraform",
-    "category": "DevOps"
-  },
-  {
-    "id": "virtualenv",
-    "name": "VirtualEnv",
-    "description": "Python virtual environment creator",
-    "category": "Tool"
-  },
-  {
-    "id": "webmethods",
-    "name": "webMethods",
-    "description": "Integration and API management platform",
-    "category": "Platform"
-  },
-  {
-    "id": "werckercli",
-    "name": "Wercker CLI",
-    "description": "Command-line interface for Wercker CI/CD",
-    "category": "DevOps"
-  },
-  {
-    "id": "appcode+all",
-    "name": "AppCode (all files)",
-    "description": "Objective-C IDE configuration files",
-    "category": "Tool"
-  },
-  {
-    "id": "appcode+iml",
-    "name": "AppCode (iml files)",
-    "description": "Objective-C IDE module files",
-    "category": "Tool"
-  },
-  {
-    "id": "atmelstudio",
-    "name": "Atmel Studio",
-    "description": "Integrated development environment for AVR",
-    "category": "Tool"
-  },
-  {
-    "id": "codeigniter",
-    "name": "CodeIgniter",
-    "description": "PHP web framework",
-    "category": "Framework"
-  },
-  {
-    "id": "codesniffer",
-    "name": "CodeSniffer",
-    "description": "PHP coding standards tool",
-    "category": "Tool"
-  },
-  {
-    "id": "compression",
-    "name": "Compression",
-    "description": "File compression formats",
-    "category": "Tool"
-  },
-  {
-    "id": "crashlytics",
-    "name": "Crashlytics",
-    "description": "Crash reporting service",
-    "category": "Tool"
-  },
-  {
-    "id": "dotsettings",
-    "name": "DotSettings",
-    "description": "JetBrains IDE settings files",
-    "category": "Tool"
-  },
-  {
-    "id": "dreamweaver",
-    "name": "Dreamweaver",
-    "description": "Web design and development tool",
-    "category": "Tool"
-  },
-  {
-    "id": "flexbuilder",
-    "name": "Flex Builder",
-    "description": "Adobe Flex development environment",
-    "category": "Tool"
-  },
-  {
-    "id": "forcedotcom",
-    "name": "Force.com",
-    "description": "Salesforce development platform",
-    "category": "Platform"
-  },
-  {
-    "id": "forgegradle",
-    "name": "ForgeGradle",
-    "description": "Minecraft modding build system",
-    "category": "Tool"
-  },
-  {
-    "id": "libreoffice",
-    "name": "LibreOffice",
-    "description": "Open-source office suite",
-    "category": "Tool"
-  },
-  {
-    "id": "monodevelop",
-    "name": "MonoDevelop",
-    "description": "Cross-platform .NET IDE",
-    "category": "Tool"
-  },
-  {
-    "id": "objective-c",
-    "name": "Objective-C",
-    "description": "General-purpose programming language",
-    "category": "Language"
-  },
-  {
-    "id": "oracleforms",
-    "name": "Oracle Forms",
-    "description": "Rapid application development tool",
-    "category": "Tool"
-  },
-  {
-    "id": "progressabl",
-    "name": "Progress ABL",
-    "description": "Business application development language",
-    "category": "Language"
-  },
-  {
-    "id": "psoccreator",
-    "name": "PSoC Creator",
-    "description": "IDE for PSoC development",
-    "category": "Tool"
-  },
-  {
-    "id": "pycharm+all",
-    "name": "PyCharm (all files)",
-    "description": "Python IDE configuration files",
-    "category": "Tool"
-  },
-  {
-    "id": "pycharm+iml",
-    "name": "PyCharm (iml files)",
-    "description": "Python IDE module files",
-    "category": "Tool"
-  },
-  {
-    "id": "reactnative",
-    "name": "React Native",
-    "description": "Framework for building native apps with React",
-    "category": "Framework"
-  },
-  {
-    "id": "senchatouch",
-    "name": "Sencha Touch",
-    "description": "Mobile application framework",
-    "category": "Framework"
-  },
-  {
-    "id": "spreadsheet",
-    "name": "Spreadsheet",
-    "description": "Spreadsheet file formats",
-    "category": "Tool"
-  },
-  {
-    "id": "storybookjs",
-    "name": "Storybook",
-    "description": "UI component explorer for frontend developers",
-    "category": "Tool"
-  },
-  {
-    "id": "sublimetext",
-    "name": "Sublime Text",
-    "description": "Sophisticated text editor",
-    "category": "Tool"
-  },
-  {
-    "id": "symphonycms",
-    "name": "Symphony CMS",
-    "description": "XSLT-based content management system",
-    "category": "Platform"
-  },
-  {
-    "id": "synopsysvcs",
-    "name": "Synopsys VCS",
-    "description": "Verilog simulator",
-    "category": "Tool"
-  },
-  {
-    "id": "textpattern",
-    "name": "Textpattern",
-    "description": "Content management system",
-    "category": "Platform"
-  },
-  {
-    "id": "theos-tweak",
-    "name": "THEOS Tweak",
-    "description": "iOS development framework",
-    "category": "Framework"
-  },
-  {
-    "id": "tortoisegit",
-    "name": "TortoiseGit",
-    "description": "Git client for Windows",
-    "category": "Tool"
-  },
-  {
-    "id": "turbogears2",
-    "name": "TurboGears 2",
-    "description": "Python web framework",
-    "category": "Framework"
-  },
-  {
-    "id": "visualbasic",
-    "name": "Visual Basic",
-    "description": "Programming language from Microsoft",
-    "category": "Language"
-  },
-  {
-    "id": "wintersmith",
-    "name": "Wintersmith",
-    "description": "Static site generator",
-    "category": "Tool"
-  },
-  {
-    "id": "zukencr8000",
-    "name": "Zuken CR-8000",
-    "description": "PCB design software",
-    "category": "Tool"
-  },
-  {
-    "id": "actionscript",
-    "name": "ActionScript",
-    "description": "Programming language for Flash",
-    "category": "Language"
-  },
-  {
-    "id": "ansibletower",
-    "name": "Ansible Tower",
-    "description": "Enterprise framework for IT automation",
-    "category": "DevOps"
-  },
-  {
-    "id": "apachehadoop",
-    "name": "Apache Hadoop",
-    "description": "Framework for distributed storage",
-    "category": "Tool"
-  },
-  {
-    "id": "aptanastudio",
-    "name": "Aptana Studio",
-    "description": "Web development IDE",
-    "category": "Tool"
-  },
-  {
-    "id": "certificates",
-    "name": "Certificates",
-    "description": "Security certificate files",
-    "category": "Tool"
-  },
-  {
-    "id": "chefcookbook",
-    "name": "Chef Cookbook",
-    "description": "Configuration management for Chef",
-    "category": "DevOps"
-  },
-  {
-    "id": "cocoscreator",
-    "name": "Cocos Creator",
-    "description": "Game development IDE",
-    "category": "Tool"
-  },
-  {
-    "id": "coffeescript",
-    "name": "CoffeeScript",
-    "description": "Programming language that transcompiles to JavaScript",
-    "category": "Language"
-  },
-  {
-    "id": "datarecovery",
-    "name": "Data Recovery",
-    "description": "Data recovery files and tools",
-    "category": "Tool"
-  },
-  {
-    "id": "eiffelstudio",
-    "name": "EiffelStudio",
-    "description": "IDE for Eiffel programming language",
-    "category": "Tool"
-  },
-  {
-    "id": "crystal",
-    "name": "Crystal",
-    "description": "A programming language that combines the elegance of Ruby with the performance of C.",
-    "category": "Language"
-  },
-  {
-    "id": "cs-cart",
-    "name": "CS-Cart",
-    "description": "A PHP-based shopping cart software for building online stores.",
-    "category": "Platform"
-  },
-  {
-    "id": "dbeaver",
-    "name": "DBeaver",
-    "description": "Universal database management tool for developers and database administrators.",
-    "category": "Tool"
-  },
-  {
-    "id": "doxygen",
-    "name": "Doxygen",
-    "description": "Documentation generator for various programming languages.",
-    "category": "Tool"
-  },
-  {
-    "id": "dropbox",
-    "name": "Dropbox",
-    "description": "File hosting service that offers cloud storage, file synchronization, and personal cloud.",
-    "category": "Platform"
-  },
-  {
-    "id": "drupal7",
-    "name": "Drupal 7",
-    "description": "Open-source content management system for building websites and applications.",
-    "category": "Platform"
-  },
-  {
-    "id": "drupal8",
-    "name": "Drupal 8",
-    "description": "The latest version of the open-source content management system, offering enhanced features.",
-    "category": "Platform"
-  },
-  {
-    "id": "eclipse",
-    "name": "Eclipse",
-    "description": "Integrated development environment (IDE) used for Java development and other languages.",
-    "category": "Tool"
-  },
-  {
-    "id": "flatpak",
-    "name": "Flatpak",
-    "description": "System for building, distributing, and running sandboxed desktop applications on Linux.",
-    "category": "Tool"
-  },
-  {
-    "id": "flutter",
-    "name": "Flutter",
-    "description": "UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.",
-    "category": "Framework"
-  },
-  {
-    "id": "fortran",
-    "name": "Fortran",
-    "description": "High-level programming language used for scientific and engineering applications.",
-    "category": "Language"
-  },
-  {
-    "id": "freecad",
-    "name": "FreeCAD",
-    "description": "Open-source parametric 3D CAD modeler for product design and engineering.",
-    "category": "Tool"
-  },
-  {
-    "id": "fuelphp",
-    "name": "FuelPHP",
-    "description": "A flexible, modular PHP framework for building web applications.",
-    "category": "Framework"
-  },
-  {
-    "id": "gitbook",
-    "name": "GitBook",
-    "description": "Modern documentation platform based on Git and Markdown.",
-    "category": "Tool"
-  },
-  {
-    "id": "haskell",
-    "name": "Haskell",
-    "description": "A purely functional programming language with strong static typing.",
-    "category": "Language"
-  },
-  {
-    "id": "igorpro",
-    "name": "IGOR Pro",
-    "description": "Scientific data analysis and visualization software.",
-    "category": "Tool"
-  },
-  {
-    "id": "jsonnet",
-    "name": "Jsonnet",
-    "description": "Data-templating language for JSON.",
-    "category": "Language"
-  },
-  {
-    "id": "kentico",
-    "name": "Kentico",
-    "description": "Web content management system and online marketing platform.",
-    "category": "Platform"
-  },
-  {
-    "id": "labview",
-    "name": "LabVIEW",
-    "description": "System-design platform and development environment for a visual programming language.",
-    "category": "Tool"
-  },
-  {
-    "id": "laravel",
-    "name": "Laravel",
-    "description": "PHP framework for web application development with expressive syntax.",
-    "category": "Framework"
-  },
-  {
-    "id": "lazarus",
-    "name": "Lazarus",
-    "description": "Open-source IDE for Free Pascal, similar to Delphi.",
-    "category": "Tool"
-  },
-  {
-    "id": "lithium",
-    "name": "Lithium",
-    "description": "PHP framework for building web applications with a focus on simplicity.",
-    "category": "Framework"
-  },
-  {
-    "id": "logtalk",
-    "name": "Logtalk",
-    "description": "Object-oriented logic programming language that extends Prolog.",
-    "category": "Language"
-  },
-  {
-    "id": "lsspice",
-    "name": "LSspice",
-    "description": "Simulation software for electronic circuits.",
-    "category": "Tool"
-  },
-  {
-    "id": "flashbuilder",
-    "name": "FlashBuilder",
-    "description": "Adobe IDE for developing Flex and ActionScript applications.",
-    "category": "Tool"
-  },
-  {
-    "id": "intellij+all",
-    "name": "IntelliJ (All)",
-    "description": "All IntelliJ IDEA configuration files.",
-    "category": "Tool"
-  },
-  {
-    "id": "intellij+iml",
-    "name": "IntelliJ (IML)",
-    "description": "Module file used in IntelliJ IDEA projects.",
-    "category": "Tool"
-  },
-  {
-    "id": "lighthouseci",
-    "name": "Lighthouse CI",
-    "description": "Automated Lighthouse audits for CI workflows.",
-    "category": "Tool"
-  },
-  {
-    "id": "nativescript",
-    "name": "NativeScript",
-    "description": "Framework for building native mobile apps using JavaScript.",
-    "category": "Framework"
-  },
-  {
-    "id": "php-cs-fixer",
-    "name": "PHP-CS-Fixer",
-    "description": "Tool for fixing PHP coding standards issues.",
-    "category": "Tool"
-  },
-  {
-    "id": "phpstorm+all",
-    "name": "PhpStorm (All)",
-    "description": "All PhpStorm project files and settings.",
-    "category": "Tool"
-  },
-  {
-    "id": "phpstorm+iml",
-    "name": "PhpStorm (IML)",
-    "description": "PhpStorm module definition file.",
-    "category": "Tool"
-  },
-  {
-    "id": "remix+vercel",
-    "name": "Remix + Vercel",
-    "description": "Deploy Remix app to Vercel platform.",
-    "category": "Platform"
-  },
-  {
-    "id": "rubymine+all",
-    "name": "RubyMine (All)",
-    "description": "RubyMine IDE configuration files.",
-    "category": "Tool"
-  },
-  {
-    "id": "rubymine+iml",
-    "name": "RubyMine (IML)",
-    "description": "RubyMine module definition file.",
-    "category": "Tool"
-  },
-  {
-    "id": "salesforcedx",
-    "name": "SalesforceDX",
-    "description": "Developer tools for modern Salesforce development.",
-    "category": "Platform"
-  },
-  {
-    "id": "silverstripe",
-    "name": "Silverstripe",
-    "description": "PHP CMS and framework for web development.",
-    "category": "Framework"
-  },
-  {
-    "id": "testcomplete",
-    "name": "TestComplete",
-    "description": "Automated testing tool for desktop, web, and mobile apps.",
-    "category": "Tool"
-  },
-  {
-    "id": "unrealengine",
-    "name": "Unreal Engine",
-    "description": "Advanced real-time 3D creation tool for games and experiences.",
-    "category": "Tool"
-  },
-  {
-    "id": "visualstudio",
-    "name": "Visual Studio",
-    "description": "Microsoft IDE for .NET and C++ development.",
-    "category": "Tool"
-  },
-  {
-    "id": "webstorm+all",
-    "name": "WebStorm (All)",
-    "description": "WebStorm IDE settings and configuration files.",
-    "category": "Tool"
-  },
-  {
-    "id": "webstorm+iml",
-    "name": "WebStorm (IML)",
-    "description": "WebStorm module configuration file.",
-    "category": "Tool"
-  },
-  {
-    "id": "xilinxvivado",
-    "name": "Xilinx Vivado",
-    "description": "Design suite for FPGA development by Xilinx.",
-    "category": "Tool"
-  },
-  {
-    "id": "androidstudio",
-    "name": "Android Studio",
-    "description": "Official IDE for Android development.",
-    "category": "Tool"
-  },
-  {
-    "id": "apachecordova",
-    "name": "Apache Cordova",
-    "description": "Mobile application development framework using HTML, CSS, and JavaScript.",
-    "category": "Framework"
-  },
-  {
-    "id": "circuitpython",
-    "name": "CircuitPython",
-    "description": "Python-based framework for microcontrollers.",
-    "category": "Tool"
-  },
-  {
-    "id": "homeassistant",
-    "name": "Home Assistant",
-    "description": "Open-source home automation platform.",
-    "category": "Platform"
-  },
-  {
-    "id": "jetbrains+all",
-    "name": "JetBrains (All)",
-    "description": "All JetBrains IDEs configuration files.",
-    "category": "Tool"
-  },
-  {
-    "id": "jetbrains+iml",
-    "name": "JetBrains (IML)",
-    "description": "JetBrains module definition files.",
-    "category": "Tool"
-  },
-  {
-    "id": "playframework",
-    "name": "Play Framework",
-    "description": "Web framework for Java and Scala.",
-    "category": "Framework"
-  },
-  {
-    "id": "premake-gmake",
-    "name": "Premake (GMake)",
-    "description": "Build configuration tool using Lua.",
-    "category": "Tool"
-  },
-  {
-    "id": "pulumi+stacks",
-    "name": "Pulumi + Stacks",
-    "description": "Infrastructure as code platform using general-purpose languages.",
-    "category": "Tool"
-  },
-  {
-    "id": "pythonvanilla",
-    "name": "Python Vanilla",
-    "description": "Plain Python environment without frameworks.",
-    "category": "Language"
-  },
-  {
-    "id": "remix+netlify",
-    "name": "Remix + Netlify",
-    "description": "Deploy Remix app on Netlify.",
-    "category": "Platform"
-  },
-  {
-    "id": "rust-analyzer",
-    "name": "Rust Analyzer",
-    "description": "Language server for Rust.",
-    "category": "Tool"
-  },
-  {
-    "id": "xamarinstudio",
-    "name": "Xamarin Studio",
-    "description": "IDE for developing cross-platform mobile apps with C#.",
-    "category": "Tool"
-  },
-  {
-    "id": "zendframework",
-    "name": "Zend Framework",
-    "description": "Open-source PHP framework for web apps.",
-    "category": "Framework"
-  },
-  {
-    "id": "azurefunctions",
-    "name": "Azure Functions",
-    "description": "Serverless compute service by Microsoft Azure.",
-    "category": "Tool"
-  },
-  {
-    "id": "jboss-4-2-3-ga",
-    "name": "JBoss 4.2.3 GA",
-    "description": "Java EE-based application server.",
-    "category": "Platform"
-  },
-  {
-    "id": "konyvisualizer",
-    "name": "Kony Visualizer",
-    "description": "IDE for building omnichannel apps.",
-    "category": "Tool"
-  },
-  {
-    "id": "librarian-chef",
-    "name": "Librarian-Chef",
-    "description": "Dependency manager for Chef cookbooks.",
-    "category": "Tool"
-  },
-  {
-    "id": "openframeworks",
-    "name": "OpenFrameworks",
-    "description": "C++ toolkit for creative coding.",
-    "category": "Framework"
-  },
-  {
-    "id": "phpcodesniffer",
-    "name": "PHP CodeSniffer",
-    "description": "Detects violations of coding standards in PHP.",
-    "category": "Tool"
-  },
-  {
-    "id": "robotframework",
-    "name": "Robot Framework",
-    "description": "Generic test automation framework.",
-    "category": "Tool"
-  },
-  {
-    "id": "typo3-composer",
-    "name": "TYPO3 Composer",
-    "description": "TYPO3 CMS projects managed with Composer.",
-    "category": "Platform"
-  },
-  {
-    "id": "xcodeinjection",
-    "name": "Xcode Injection",
-    "description": "Inject code changes in running iOS apps during development.",
-    "category": "Tool"
-  },
-  {
-    "id": "alteraquartusii",
-    "name": "Altera Quartus II",
-    "description": "FPGA design software by Altera (Intel).",
-    "category": "Tool"
-  },
-  {
-    "id": "microsoftoffice",
-    "name": "Microsoft Office",
-    "description": "Suite of productivity applications.",
-    "category": "Tool"
-  },
-  {
-    "id": "oxygenxmleditor",
-    "name": "oXygen XML Editor",
-    "description": "Powerful XML editing suite.",
-    "category": "Tool"
-  },
-  {
-    "id": "rhodesrhomobile",
-    "name": "Rhodes RhoMobile",
-    "description": "Framework for cross-platform mobile apps.",
-    "category": "Framework"
-  },
-  {
-    "id": "soliditytruffle",
-    "name": "Solidity + Truffle",
-    "description": "Smart contract development framework for Ethereum.",
-    "category": "Tool"
-  },
-  {
-    "id": "automationstudio",
-    "name": "Automation Studio",
-    "description": "Software for industrial automation projects.",
-    "category": "Tool"
-  },
-  {
-    "id": "autotools+strict",
-    "name": "Autotools (Strict)",
-    "description": "Strict build configuration with GNU Autotools.",
-    "category": "Tool"
-  },
-  {
-    "id": "elasticbeanstalk",
-    "name": "Elastic Beanstalk",
-    "description": "Platform for deploying and managing web apps on AWS.",
-    "category": "Tool"
-  },
-  {
-    "id": "expressionengine",
-    "name": "ExpressionEngine",
-    "description": "Flexible CMS for designers and developers.",
-    "category": "Platform"
-  },
-  {
-    "id": "jupyternotebooks",
-    "name": "Jupyter Notebooks",
-    "description": "Interactive notebooks for data science and computation.",
-    "category": "Tool"
-  },
-  {
-    "id": "puppet-librarian",
-    "name": "Puppet Librarian",
-    "description": "Manages Puppet module dependencies.",
-    "category": "Tool"
-  },
-  {
-    "id": "tarmainstallmate",
-    "name": "Tarma InstallMate",
-    "description": "Tool to create software installers.",
-    "category": "Tool"
-  },
-  {
-    "id": "visualstudiocode",
-    "name": "Visual Studio Code",
-    "description": "Lightweight code editor with extensions support.",
-    "category": "Tool"
-  },
-  {
-    "id": "advancedinstaller",
-    "name": "Advanced Installer",
-    "description": "Installer authoring tool for Windows.",
-    "category": "Tool"
-  },
-  {
-    "id": "archlinuxpackages",
-    "name": "Arch Linux Packages",
-    "description": "Package definitions for Arch Linux.",
-    "category": "OS"
-  },
-  {
-    "id": "compressedarchive",
-    "name": "Compressed Archive",
-    "description": "Generic term for ZIP, TAR, and other archive formats.",
-    "category": "Tool"
-  },
-  {
-    "id": "codecomposerstudio",
-    "name": "Code Composer Studio",
-    "description": "IDE for embedded development by Texas Instruments.",
-    "category": "Tool"
-  },
-  {
-    "id": "adventuregamestudio",
-    "name": "Adventure Game Studio",
-    "description": "Development tool for point-and-click games.",
-    "category": "Tool"
-  },
-  {
-    "id": "hyperledgercomposer",
-    "name": "Hyperledger Composer",
-    "description": "Framework for developing blockchain apps.",
-    "category": "Tool"
-  },
-  {
-    "id": "swiftpackagemanager",
-    "name": "Swift Package Manager",
-    "description": "Tool for managing Swift code dependencies.",
-    "category": "Tool"
-  },
-  {
-    "id": "appceleratortitanium",
-    "name": "Appcelerator Titanium",
-    "description": "Mobile app framework using JavaScript.",
-    "category": "Framework"
-  },
-  {
-    "id": "iarembeddedworkbench",
-    "name": "IAR Embedded Workbench",
-    "description": "Development environment for embedded systems.",
-    "category": "Tool"
-  },
-  {
-    "id": "vrealizeorchestrator",
-    "name": "vRealize Orchestrator",
-    "description": "VMware tool for automating workflows.",
-    "category": "Tool"
-  },
-  {
-    "id": "metaprogrammingsystem",
-    "name": "Meta Programming System",
-    "description": "JetBrains tool for building domain-specific languages.",
-    "category": "Tool"
-  },
-  {
-    "id": "remix+cloudflarepages",
-    "name": "Remix + Cloudflare Pages",
-    "description": "Deploy Remix app to Cloudflare Pages.",
-    "category": "Platform"
-  },
-  {
-    "id": "remix+cloudflareworkers",
-    "name": "Remix + Cloudflare Workers",
-    "description": "Run Remix apps on Cloudflare Workers.",
-    "category": "Platform"
-  },
-  {
-    "id": "nodechakratimetraveldebug",
-    "name": "Node Chakra Time Travel Debug",
-    "description": "Debugging tool for Node.js ChakraCore engine.",
-    "category": "Tool"
-  },
-  {
-    "id": "openframeworks+visualstudio",
-    "name": "OpenFrameworks + Visual Studio",
-    "description": "OpenFrameworks setup for Visual Studio.",
-    "category": "Framework"
-  }
+    {
+        "id": "dotnetcore",
+        "name": ".NET Core",
+        "description": "Cross-platform .NET implementation",
+        "category": "Framework"
+    },
+    {
+        "id": "1c",
+        "name": "1C",
+        "description": "Russian business application platform",
+        "category": "Platform"
+    },
+    {
+        "id": "1c-bitrix",
+        "name": "1C-Bitrix",
+        "description": "Russian CMS and e-commerce platform",
+        "category": "Platform"
+    },
+    {
+        "id": "actionscript",
+        "name": "ActionScript",
+        "description": "Programming language for Flash",
+        "category": "Language"
+    },
+    {
+        "id": "ada",
+        "name": "Ada",
+        "description": "Structured, statically typed programming language",
+        "category": "Language"
+    },
+    {
+        "id": "adobe",
+        "name": "Adobe",
+        "description": "Creative software suite",
+        "category": "Tool"
+    },
+    {
+        "id": "advancedinstaller",
+        "name": "Advanced Installer",
+        "description": "Installer authoring tool for Windows.",
+        "category": "Tool"
+    },
+    {
+        "id": "adventuregamestudio",
+        "name": "Adventure Game Studio",
+        "description": "Development tool for point-and-click games.",
+        "category": "Tool"
+    },
+    {
+        "id": "agda",
+        "name": "Agda",
+        "description": "Dependently typed functional language",
+        "category": "Language"
+    },
+    {
+        "id": "al",
+        "name": "AL",
+        "description": "Programming language for Microsoft Dynamics",
+        "category": "Language"
+    },
+    {
+        "id": "alteraquartusii",
+        "name": "Altera Quartus II",
+        "description": "FPGA design software by Altera (Intel).",
+        "category": "Tool"
+    },
+    {
+        "id": "altium",
+        "name": "Altium",
+        "description": "PCB design software",
+        "category": "Tool"
+    },
+    {
+        "id": "aws",
+        "name": "Amazon Web Services",
+        "description": "Comprehensive cloud computing platform",
+        "category": "Platform"
+    },
+    {
+        "id": "androidstudio",
+        "name": "Android Studio",
+        "description": "Official IDE for Android development.",
+        "category": "Tool"
+    },
+    {
+        "id": "angular",
+        "name": "Angular",
+        "description": "Platform and framework for building single-page client applications",
+        "category": "Framework"
+    },
+    {
+        "id": "anjuta",
+        "name": "Anjuta",
+        "description": "GNOME development environment",
+        "category": "Tool"
+    },
+    {
+        "id": "ansible",
+        "name": "Ansible",
+        "description": "Configuration management and application deployment tool",
+        "category": "DevOps"
+    },
+    {
+        "id": "ansibletower",
+        "name": "Ansible Tower",
+        "description": "Enterprise framework for IT automation",
+        "category": "DevOps"
+    },
+    {
+        "id": "apachecordova",
+        "name": "Apache Cordova",
+        "description": "Mobile application development framework using HTML, CSS, and JavaScript.",
+        "category": "Framework"
+    },
+    {
+        "id": "apachehadoop",
+        "name": "Apache Hadoop",
+        "description": "Framework for distributed storage",
+        "category": "Tool"
+    },
+    {
+        "id": "appengine",
+        "name": "App Engine",
+        "description": "Google's platform as a service",
+        "category": "Tool"
+    },
+    {
+        "id": "appbuilder",
+        "name": "AppBuilder",
+        "description": "Cross-platform mobile development tool",
+        "category": "Tool"
+    },
+    {
+        "id": "appceleratortitanium",
+        "name": "Appcelerator Titanium",
+        "description": "Mobile app framework using JavaScript.",
+        "category": "Framework"
+    },
+    {
+        "id": "appcode+all",
+        "name": "AppCode (all files)",
+        "description": "Objective-C IDE configuration files",
+        "category": "Tool"
+    },
+    {
+        "id": "appcode+iml",
+        "name": "AppCode (iml files)",
+        "description": "Objective-C IDE module files",
+        "category": "Tool"
+    },
+    {
+        "id": "aptanastudio",
+        "name": "Aptana Studio",
+        "description": "Web development IDE",
+        "category": "Tool"
+    },
+    {
+        "id": "arcanist",
+        "name": "Arcanist",
+        "description": "Command-line interface for Phabricator",
+        "category": "Tool"
+    },
+    {
+        "id": "archlinuxpackages",
+        "name": "Arch Linux Packages",
+        "description": "Package definitions for Arch Linux.",
+        "category": "OS"
+    },
+    {
+        "id": "archives",
+        "name": "Archives",
+        "description": "File archives and compression formats",
+        "category": "Tool"
+    },
+    {
+        "id": "arduino",
+        "name": "Arduino",
+        "description": "Open-source electronics platform for embedded systems",
+        "category": "Platform"
+    },
+    {
+        "id": "argo-cd",
+        "name": "Argo CD",
+        "description": "Declarative GitOps tool for Kubernetes",
+        "category": "DevOps"
+    },
+    {
+        "id": "asdf",
+        "name": "asdf",
+        "description": "Extendable version manager",
+        "category": "Tool"
+    },
+    {
+        "id": "aspnetcore",
+        "name": "ASP.NET Core",
+        "description": "Open-source web framework",
+        "category": "Framework"
+    },
+    {
+        "id": "assembler",
+        "name": "Assembler",
+        "description": "Low-level programming language",
+        "category": "Language"
+    },
+    {
+        "id": "astro",
+        "name": "Astro",
+        "description": "Static site builder",
+        "category": "Framework"
+    },
+    {
+        "id": "ate",
+        "name": "ATE",
+        "description": "Automated test equipment software",
+        "category": "Tool"
+    },
+    {
+        "id": "atmelstudio",
+        "name": "Atmel Studio",
+        "description": "Integrated development environment for AVR",
+        "category": "Tool"
+    },
+    {
+        "id": "ats",
+        "name": "ATS",
+        "description": "Functional programming language",
+        "category": "Language"
+    },
+    {
+        "id": "audio",
+        "name": "Audio",
+        "description": "Audio processing tools",
+        "category": "Tool"
+    },
+    {
+        "id": "autohotkey",
+        "name": "AutoHotkey",
+        "description": "Scripting language for Windows automation",
+        "category": "Language"
+    },
+    {
+        "id": "automationstudio",
+        "name": "Automation Studio",
+        "description": "Software for industrial automation projects.",
+        "category": "Tool"
+    },
+    {
+        "id": "autotools",
+        "name": "Autotools",
+        "description": "Build system for Unix-like systems",
+        "category": "Tool"
+    },
+    {
+        "id": "autotools+strict",
+        "name": "Autotools (Strict)",
+        "description": "Strict build configuration with GNU Autotools.",
+        "category": "Tool"
+    },
+    {
+        "id": "awr",
+        "name": "AWR",
+        "description": "RF/microwave electronic design automation",
+        "category": "Tool"
+    },
+    {
+        "id": "azurefunctions",
+        "name": "Azure Functions",
+        "description": "Serverless compute service by Microsoft Azure.",
+        "category": "Tool"
+    },
+    {
+        "id": "backup",
+        "name": "Backup",
+        "description": "Backup systems",
+        "category": "Tool"
+    },
+    {
+        "id": "ballerina",
+        "name": "Ballerina",
+        "description": "Cloud-native programming language",
+        "category": "Language"
+    },
+    {
+        "id": "basercms",
+        "name": "baserCMS",
+        "description": "Open-source CMS built with CakePHP",
+        "category": "Platform"
+    },
+    {
+        "id": "basic",
+        "name": "Basic",
+        "description": "Beginner's All-purpose Symbolic Instruction Code",
+        "category": "Language"
+    },
+    {
+        "id": "batch",
+        "name": "Batch",
+        "description": "Windows shell scripting",
+        "category": "Language"
+    },
+    {
+        "id": "bazaar",
+        "name": "Bazaar",
+        "description": "Version control system",
+        "category": "Tool"
+    },
+    {
+        "id": "bazel",
+        "name": "Bazel",
+        "description": "Build and test tool",
+        "category": "Tool"
+    },
+    {
+        "id": "bitrix",
+        "name": "Bitrix",
+        "description": "Content management system",
+        "category": "Platform"
+    },
+    {
+        "id": "bittorrent",
+        "name": "BitTorrent",
+        "description": "Peer-to-peer file sharing protocol",
+        "category": "Tool"
+    },
+    {
+        "id": "bloop",
+        "name": "Bloop",
+        "description": "Scala build server",
+        "category": "Tool"
+    },
+    {
+        "id": "bluej",
+        "name": "bluej",
+        "description": "Java development environment",
+        "category": "Tool"
+    },
+    {
+        "id": "bookdown",
+        "name": "Bookdown",
+        "description": "Authoring books with R Markdown",
+        "category": "Tool"
+    },
+    {
+        "id": "bower",
+        "name": "Bower",
+        "description": "Package manager for the web",
+        "category": "Tool"
+    },
+    {
+        "id": "buck",
+        "name": "Buck",
+        "description": "Facebook build system",
+        "category": "Tool"
+    },
+    {
+        "id": "bun",
+        "name": "Bun",
+        "description": "Fast JavaScript runtime, bundler, test runner, and package manager",
+        "category": "Platform"
+    },
+    {
+        "id": "c",
+        "name": "C",
+        "description": "General-purpose programming language",
+        "category": "Language"
+    },
+    {
+        "id": "c++",
+        "name": "C++",
+        "description": "General-purpose programming language",
+        "category": "Language"
+    },
+    {
+        "id": "cake",
+        "name": "Cake",
+        "description": "C# build system",
+        "category": "Tool"
+    },
+    {
+        "id": "cakephp2",
+        "name": "CakePHP 2",
+        "description": "PHP framework version 2",
+        "category": "Framework"
+    },
+    {
+        "id": "cakephp3",
+        "name": "CakePHP 3",
+        "description": "PHP framework version 3",
+        "category": "Framework"
+    },
+    {
+        "id": "calabash",
+        "name": "Calabash",
+        "description": "Automated testing technology for mobile apps",
+        "category": "Tool"
+    },
+    {
+        "id": "carthage",
+        "name": "Carthage",
+        "description": "Dependency manager for Cocoa applications",
+        "category": "Tool"
+    },
+    {
+        "id": "cassandra",
+        "name": "Cassandra",
+        "description": "Highly scalable NoSQL distributed database",
+        "category": "Database"
+    },
+    {
+        "id": "certificates",
+        "name": "Certificates",
+        "description": "Security certificate files",
+        "category": "Tool"
+    },
+    {
+        "id": "ceylon",
+        "name": "Ceylon",
+        "description": "Programming language",
+        "category": "Language"
+    },
+    {
+        "id": "cfwheels",
+        "name": "CFWheels",
+        "description": "ColdFusion framework",
+        "category": "Framework"
+    },
+    {
+        "id": "chefcookbook",
+        "name": "Chef Cookbook",
+        "description": "Configuration management for Chef",
+        "category": "DevOps"
+    },
+    {
+        "id": "chocolatey",
+        "name": "Chocolatey",
+        "description": "Package manager for Windows",
+        "category": "Tool"
+    },
+    {
+        "id": "circuitpython",
+        "name": "CircuitPython",
+        "description": "Python-based framework for microcontrollers.",
+        "category": "Tool"
+    },
+    {
+        "id": "clean",
+        "name": "Clean",
+        "description": "Functional programming language",
+        "category": "Language"
+    },
+    {
+        "id": "clion",
+        "name": "CLion",
+        "description": "C/C++ IDE from JetBrains",
+        "category": "Tool"
+    },
+    {
+        "id": "clion+all",
+        "name": "CLion (all files)",
+        "description": "C/C++ IDE configuration files",
+        "category": "Tool"
+    },
+    {
+        "id": "clion+iml",
+        "name": "CLion (iml files)",
+        "description": "C/C++ IDE module files",
+        "category": "Tool"
+    },
+    {
+        "id": "cloud9",
+        "name": "Cloud9",
+        "description": "Cloud IDE",
+        "category": "Tool"
+    },
+    {
+        "id": "cloudflare-workers",
+        "name": "Cloudflare Workers",
+        "description": "Serverless platform for edge computing",
+        "category": "Platform"
+    },
+    {
+        "id": "cmake",
+        "name": "CMake",
+        "description": "Cross-platform build system",
+        "category": "Tool"
+    },
+    {
+        "id": "cockroachdb",
+        "name": "CockroachDB",
+        "description": "Distributed SQL database with horizontal scaling",
+        "category": "Database"
+    },
+    {
+        "id": "cocoapods",
+        "name": "CocoaPods",
+        "description": "Dependency manager for Swift and Objective-C",
+        "category": "Tool"
+    },
+    {
+        "id": "cocoscreator",
+        "name": "Cocos Creator",
+        "description": "Game development IDE",
+        "category": "Tool"
+    },
+    {
+        "id": "cocos2dx",
+        "name": "Cocos2d-x",
+        "description": "Game development framework",
+        "category": "Framework"
+    },
+    {
+        "id": "codecomposerstudio",
+        "name": "Code Composer Studio",
+        "description": "IDE for embedded development by Texas Instruments.",
+        "category": "Tool"
+    },
+    {
+        "id": "codeblocks",
+        "name": "Code::Blocks",
+        "description": "Open-source C/C++ IDE",
+        "category": "Tool"
+    },
+    {
+        "id": "codeigniter",
+        "name": "CodeIgniter",
+        "description": "PHP web framework",
+        "category": "Framework"
+    },
+    {
+        "id": "codeio",
+        "name": "Codeio",
+        "description": "Development platform",
+        "category": "Tool"
+    },
+    {
+        "id": "codesniffer",
+        "name": "CodeSniffer",
+        "description": "PHP coding standards tool",
+        "category": "Tool"
+    },
+    {
+        "id": "coffeescript",
+        "name": "CoffeeScript",
+        "description": "Programming language that transcompiles to JavaScript",
+        "category": "Language"
+    },
+    {
+        "id": "commonlisp",
+        "name": "Common Lisp",
+        "description": "Dialect of the Lisp programming language",
+        "category": "Language"
+    },
+    {
+        "id": "compodoc",
+        "name": "Compodoc",
+        "description": "Documentation tool for Angular applications",
+        "category": "Tool"
+    },
+    {
+        "id": "composer",
+        "name": "Composer",
+        "description": "Dependency manager for PHP",
+        "category": "Tool"
+    },
+    {
+        "id": "compressed",
+        "name": "Compressed",
+        "description": "Compressed file formats",
+        "category": "Tool"
+    },
+    {
+        "id": "compressedarchive",
+        "name": "Compressed Archive",
+        "description": "Generic term for ZIP, TAR, and other archive formats.",
+        "category": "Tool"
+    },
+    {
+        "id": "compression",
+        "name": "Compression",
+        "description": "File compression formats",
+        "category": "Tool"
+    },
+    {
+        "id": "conan",
+        "name": "Conan",
+        "description": "C/C++ package manager",
+        "category": "Tool"
+    },
+    {
+        "id": "concrete5",
+        "name": "Concrete5",
+        "description": "Open-source CMS",
+        "category": "Platform"
+    },
+    {
+        "id": "coq",
+        "name": "Coq",
+        "description": "Proof assistant and programming language",
+        "category": "Language"
+    },
+    {
+        "id": "craftcms",
+        "name": "Craft CMS",
+        "description": "Content management system",
+        "category": "Platform"
+    },
+    {
+        "id": "crashlytics",
+        "name": "Crashlytics",
+        "description": "Crash reporting service",
+        "category": "Tool"
+    },
+    {
+        "id": "crossbar",
+        "name": "Crossbar",
+        "description": "Open-source application router",
+        "category": "Tool"
+    },
+    {
+        "id": "crossplane",
+        "name": "Crossplane",
+        "description": "Open-source control plane for cloud-native infrastructure",
+        "category": "DevOps"
+    },
+    {
+        "id": "crystal",
+        "name": "Crystal",
+        "description": "A programming language that combines the elegance of Ruby with the performance of C.",
+        "category": "Language"
+    },
+    {
+        "id": "cs-cart",
+        "name": "CS-Cart",
+        "description": "A PHP-based shopping cart software for building online stores.",
+        "category": "Platform"
+    },
+    {
+        "id": "csharp",
+        "name": "Csharp",
+        "description": "C# programming language",
+        "category": "Language"
+    },
+    {
+        "id": "cuda",
+        "name": "CUDA",
+        "description": "NVIDIA parallel computing platform",
+        "category": "Platform"
+    },
+    {
+        "id": "cvs",
+        "name": "CVS",
+        "description": "Concurrent Versions System version control",
+        "category": "Tool"
+    },
+    {
+        "id": "cypressio",
+        "name": "Cypress IO",
+        "description": "JavaScript end-to-end testing framework",
+        "category": "Tool"
+    },
+    {
+        "id": "d",
+        "name": "D",
+        "description": "Systems programming language with C-like syntax",
+        "category": "Language"
+    },
+    {
+        "id": "dagger",
+        "name": "Dagger",
+        "description": "Portable CI/CD engine running in containers",
+        "category": "DevOps"
+    },
+    {
+        "id": "dart",
+        "name": "Dart",
+        "description": "Programming language for Flutter",
+        "category": "Language"
+    },
+    {
+        "id": "darteditor",
+        "name": "Dart Editor",
+        "description": "Editor for Dart programming language",
+        "category": "Tool"
+    },
+    {
+        "id": "data",
+        "name": "Data",
+        "description": "Data processing and storage",
+        "category": "Platform"
+    },
+    {
+        "id": "datarecovery",
+        "name": "Data Recovery",
+        "description": "Data recovery files and tools",
+        "category": "Tool"
+    },
+    {
+        "id": "database",
+        "name": "Database",
+        "description": "Database files and configurations",
+        "category": "Database"
+    },
+    {
+        "id": "dbeaver",
+        "name": "DBeaver",
+        "description": "Universal database management tool for developers and database administrators.",
+        "category": "Tool"
+    },
+    {
+        "id": "dbt",
+        "name": "dbt",
+        "description": "Data build tool for analytics engineering",
+        "category": "Tool"
+    },
+    {
+        "id": "defold",
+        "name": "Defold",
+        "description": "Game engine",
+        "category": "Framework"
+    },
+    {
+        "id": "delphi",
+        "name": "Delphi",
+        "description": "Object Pascal IDE",
+        "category": "Tool"
+    },
+    {
+        "id": "deno",
+        "name": "Deno",
+        "description": "Secure JavaScript/TypeScript runtime",
+        "category": "Platform"
+    },
+    {
+        "id": "dframe",
+        "name": "Dframe",
+        "description": "Data framework",
+        "category": "Framework"
+    },
+    {
+        "id": "diff",
+        "name": "Diff",
+        "description": "File comparison tool",
+        "category": "Tool"
+    },
+    {
+        "id": "direnv",
+        "name": "direnv",
+        "description": "Environment switcher",
+        "category": "Tool"
+    },
+    {
+        "id": "diskimage",
+        "name": "Disk Image",
+        "description": "Disk image file formats",
+        "category": "Tool"
+    },
+    {
+        "id": "django",
+        "name": "Django",
+        "description": "Python web framework",
+        "category": "Framework"
+    },
+    {
+        "id": "dm",
+        "name": "DM",
+        "description": "DreamMaker language for BYOND game development",
+        "category": "Language"
+    },
+    {
+        "id": "docfx",
+        "name": "DocFx",
+        "description": "Documentation generator",
+        "category": "Tool"
+    },
+    {
+        "id": "docker",
+        "name": "Docker",
+        "description": "Platform for developing, shipping, and running applications in containers",
+        "category": "DevOps"
+    },
+    {
+        "id": "docker-compose",
+        "name": "Docker Compose",
+        "description": "Tool for defining and running multi-container Docker apps",
+        "category": "Tool"
+    },
+    {
+        "id": "docpress",
+        "name": "Docpress",
+        "description": "Documentation website generator",
+        "category": "Tool"
+    },
+    {
+        "id": "docusaurus",
+        "name": "Docusaurus",
+        "description": "Documentation website generator",
+        "category": "Tool"
+    },
+    {
+        "id": "docz",
+        "name": "Docz",
+        "description": "Documentation generator",
+        "category": "Tool"
+    },
+    {
+        "id": "dotenv",
+        "name": "dotenv",
+        "description": "Environment variable loader",
+        "category": "Tool"
+    },
+    {
+        "id": "dotfilessh",
+        "name": "Dotfiles Shell",
+        "description": "Shell configuration files",
+        "category": "Tool"
+    },
+    {
+        "id": "dotsettings",
+        "name": "DotSettings",
+        "description": "JetBrains IDE settings files",
+        "category": "Tool"
+    },
+    {
+        "id": "doxygen",
+        "name": "Doxygen",
+        "description": "Documentation generator for various programming languages.",
+        "category": "Tool"
+    },
+    {
+        "id": "dreamweaver",
+        "name": "Dreamweaver",
+        "description": "Web design and development tool",
+        "category": "Tool"
+    },
+    {
+        "id": "dropbox",
+        "name": "Dropbox",
+        "description": "File hosting service that offers cloud storage, file synchronization, and personal cloud.",
+        "category": "Platform"
+    },
+    {
+        "id": "drupal",
+        "name": "Drupal",
+        "description": "Content management system",
+        "category": "Platform"
+    },
+    {
+        "id": "drupal7",
+        "name": "Drupal 7",
+        "description": "Open-source content management system for building websites and applications.",
+        "category": "Platform"
+    },
+    {
+        "id": "drupal8",
+        "name": "Drupal 8",
+        "description": "The latest version of the open-source content management system, offering enhanced features.",
+        "category": "Platform"
+    },
+    {
+        "id": "duckdb",
+        "name": "DuckDB",
+        "description": "In-process analytical SQL database",
+        "category": "Database"
+    },
+    {
+        "id": "dynamodb",
+        "name": "DynamoDB",
+        "description": "AWS NoSQL database with seamless scaling",
+        "category": "Database"
+    },
+    {
+        "id": "e2studio",
+        "name": "e2studio",
+        "description": "Development environment for embedded systems",
+        "category": "Tool"
+    },
+    {
+        "id": "eagle",
+        "name": "Eagle",
+        "description": "PCB design software",
+        "category": "Tool"
+    },
+    {
+        "id": "easybook",
+        "name": "easybook",
+        "description": "Book publishing as easy as it should be",
+        "category": "Tool"
+    },
+    {
+        "id": "eclipse",
+        "name": "Eclipse",
+        "description": "Integrated development environment (IDE) used for Java development and other languages.",
+        "category": "Tool"
+    },
+    {
+        "id": "eiffelstudio",
+        "name": "EiffelStudio",
+        "description": "IDE for Eiffel programming language",
+        "category": "Tool"
+    },
+    {
+        "id": "elasticbeanstalk",
+        "name": "Elastic Beanstalk",
+        "description": "Platform for deploying and managing web apps on AWS.",
+        "category": "Tool"
+    },
+    {
+        "id": "elasticsearch",
+        "name": "Elasticsearch",
+        "description": "Search engine based on the Lucene library",
+        "category": "Database"
+    },
+    {
+        "id": "elisp",
+        "name": "Elisp",
+        "description": "Emacs Lisp programming language",
+        "category": "Language"
+    },
+    {
+        "id": "elixir",
+        "name": "Elixir",
+        "description": "Functional programming language",
+        "category": "Language"
+    },
+    {
+        "id": "elm",
+        "name": "Elm",
+        "description": "Functional programming language for web apps",
+        "category": "Language"
+    },
+    {
+        "id": "emacs",
+        "name": "Emacs",
+        "description": "Extensible text editor",
+        "category": "Tool"
+    },
+    {
+        "id": "ember",
+        "name": "Ember",
+        "description": "JavaScript framework",
+        "category": "Framework"
+    },
+    {
+        "id": "emscripten",
+        "name": "Emscripten",
+        "description": "Toolchain for compiling C/C++ to WASM",
+        "category": "Tool"
+    },
+    {
+        "id": "ensime",
+        "name": "Ensime",
+        "description": "Scala IDE",
+        "category": "Tool"
+    },
+    {
+        "id": "episerver",
+        "name": "EPiServer",
+        "description": "Web content management platform",
+        "category": "Platform"
+    },
+    {
+        "id": "erlang",
+        "name": "Erlang",
+        "description": "Functional programming language",
+        "category": "Language"
+    },
+    {
+        "id": "esbuild",
+        "name": "esbuild",
+        "description": "Extremely fast JavaScript bundler",
+        "category": "Tool"
+    },
+    {
+        "id": "espressif",
+        "name": "Espressif (ESP32/8266)",
+        "description": "Wi-Fi & Bluetooth-enabled microcontrollers",
+        "category": "Platform"
+    },
+    {
+        "id": "espresso",
+        "name": "Espresso",
+        "description": "Web editor for Mac",
+        "category": "Tool"
+    },
+    {
+        "id": "etherjs",
+        "name": "Ethers.js",
+        "description": "Lightweight Ethereum wallet implementation in JavaScript",
+        "category": "Framework"
+    },
+    {
+        "id": "executable",
+        "name": "Executable",
+        "description": "Executable file formats",
+        "category": "Tool"
+    },
+    {
+        "id": "exercism",
+        "name": "Exercism",
+        "description": "Coding practice platform",
+        "category": "Tool"
+    },
+    {
+        "id": "express",
+        "name": "Express",
+        "description": "Fast, unopinionated, minimalist web framework for Node.js",
+        "category": "Framework"
+    },
+    {
+        "id": "expressionengine",
+        "name": "ExpressionEngine",
+        "description": "Flexible CMS for designers and developers.",
+        "category": "Platform"
+    },
+    {
+        "id": "extjs",
+        "name": "ExtJs",
+        "description": "JavaScript framework",
+        "category": "Framework"
+    },
+    {
+        "id": "falco",
+        "name": "Falco",
+        "description": "Cloud-native runtime security tool",
+        "category": "DevOps"
+    },
+    {
+        "id": "fancy",
+        "name": "Fancy",
+        "description": "Dynamic object-oriented language",
+        "category": "Language"
+    },
+    {
+        "id": "fastlane",
+        "name": "fastlane",
+        "description": "Automation tool for iOS and Android deployment",
+        "category": "DevOps"
+    },
+    {
+        "id": "fedora",
+        "name": "Fedora",
+        "description": "Linux distribution sponsored by Red Hat",
+        "category": "OS"
+    },
+    {
+        "id": "finale",
+        "name": "Finale",
+        "description": "Music notation software",
+        "category": "Tool"
+    },
+    {
+        "id": "firebase",
+        "name": "Firebase",
+        "description": "Google's mobile development platform",
+        "category": "Platform"
+    },
+    {
+        "id": "fish",
+        "name": "Fish",
+        "description": "Friendly interactive shell",
+        "category": "Tool"
+    },
+    {
+        "id": "flagger",
+        "name": "Flagger",
+        "description": "Progressive delivery operator for Kubernetes",
+        "category": "DevOps"
+    },
+    {
+        "id": "flashbuilder",
+        "name": "FlashBuilder",
+        "description": "Adobe IDE for developing Flex and ActionScript applications.",
+        "category": "Tool"
+    },
+    {
+        "id": "flask",
+        "name": "Flask",
+        "description": "Python web framework",
+        "category": "Framework"
+    },
+    {
+        "id": "flatpak",
+        "name": "Flatpak",
+        "description": "System for building, distributing, and running sandboxed desktop applications on Linux.",
+        "category": "Tool"
+    },
+    {
+        "id": "flex",
+        "name": "Flex",
+        "description": "Fast Lexical Analyzer Generator",
+        "category": "Tool"
+    },
+    {
+        "id": "flexbuilder",
+        "name": "Flex Builder",
+        "description": "Adobe Flex development environment",
+        "category": "Tool"
+    },
+    {
+        "id": "floobits",
+        "name": "Floobits",
+        "description": "Collaborative code editing",
+        "category": "Tool"
+    },
+    {
+        "id": "flutter",
+        "name": "Flutter",
+        "description": "UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.",
+        "category": "Framework"
+    },
+    {
+        "id": "font",
+        "name": "Font",
+        "description": "Font design and development",
+        "category": "Tool"
+    },
+    {
+        "id": "fontforge",
+        "name": "FontForge",
+        "description": "Font editor software",
+        "category": "Tool"
+    },
+    {
+        "id": "forcedotcom",
+        "name": "Force.com",
+        "description": "Salesforce development platform",
+        "category": "Platform"
+    },
+    {
+        "id": "forgegradle",
+        "name": "ForgeGradle",
+        "description": "Minecraft modding build system",
+        "category": "Tool"
+    },
+    {
+        "id": "fortran",
+        "name": "Fortran",
+        "description": "High-level programming language used for scientific and engineering applications.",
+        "category": "Language"
+    },
+    {
+        "id": "foundry",
+        "name": "Foundry",
+        "description": "Rust-based toolkit for Ethereum application development",
+        "category": "Tool"
+    },
+    {
+        "id": "freepascal",
+        "name": "Free Pascal",
+        "description": "Pascal compiler",
+        "category": "Tool"
+    },
+    {
+        "id": "freecad",
+        "name": "FreeCAD",
+        "description": "Open-source parametric 3D CAD modeler for product design and engineering.",
+        "category": "Tool"
+    },
+    {
+        "id": "fsharp",
+        "name": "fsharp",
+        "description": "F# programming language",
+        "category": "Language"
+    },
+    {
+        "id": "fuelphp",
+        "name": "FuelPHP",
+        "description": "A flexible, modular PHP framework for building web applications.",
+        "category": "Framework"
+    },
+    {
+        "id": "fusetools",
+        "name": "Fuse Tools",
+        "description": "Mobile app development tools",
+        "category": "Tool"
+    },
+    {
+        "id": "games",
+        "name": "Games",
+        "description": "Game development tools",
+        "category": "Platform"
+    },
+    {
+        "id": "gatsby",
+        "name": "Gatsby",
+        "description": "Static site generator",
+        "category": "Framework"
+    },
+    {
+        "id": "gcov",
+        "name": "Gcov",
+        "description": "GNU code coverage tool",
+        "category": "Tool"
+    },
+    {
+        "id": "genero4gl",
+        "name": "Genero 4GL",
+        "description": "Application development language",
+        "category": "Language"
+    },
+    {
+        "id": "geth",
+        "name": "Geth",
+        "description": "Go Ethereum client",
+        "category": "Tool"
+    },
+    {
+        "id": "ggts",
+        "name": "GGTS",
+        "description": "Groovy/Grails Tool Suite",
+        "category": "Tool"
+    },
+    {
+        "id": "gis",
+        "name": "GIS",
+        "description": "Geographic Information System software",
+        "category": "Tool"
+    },
+    {
+        "id": "git",
+        "name": "Git",
+        "description": "Distributed version control system",
+        "category": "Tool"
+    },
+    {
+        "id": "gitbook",
+        "name": "GitBook",
+        "description": "Modern documentation platform based on Git and Markdown.",
+        "category": "Tool"
+    },
+    {
+        "id": "github-actions",
+        "name": "GitHub Actions",
+        "description": "CI/CD platform that allows automation of workflows",
+        "category": "DevOps"
+    },
+    {
+        "id": "go",
+        "name": "Go",
+        "description": "Statically typed, compiled programming language",
+        "category": "Language"
+    },
+    {
+        "id": "godot",
+        "name": "Godot",
+        "description": "Game engine",
+        "category": "Framework"
+    },
+    {
+        "id": "goland",
+        "name": "GoLand",
+        "description": "Go IDE from JetBrains",
+        "category": "Tool"
+    },
+    {
+        "id": "goland+all",
+        "name": "GoLand (all files)",
+        "description": "Go IDE configuration files",
+        "category": "Tool"
+    },
+    {
+        "id": "goland+iml",
+        "name": "GoLand (iml files)",
+        "description": "Go IDE module files",
+        "category": "Tool"
+    },
+    {
+        "id": "goodsync",
+        "name": "GoodSync",
+        "description": "File synchronization and backup software",
+        "category": "Tool"
+    },
+    {
+        "id": "gcp",
+        "name": "Google Cloud Platform",
+        "description": "Suite of cloud computing services",
+        "category": "Platform"
+    },
+    {
+        "id": "gpg",
+        "name": "GPG",
+        "description": "GNU Privacy Guard encryption tool",
+        "category": "Tool"
+    },
+    {
+        "id": "gradle",
+        "name": "Gradle",
+        "description": "Build tool",
+        "category": "Tool"
+    },
+    {
+        "id": "grafana",
+        "name": "Grafana",
+        "description": "Multi-platform open source analytics and interactive visualization web application",
+        "category": "DevOps"
+    },
+    {
+        "id": "grails",
+        "name": "Grails",
+        "description": "Groovy web framework",
+        "category": "Framework"
+    },
+    {
+        "id": "graphql",
+        "name": "GraphQL",
+        "description": "Query language for APIs and a runtime for fulfilling those queries",
+        "category": "Tool"
+    },
+    {
+        "id": "greenfoot",
+        "name": "Greenfoot",
+        "description": "Educational Java development environment",
+        "category": "Tool"
+    },
+    {
+        "id": "groovy",
+        "name": "Groovy",
+        "description": "Dynamic language for JVM",
+        "category": "Language"
+    },
+    {
+        "id": "grunt",
+        "name": "grunt",
+        "description": "JavaScript task runner",
+        "category": "Tool"
+    },
+    {
+        "id": "gwt",
+        "name": "GWT",
+        "description": "Google Web Toolkit for Java web apps",
+        "category": "Framework"
+    },
+    {
+        "id": "hardhat",
+        "name": "Hardhat",
+        "description": "Ethereum development environment for testing/deploying contracts",
+        "category": "Tool"
+    },
+    {
+        "id": "haskell",
+        "name": "Haskell",
+        "description": "A purely functional programming language with strong static typing.",
+        "category": "Language"
+    },
+    {
+        "id": "helm",
+        "name": "Helm",
+        "description": "Kubernetes package manager",
+        "category": "Tool"
+    },
+    {
+        "id": "hexo",
+        "name": "Hexo",
+        "description": "Blog framework powered by Node.js",
+        "category": "Framework"
+    },
+    {
+        "id": "hol",
+        "name": "HOL",
+        "description": "Higher-order logic theorem prover",
+        "category": "Tool"
+    },
+    {
+        "id": "homeassistant",
+        "name": "Home Assistant",
+        "description": "Open-source home automation platform.",
+        "category": "Platform"
+    },
+    {
+        "id": "homebrew",
+        "name": "Homebrew",
+        "description": "Package manager for macOS",
+        "category": "Tool"
+    },
+    {
+        "id": "hsp",
+        "name": "HSP",
+        "description": "Hot Soup Processor scripting language",
+        "category": "Language"
+    },
+    {
+        "id": "htmx",
+        "name": "HTMX",
+        "description": "Lightweight library for dynamic HTML without JavaScript",
+        "category": "Framework"
+    },
+    {
+        "id": "hugo",
+        "name": "Hugo",
+        "description": "Fast static site generator",
+        "category": "Tool"
+    },
+    {
+        "id": "hyperledgercomposer",
+        "name": "Hyperledger Composer",
+        "description": "Framework for developing blockchain apps.",
+        "category": "Tool"
+    },
+    {
+        "id": "iar",
+        "name": "IAR",
+        "description": "IAR Embedded Workbench IDE",
+        "category": "Tool"
+    },
+    {
+        "id": "iarembeddedworkbench",
+        "name": "IAR Embedded Workbench",
+        "description": "Development environment for embedded systems.",
+        "category": "Tool"
+    },
+    {
+        "id": "iar_ewarm",
+        "name": "IAR EWARM",
+        "description": "Embedded development environment for ARM",
+        "category": "Tool"
+    },
+    {
+        "id": "idapro",
+        "name": "IDAPro",
+        "description": "Disassembler and debugger",
+        "category": "Tool"
+    },
+    {
+        "id": "idris",
+        "name": "Idris",
+        "description": "Functional programming language",
+        "category": "Language"
+    },
+    {
+        "id": "igorpro",
+        "name": "IGOR Pro",
+        "description": "Scientific data analysis and visualization software.",
+        "category": "Tool"
+    },
+    {
+        "id": "images",
+        "name": "Images",
+        "description": "Image processing tools",
+        "category": "Tool"
+    },
+    {
+        "id": "infer",
+        "name": "infer",
+        "description": "Static analysis tool",
+        "category": "Tool"
+    },
+    {
+        "id": "inforcms",
+        "name": "Infor CMS",
+        "description": "Content management system",
+        "category": "Platform"
+    },
+    {
+        "id": "inforcrm",
+        "name": "Infor CRM",
+        "description": "Customer relationship management software",
+        "category": "Platform"
+    },
+    {
+        "id": "intellij+all",
+        "name": "IntelliJ (All)",
+        "description": "All IntelliJ IDEA configuration files.",
+        "category": "Tool"
+    },
+    {
+        "id": "intellij+iml",
+        "name": "IntelliJ (IML)",
+        "description": "Module file used in IntelliJ IDEA projects.",
+        "category": "Tool"
+    },
+    {
+        "id": "intellij",
+        "name": "IntelliJ IDEA",
+        "description": "Java IDE by JetBrains",
+        "category": "Tool"
+    },
+    {
+        "id": "ionic3",
+        "name": "Ionic3",
+        "description": "Mobile app framework",
+        "category": "Framework"
+    },
+    {
+        "id": "istio",
+        "name": "Istio",
+        "description": "Service mesh for microservices management",
+        "category": "DevOps"
+    },
+    {
+        "id": "jabref",
+        "name": "JabRef",
+        "description": "Bibliography manager",
+        "category": "Tool"
+    },
+    {
+        "id": "janet",
+        "name": "Janet",
+        "description": "Functional programming language",
+        "category": "Language"
+    },
+    {
+        "id": "java",
+        "name": "Java",
+        "description": "High-level, class-based language",
+        "category": "Language"
+    },
+    {
+        "id": "javascript",
+        "name": "JavaScript",
+        "description": "Lightweight, interpreted, or just-in-time compiled programming language with first-class functions",
+        "category": "Language"
+    },
+    {
+        "id": "jboss",
+        "name": "JBoss",
+        "description": "Application server",
+        "category": "Platform"
+    },
+    {
+        "id": "jboss-4-2-3-ga",
+        "name": "JBoss 4.2.3 GA",
+        "description": "Java EE-based application server.",
+        "category": "Platform"
+    },
+    {
+        "id": "jboss-6-x",
+        "name": "JBoss 6.x",
+        "description": "Application server version 6.x",
+        "category": "Tool"
+    },
+    {
+        "id": "jboss4",
+        "name": "JBoss4",
+        "description": "Application server version 4",
+        "category": "Platform"
+    },
+    {
+        "id": "jboss6",
+        "name": "JBoss6",
+        "description": "Application server version 6",
+        "category": "Platform"
+    },
+    {
+        "id": "jdeveloper",
+        "name": "JDeveloper",
+        "description": "Java IDE from Oracle",
+        "category": "Tool"
+    },
+    {
+        "id": "jekyll",
+        "name": "Jekyll",
+        "description": "Static site generator",
+        "category": "Tool"
+    },
+    {
+        "id": "jenkins",
+        "name": "Jenkins",
+        "description": "Open source automation server for CI/CD",
+        "category": "DevOps"
+    },
+    {
+        "id": "jenv",
+        "name": "JEnv",
+        "description": "Java environment manager",
+        "category": "Tool"
+    },
+    {
+        "id": "jetbrains",
+        "name": "JetBrains",
+        "description": "Integrated development environments",
+        "category": "Tool"
+    },
+    {
+        "id": "jetbrains+all",
+        "name": "JetBrains (All)",
+        "description": "All JetBrains IDEs configuration files.",
+        "category": "Tool"
+    },
+    {
+        "id": "jetbrains+iml",
+        "name": "JetBrains (IML)",
+        "description": "JetBrains module definition files.",
+        "category": "Tool"
+    },
+    {
+        "id": "jgiven",
+        "name": "JGiven",
+        "description": "Testing framework",
+        "category": "Tool"
+    },
+    {
+        "id": "jigsaw",
+        "name": "Jigsaw",
+        "description": "Java module system",
+        "category": "Tool"
+    },
+    {
+        "id": "jmeter",
+        "name": "JMeter",
+        "description": "Load testing tool",
+        "category": "Tool"
+    },
+    {
+        "id": "joe",
+        "name": "Joe",
+        "description": "JOE text editor",
+        "category": "Tool"
+    },
+    {
+        "id": "joomla",
+        "name": "Joomla",
+        "description": "Content management system",
+        "category": "Platform"
+    },
+    {
+        "id": "jsonnet",
+        "name": "Jsonnet",
+        "description": "Data-templating language for JSON.",
+        "category": "Language"
+    },
+    {
+        "id": "jspm",
+        "name": "jspm",
+        "description": "JavaScript package manager",
+        "category": "Tool"
+    },
+    {
+        "id": "julia",
+        "name": "Julia",
+        "description": "High-level programming language",
+        "category": "Language"
+    },
+    {
+        "id": "jupyternotebooks",
+        "name": "Jupyter Notebooks",
+        "description": "Interactive notebooks for data science and computation.",
+        "category": "Tool"
+    },
+    {
+        "id": "justcode",
+        "name": "JustCode",
+        "description": ".NET code analysis and refactoring tool",
+        "category": "Tool"
+    },
+    {
+        "id": "kafka",
+        "name": "Kafka",
+        "description": "Distributed event streaming platform",
+        "category": "Tool"
+    },
+    {
+        "id": "kaldi",
+        "name": "kaldi",
+        "description": "Speech recognition toolkit",
+        "category": "Tool"
+    },
+    {
+        "id": "kate",
+        "name": "Kate",
+        "description": "Advanced text editor",
+        "category": "Tool"
+    },
+    {
+        "id": "kdevelop4",
+        "name": "KDevelop 4",
+        "description": "Integrated development environment for Linux",
+        "category": "Tool"
+    },
+    {
+        "id": "kdiff3",
+        "name": "KDiff3",
+        "description": "Diff and merge tool",
+        "category": "Tool"
+    },
+    {
+        "id": "keil",
+        "name": "Keil",
+        "description": "Embedded development tools",
+        "category": "Tool"
+    },
+    {
+        "id": "kentico",
+        "name": "Kentico",
+        "description": "Web content management system and online marketing platform.",
+        "category": "Platform"
+    },
+    {
+        "id": "keystonejs",
+        "name": "KeystoneJS",
+        "description": "Node.js CMS and web application platform",
+        "category": "Framework"
+    },
+    {
+        "id": "kicad",
+        "name": "KiCad",
+        "description": "PCB design software",
+        "category": "Tool"
+    },
+    {
+        "id": "kirby2",
+        "name": "Kirby2",
+        "description": "CMS version 2",
+        "category": "Platform"
+    },
+    {
+        "id": "kirby3",
+        "name": "Kirby3",
+        "description": "CMS version 3",
+        "category": "Platform"
+    },
+    {
+        "id": "kobalt",
+        "name": "Kobalt",
+        "description": "Build tool",
+        "category": "Tool"
+    },
+    {
+        "id": "kohana",
+        "name": "Kohana",
+        "description": "PHP framework",
+        "category": "Framework"
+    },
+    {
+        "id": "komodoedit",
+        "name": "Komodo Edit",
+        "description": "Free multi-language code editor",
+        "category": "Tool"
+    },
+    {
+        "id": "konyvisualizer",
+        "name": "Kony Visualizer",
+        "description": "IDE for building omnichannel apps.",
+        "category": "Tool"
+    },
+    {
+        "id": "kotlin",
+        "name": "Kotlin",
+        "description": "JVM programming language",
+        "category": "Language"
+    },
+    {
+        "id": "kubernetes",
+        "name": "Kubernetes",
+        "description": "Container orchestration system for automating deployment, scaling, and management",
+        "category": "DevOps"
+    },
+    {
+        "id": "labview",
+        "name": "LabVIEW",
+        "description": "System-design platform and development environment for a visual programming language.",
+        "category": "Tool"
+    },
+    {
+        "id": "labviewnxg",
+        "name": "LabVIEW NXG",
+        "description": "Next generation of LabVIEW system design software",
+        "category": "Tool"
+    },
+    {
+        "id": "lamp",
+        "name": "LAMP",
+        "description": "Linux, Apache, MySQL, PHP stack",
+        "category": "Platform"
+    },
+    {
+        "id": "laravel",
+        "name": "Laravel",
+        "description": "PHP framework for web application development with expressive syntax.",
+        "category": "Framework"
+    },
+    {
+        "id": "latex",
+        "name": "LaTeX",
+        "description": "Document preparation system",
+        "category": "Tool"
+    },
+    {
+        "id": "lazarus",
+        "name": "Lazarus",
+        "description": "Open-source IDE for Free Pascal, similar to Delphi.",
+        "category": "Tool"
+    },
+    {
+        "id": "leiningen",
+        "name": "Leiningen",
+        "description": "Build tool for Clojure",
+        "category": "Tool"
+    },
+    {
+        "id": "lemonstand",
+        "name": "LemonStand",
+        "description": "E-commerce platform",
+        "category": "Platform"
+    },
+    {
+        "id": "leptos",
+        "name": "Leptos",
+        "description": "Full-stack Rust framework for reactive UIs",
+        "category": "Framework"
+    },
+    {
+        "id": "less",
+        "name": "Less",
+        "description": "CSS preprocessor language",
+        "category": "Language"
+    },
+    {
+        "id": "liberosoc",
+        "name": "Libero SoC",
+        "description": "FPGA design software",
+        "category": "Tool"
+    },
+    {
+        "id": "librarian-chef",
+        "name": "Librarian-Chef",
+        "description": "Dependency manager for Chef cookbooks.",
+        "category": "Tool"
+    },
+    {
+        "id": "libreoffice",
+        "name": "LibreOffice",
+        "description": "Open-source office suite",
+        "category": "Tool"
+    },
+    {
+        "id": "lighthouseci",
+        "name": "Lighthouse CI",
+        "description": "Automated Lighthouse audits for CI workflows.",
+        "category": "Tool"
+    },
+    {
+        "id": "lilypond",
+        "name": "LilyPond",
+        "description": "Music engraving program",
+        "category": "Tool"
+    },
+    {
+        "id": "linux",
+        "name": "Linux",
+        "description": "Open-source operating system",
+        "category": "OS"
+    },
+    {
+        "id": "lithium",
+        "name": "Lithium",
+        "description": "PHP framework for building web applications with a focus on simplicity.",
+        "category": "Framework"
+    },
+    {
+        "id": "localstack",
+        "name": "LocalStack",
+        "description": "Local AWS cloud stack",
+        "category": "DevOps"
+    },
+    {
+        "id": "logtalk",
+        "name": "Logtalk",
+        "description": "Object-oriented logic programming language that extends Prolog.",
+        "category": "Language"
+    },
+    {
+        "id": "lsspice",
+        "name": "LSspice",
+        "description": "Simulation software for electronic circuits.",
+        "category": "Tool"
+    },
+    {
+        "id": "ltspice",
+        "name": "LTSpice",
+        "description": "SPICE simulator for electronic circuit design",
+        "category": "Tool"
+    },
+    {
+        "id": "lua",
+        "name": "Lua",
+        "description": "Lightweight scripting language",
+        "category": "Language"
+    },
+    {
+        "id": "lyx",
+        "name": "LyX",
+        "description": "Document processor based on LaTeX",
+        "category": "Tool"
+    },
+    {
+        "id": "macos",
+        "name": "macOS",
+        "description": "Apple operating system",
+        "category": "OS"
+    },
+    {
+        "id": "magento",
+        "name": "Magento",
+        "description": "E-commerce platform",
+        "category": "Platform"
+    },
+    {
+        "id": "magento1",
+        "name": "Magento 1",
+        "description": "E-commerce platform version 1",
+        "category": "Platform"
+    },
+    {
+        "id": "magento2",
+        "name": "Magento 2",
+        "description": "E-commerce platform version 2",
+        "category": "Platform"
+    },
+    {
+        "id": "magic-xpa",
+        "name": "Magic xpa",
+        "description": "Rapid application development platform",
+        "category": "Tool"
+    },
+    {
+        "id": "matlab",
+        "name": "MATLAB",
+        "description": "Numerical computing environment",
+        "category": "Tool"
+    },
+    {
+        "id": "maven",
+        "name": "Maven",
+        "description": "Java build tool",
+        "category": "Tool"
+    },
+    {
+        "id": "mavensmate",
+        "name": "MavensMate",
+        "description": "Salesforce development tools",
+        "category": "Tool"
+    },
+    {
+        "id": "mdbook",
+        "name": "MdBook",
+        "description": "Tool",
+        "category": "Tool"
+    },
+    {
+        "id": "mean",
+        "name": "MEAN",
+        "description": "MongoDB, Express, Angular, Node.js stack",
+        "category": "Platform"
+    },
+    {
+        "id": "mercurial",
+        "name": "Mercurial",
+        "description": "Distributed version control system",
+        "category": "Tool"
+    },
+    {
+        "id": "mercury",
+        "name": "Mercury",
+        "description": "Functional logic programming language",
+        "category": "Language"
+    },
+    {
+        "id": "meson",
+        "name": "Meson",
+        "description": "Build system",
+        "category": "Tool"
+    },
+    {
+        "id": "metaprogrammingsystem",
+        "name": "Meta Programming System",
+        "description": "JetBrains tool for building domain-specific languages.",
+        "category": "Tool"
+    },
+    {
+        "id": "metals",
+        "name": "Metals",
+        "description": "Scala language server",
+        "category": "Tool"
+    },
+    {
+        "id": "metalsmith",
+        "name": "Metalsmith",
+        "description": "Static site generator",
+        "category": "Tool"
+    },
+    {
+        "id": "meteor",
+        "name": "Meteor",
+        "description": "JavaScript framework",
+        "category": "Framework"
+    },
+    {
+        "id": "meteorjs",
+        "name": "Meteor JS",
+        "description": "Full-stack JavaScript platform",
+        "category": "Framework"
+    },
+    {
+        "id": "micronaut",
+        "name": "Micronaut",
+        "description": "JVM-based framework for modular, lightweight applications",
+        "category": "Framework"
+    },
+    {
+        "id": "azure",
+        "name": "Microsoft Azure",
+        "description": "Cloud computing service created by Microsoft",
+        "category": "Platform"
+    },
+    {
+        "id": "microsoftoffice",
+        "name": "Microsoft Office",
+        "description": "Suite of productivity applications.",
+        "category": "Tool"
+    },
+    {
+        "id": "mikroc",
+        "name": "MikroC",
+        "description": "C compiler for microcontrollers",
+        "category": "Tool"
+    },
+    {
+        "id": "mill",
+        "name": "Mill",
+        "description": "Scala build tool",
+        "category": "Tool"
+    },
+    {
+        "id": "moban",
+        "name": "Moban",
+        "description": "Template engine",
+        "category": "Tool"
+    },
+    {
+        "id": "modelsim",
+        "name": "ModelSim",
+        "description": "HDL simulation software",
+        "category": "Tool"
+    },
+    {
+        "id": "modx",
+        "name": "MODX",
+        "description": "Content management system",
+        "category": "Platform"
+    },
+    {
+        "id": "momentics",
+        "name": "Momentics",
+        "description": "IDE for QNX development",
+        "category": "Tool"
+    },
+    {
+        "id": "mongodb",
+        "name": "MongoDB",
+        "description": "Source-available cross-platform document-oriented database program",
+        "category": "Database"
+    },
+    {
+        "id": "monodevelop",
+        "name": "MonoDevelop",
+        "description": "Cross-platform .NET IDE",
+        "category": "Tool"
+    },
+    {
+        "id": "mplabx",
+        "name": "MPLabX",
+        "description": "Microchip development environment",
+        "category": "Tool"
+    },
+    {
+        "id": "mule",
+        "name": "mule",
+        "description": "MuleSoft integration platform",
+        "category": "Platform"
+    },
+    {
+        "id": "mysql",
+        "name": "MySQL",
+        "description": "Open-source relational database management system",
+        "category": "Database"
+    },
+    {
+        "id": "nanoc",
+        "name": "Nanoc",
+        "description": "Static site generator",
+        "category": "Tool"
+    },
+    {
+        "id": "nativescript",
+        "name": "NativeScript",
+        "description": "Framework for building native mobile apps using JavaScript.",
+        "category": "Framework"
+    },
+    {
+        "id": "ncrunch",
+        "name": "NCrunch",
+        "description": "Automated concurrent testing tool for .NET",
+        "category": "Tool"
+    },
+    {
+        "id": "nesc",
+        "name": "NesC",
+        "description": "Programming language for embedded systems",
+        "category": "Language"
+    },
+    {
+        "id": "nestjs",
+        "name": "NestJS",
+        "description": "Progressive Node.js framework for building efficient server-side applications",
+        "category": "Framework"
+    },
+    {
+        "id": "netbeans",
+        "name": "NetBeans",
+        "description": "Integrated development environment",
+        "category": "Tool"
+    },
+    {
+        "id": "netlify",
+        "name": "Netlify",
+        "description": "All-in-one platform for automating web projects",
+        "category": "Platform"
+    },
+    {
+        "id": "nette",
+        "name": "Nette",
+        "description": "PHP framework",
+        "category": "Framework"
+    },
+    {
+        "id": "nextjs",
+        "name": "NextJS",
+        "description": "React framework",
+        "category": "Framework"
+    },
+    {
+        "id": "nikola",
+        "name": "Nikola",
+        "description": "Static site generator",
+        "category": "Tool"
+    },
+    {
+        "id": "nim",
+        "name": "Nim",
+        "description": "Statically typed compiled language",
+        "category": "Language"
+    },
+    {
+        "id": "ninja",
+        "name": "Ninja",
+        "description": "Build system",
+        "category": "Tool"
+    },
+    {
+        "id": "node",
+        "name": "Node",
+        "description": "JavaScript runtime environment",
+        "category": "Platform"
+    },
+    {
+        "id": "nodechakratimetraveldebug",
+        "name": "Node Chakra Time Travel Debug",
+        "description": "Debugging tool for Node.js ChakraCore engine.",
+        "category": "Tool"
+    },
+    {
+        "id": "nodejs",
+        "name": "Node.js",
+        "description": "JavaScript runtime built on Chrome's V8 JavaScript engine",
+        "category": "Platform"
+    },
+    {
+        "id": "nohup",
+        "name": "Nohup",
+        "description": "Unix command",
+        "category": "Tool"
+    },
+    {
+        "id": "notepadpp",
+        "name": "Notepad++",
+        "description": "Source code editor for Windows",
+        "category": "Tool"
+    },
+    {
+        "id": "nova",
+        "name": "nova",
+        "description": "DigitalOcean cloud platform",
+        "category": "Platform"
+    },
+    {
+        "id": "now",
+        "name": "now",
+        "description": "Vercel deployment platform (formerly Now)",
+        "category": "Platform"
+    },
+    {
+        "id": "nuxtjs",
+        "name": "NuxtJS",
+        "description": "Vue framework",
+        "category": "Framework"
+    },
+    {
+        "id": "nwjs",
+        "name": "NW.js",
+        "description": "Node-Webkit framework",
+        "category": "Framework"
+    },
+    {
+        "id": "nx",
+        "name": "Nx",
+        "description": "Smart, extensible build system for monorepos",
+        "category": "Tool"
+    },
+    {
+        "id": "objective-c",
+        "name": "Objective-C",
+        "description": "General-purpose programming language",
+        "category": "Language"
+    },
+    {
+        "id": "obsidian",
+        "name": "Obsidian",
+        "description": "Knowledge base and note-taking application",
+        "category": "Tool"
+    },
+    {
+        "id": "ocaml",
+        "name": "OCaml",
+        "description": "Functional programming language",
+        "category": "Language"
+    },
+    {
+        "id": "octave",
+        "name": "Octave",
+        "description": "Numerical computing software",
+        "category": "Tool"
+    },
+    {
+        "id": "octobercms",
+        "name": "October CMS",
+        "description": "Self-hosted CMS based on Laravel",
+        "category": "Platform"
+    },
+    {
+        "id": "opa",
+        "name": "Opa",
+        "description": "Web application framework and language",
+        "category": "Framework"
+    },
+    {
+        "id": "opencart",
+        "name": "OpenCart",
+        "description": "Open-source e-commerce platform",
+        "category": "Platform"
+    },
+    {
+        "id": "opencv",
+        "name": "OpenCV",
+        "description": "Computer vision library",
+        "category": "Framework"
+    },
+    {
+        "id": "openfoam",
+        "name": "OpenFOAM",
+        "description": "Computational fluid dynamics software",
+        "category": "Tool"
+    },
+    {
+        "id": "openframeworks",
+        "name": "OpenFrameworks",
+        "description": "C++ toolkit for creative coding.",
+        "category": "Framework"
+    },
+    {
+        "id": "openframeworks+visualstudio",
+        "name": "OpenFrameworks + Visual Studio",
+        "description": "OpenFrameworks setup for Visual Studio.",
+        "category": "Framework"
+    },
+    {
+        "id": "opentelemetry",
+        "name": "OpenTelemetry",
+        "description": "Vendor-neutral telemetry data collection framework",
+        "category": "DevOps"
+    },
+    {
+        "id": "oracleforms",
+        "name": "Oracle Forms",
+        "description": "Rapid application development tool",
+        "category": "Tool"
+    },
+    {
+        "id": "orcad",
+        "name": "OrCAD",
+        "description": "PCB design software",
+        "category": "Tool"
+    },
+    {
+        "id": "osx",
+        "name": "OSX",
+        "description": "Apple macOS operating system",
+        "category": "OS"
+    },
+    {
+        "id": "otto",
+        "name": "Otto",
+        "description": "Development tool for HashiCorp",
+        "category": "Tool"
+    },
+    {
+        "id": "oxideshop",
+        "name": "Oxid eShop",
+        "description": "E-commerce platform",
+        "category": "Platform"
+    },
+    {
+        "id": "oxygenxmleditor",
+        "name": "oXygen XML Editor",
+        "description": "Powerful XML editing suite.",
+        "category": "Tool"
+    },
+    {
+        "id": "packer",
+        "name": "Packer",
+        "description": "Image builder",
+        "category": "Tool"
+    },
+    {
+        "id": "pants",
+        "name": "Pants",
+        "description": "Build system",
+        "category": "Tool"
+    },
+    {
+        "id": "particle",
+        "name": "Particle",
+        "description": "IoT development platform",
+        "category": "Platform"
+    },
+    {
+        "id": "patch",
+        "name": "Patch",
+        "description": "File patching tool",
+        "category": "Tool"
+    },
+    {
+        "id": "pawn",
+        "name": "PAWN",
+        "description": "Scripting language",
+        "category": "Language"
+    },
+    {
+        "id": "perl",
+        "name": "Perl",
+        "description": "High-level scripting language",
+        "category": "Language"
+    },
+    {
+        "id": "perl6",
+        "name": "Perl6",
+        "description": "Programming language (now Raku)",
+        "category": "Language"
+    },
+    {
+        "id": "ph7cms",
+        "name": "pH7CMS",
+        "description": "Dating site CMS",
+        "category": "Platform"
+    },
+    {
+        "id": "phalcon",
+        "name": "Phalcon",
+        "description": "PHP web framework implemented as a C extension",
+        "category": "Framework"
+    },
+    {
+        "id": "phoenix",
+        "name": "Phoenix",
+        "description": "Web development framework for Elixir",
+        "category": "Framework"
+    },
+    {
+        "id": "php",
+        "name": "PHP",
+        "description": "Server-side scripting language for web development",
+        "category": "Language"
+    },
+    {
+        "id": "phpcodesniffer",
+        "name": "PHP CodeSniffer",
+        "description": "Detects violations of coding standards in PHP.",
+        "category": "Tool"
+    },
+    {
+        "id": "php-cs-fixer",
+        "name": "PHP-CS-Fixer",
+        "description": "Tool for fixing PHP coding standards issues.",
+        "category": "Tool"
+    },
+    {
+        "id": "phpstorm",
+        "name": "PhpStorm",
+        "description": "PHP IDE by JetBrains",
+        "category": "Tool"
+    },
+    {
+        "id": "phpstorm+all",
+        "name": "PhpStorm (All)",
+        "description": "All PhpStorm project files and settings.",
+        "category": "Tool"
+    },
+    {
+        "id": "phpstorm+iml",
+        "name": "PhpStorm (IML)",
+        "description": "PhpStorm module definition file.",
+        "category": "Tool"
+    },
+    {
+        "id": "phpunit",
+        "name": "PHPUnit",
+        "description": "Unit testing framework for PHP",
+        "category": "Tool"
+    },
+    {
+        "id": "pico8",
+        "name": "pico8",
+        "description": "Fantasy console",
+        "category": "Platform"
+    },
+    {
+        "id": "pimcore",
+        "name": "Pimcore",
+        "description": "Open-source content management platform",
+        "category": "Platform"
+    },
+    {
+        "id": "pimcore4",
+        "name": "Pimcore 4",
+        "description": "Content management platform version 4",
+        "category": "Platform"
+    },
+    {
+        "id": "pimcore5",
+        "name": "Pimcore 5",
+        "description": "Content management platform version 5",
+        "category": "Platform"
+    },
+    {
+        "id": "pinegrow",
+        "name": "Pinegrow",
+        "description": "Web editor for responsive websites",
+        "category": "Tool"
+    },
+    {
+        "id": "platformio",
+        "name": "PlatformIO",
+        "description": "IoT development platform",
+        "category": "Tool"
+    },
+    {
+        "id": "playframework",
+        "name": "Play Framework",
+        "description": "Web framework for Java and Scala.",
+        "category": "Framework"
+    },
+    {
+        "id": "plone",
+        "name": "Plone",
+        "description": "Content management system",
+        "category": "Platform"
+    },
+    {
+        "id": "polymer",
+        "name": "Polymer",
+        "description": "JavaScript library for building web applications",
+        "category": "Framework"
+    },
+    {
+        "id": "postgresql",
+        "name": "PostgreSQL",
+        "description": "Powerful, open source object-relational database system",
+        "category": "Database"
+    },
+    {
+        "id": "powershell",
+        "name": "PowerShell",
+        "description": "Task automation and configuration management",
+        "category": "Tool"
+    },
+    {
+        "id": "premake-gmake",
+        "name": "Premake (GMake)",
+        "description": "Build configuration tool using Lua.",
+        "category": "Tool"
+    },
+    {
+        "id": "prepros",
+        "name": "Prepros",
+        "description": "Compiler for preprocessing languages",
+        "category": "Tool"
+    },
+    {
+        "id": "prestashop",
+        "name": "PrestaShop",
+        "description": "Open-source e-commerce solution",
+        "category": "Platform"
+    },
+    {
+        "id": "prisma",
+        "name": "Prisma",
+        "description": "Next-generation ORM for Node.js and TypeScript",
+        "category": "Tool"
+    },
+    {
+        "id": "processing",
+        "name": "Processing",
+        "description": "Programming language for visual arts",
+        "category": "Language"
+    },
+    {
+        "id": "progressabl",
+        "name": "Progress ABL",
+        "description": "Business application development language",
+        "category": "Language"
+    },
+    {
+        "id": "prometheus",
+        "name": "Prometheus",
+        "description": "Open-source systems monitoring and alerting toolkit",
+        "category": "DevOps"
+    },
+    {
+        "id": "psoccreator",
+        "name": "PSoC Creator",
+        "description": "IDE for PSoC development",
+        "category": "Tool"
+    },
+    {
+        "id": "pulumi",
+        "name": "Pulumi",
+        "description": "Infrastructure as code",
+        "category": "Tool"
+    },
+    {
+        "id": "pulumi+stacks",
+        "name": "Pulumi + Stacks",
+        "description": "Infrastructure as code platform using general-purpose languages.",
+        "category": "Tool"
+    },
+    {
+        "id": "puppet",
+        "name": "Puppet",
+        "description": "Configuration management",
+        "category": "Tool"
+    },
+    {
+        "id": "puppet-librarian",
+        "name": "Puppet Librarian",
+        "description": "Manages Puppet module dependencies.",
+        "category": "Tool"
+    },
+    {
+        "id": "purebasic",
+        "name": "PureBasic",
+        "description": "Programming language based on BASIC",
+        "category": "Language"
+    },
+    {
+        "id": "purescript",
+        "name": "PureScript",
+        "description": "Strongly-typed functional programming language",
+        "category": "Language"
+    },
+    {
+        "id": "putty",
+        "name": "PuTTY",
+        "description": "SSH and telnet client",
+        "category": "Tool"
+    },
+    {
+        "id": "pvs",
+        "name": "PVS",
+        "description": "Prototype Verification System",
+        "category": "Tool"
+    },
+    {
+        "id": "pycharm",
+        "name": "PyCharm",
+        "description": "Python IDE by JetBrains",
+        "category": "Tool"
+    },
+    {
+        "id": "pycharm+all",
+        "name": "PyCharm (all files)",
+        "description": "Python IDE configuration files",
+        "category": "Tool"
+    },
+    {
+        "id": "pycharm+iml",
+        "name": "PyCharm (iml files)",
+        "description": "Python IDE module files",
+        "category": "Tool"
+    },
+    {
+        "id": "pydev",
+        "name": "pydev",
+        "description": "Python IDE",
+        "category": "Tool"
+    },
+    {
+        "id": "python",
+        "name": "Python",
+        "description": "General-purpose programming language",
+        "category": "Language"
+    },
+    {
+        "id": "pythonvanilla",
+        "name": "Python Vanilla",
+        "description": "Plain Python environment without frameworks.",
+        "category": "Language"
+    },
+    {
+        "id": "pytorch",
+        "name": "PyTorch",
+        "description": "Flexible deep learning framework",
+        "category": "Tool"
+    },
+    {
+        "id": "qml",
+        "name": "QML",
+        "description": "Qt Modeling Language",
+        "category": "Language"
+    },
+    {
+        "id": "qooxdoo",
+        "name": "Qooxdoo",
+        "description": "Universal JavaScript framework",
+        "category": "Framework"
+    },
+    {
+        "id": "qt",
+        "name": "Qt",
+        "description": "Cross-platform application framework",
+        "category": "Framework"
+    },
+    {
+        "id": "qtcreator",
+        "name": "Qt Creator",
+        "description": "Cross-platform IDE for Qt development",
+        "category": "Tool"
+    },
+    {
+        "id": "quarkus",
+        "name": "Quarkus",
+        "description": "Kubernetes-native Java framework for cloud-native apps",
+        "category": "Framework"
+    },
+    {
+        "id": "questdb",
+        "name": "QuestDB",
+        "description": "High-performance time-series database with SQL",
+        "category": "Database"
+    },
+    {
+        "id": "qwik",
+        "name": "Qwik",
+        "description": "Resumable web framework for instant-loading apps",
+        "category": "Framework"
+    },
+    {
+        "id": "r",
+        "name": "R",
+        "description": "Programming language for statistical computing",
+        "category": "Language"
+    },
+    {
+        "id": "racket",
+        "name": "Racket",
+        "description": "Programming language",
+        "category": "Language"
+    },
+    {
+        "id": "rails",
+        "name": "Rails",
+        "description": "Ruby web framework",
+        "category": "Framework"
+    },
+    {
+        "id": "raspberry-pi",
+        "name": "Raspberry Pi",
+        "description": "Low-cost, credit-card-sized computer for IoT",
+        "category": "Platform"
+    },
+    {
+        "id": "raspberry-pi-os",
+        "name": "Raspberry Pi OS",
+        "description": "Official OS for Raspberry Pi devices",
+        "category": "OS"
+    },
+    {
+        "id": "react",
+        "name": "react",
+        "description": "JavaScript library for building user interfaces",
+        "category": "Framework"
+    },
+    {
+        "id": "reactnative",
+        "name": "React Native",
+        "description": "Framework for building native apps with React",
+        "category": "Framework"
+    },
+    {
+        "id": "reasonml",
+        "name": "ReasonML",
+        "description": "Syntax extension and toolchain for OCaml",
+        "category": "Language"
+    },
+    {
+        "id": "red",
+        "name": "Red",
+        "description": "Programming language inspired by REBOL",
+        "category": "Language"
+    },
+    {
+        "id": "redcar",
+        "name": "Redcar",
+        "description": "Text editor",
+        "category": "Tool"
+    },
+    {
+        "id": "redis",
+        "name": "Redis",
+        "description": "In-memory data store",
+        "category": "Database"
+    },
+    {
+        "id": "remix",
+        "name": "Remix",
+        "description": "Web framework",
+        "category": "Framework"
+    },
+    {
+        "id": "remix+arc",
+        "name": "Remix + Arc",
+        "description": "Ethereum development environment with Arc",
+        "category": "Tool"
+    },
+    {
+        "id": "remix+cloudflarepages",
+        "name": "Remix + Cloudflare Pages",
+        "description": "Deploy Remix app to Cloudflare Pages.",
+        "category": "Platform"
+    },
+    {
+        "id": "remix+cloudflareworkers",
+        "name": "Remix + Cloudflare Workers",
+        "description": "Run Remix apps on Cloudflare Workers.",
+        "category": "Platform"
+    },
+    {
+        "id": "remix+netlify",
+        "name": "Remix + Netlify",
+        "description": "Deploy Remix app on Netlify.",
+        "category": "Platform"
+    },
+    {
+        "id": "remix+vercel",
+        "name": "Remix + Vercel",
+        "description": "Deploy Remix app to Vercel platform.",
+        "category": "Platform"
+    },
+    {
+        "id": "renpy",
+        "name": "Renpy",
+        "description": "Visual novel engine",
+        "category": "Framework"
+    },
+    {
+        "id": "replit",
+        "name": "replit",
+        "description": "Online IDE",
+        "category": "Tool"
+    },
+    {
+        "id": "retool",
+        "name": "retool",
+        "description": "Internal tools builder",
+        "category": "Tool"
+    },
+    {
+        "id": "rhodesrhomobile",
+        "name": "Rhodes RhoMobile",
+        "description": "Framework for cross-platform mobile apps.",
+        "category": "Framework"
+    },
+    {
+        "id": "rider",
+        "name": "Rider",
+        "description": ".NET IDE from JetBrains",
+        "category": "Tool"
+    },
+    {
+        "id": "robotframework",
+        "name": "Robot Framework",
+        "description": "Generic test automation framework.",
+        "category": "Tool"
+    },
+    {
+        "id": "root",
+        "name": "ROOT",
+        "description": "Data analysis framework",
+        "category": "Framework"
+    },
+    {
+        "id": "ros",
+        "name": "ROS",
+        "description": "Robot Operating System",
+        "category": "Platform"
+    },
+    {
+        "id": "ros2",
+        "name": "ROS2",
+        "description": "Robot Operating System 2",
+        "category": "Platform"
+    },
+    {
+        "id": "ruby",
+        "name": "Ruby",
+        "description": "Dynamic, object-oriented language",
+        "category": "Language"
+    },
+    {
+        "id": "rubymine",
+        "name": "RubyMine",
+        "description": "Ruby IDE by JetBrains",
+        "category": "Tool"
+    },
+    {
+        "id": "rubymine+all",
+        "name": "RubyMine (All)",
+        "description": "RubyMine IDE configuration files.",
+        "category": "Tool"
+    },
+    {
+        "id": "rubymine+iml",
+        "name": "RubyMine (IML)",
+        "description": "RubyMine module definition file.",
+        "category": "Tool"
+    },
+    {
+        "id": "rust",
+        "name": "Rust",
+        "description": "Systems programming language",
+        "category": "Language"
+    },
+    {
+        "id": "rust-analyzer",
+        "name": "Rust Analyzer",
+        "description": "Language server for Rust.",
+        "category": "Tool"
+    },
+    {
+        "id": "salesforce",
+        "name": "Salesforce",
+        "description": "Customer relationship management platform",
+        "category": "Platform"
+    },
+    {
+        "id": "salesforcedx",
+        "name": "SalesforceDX",
+        "description": "Developer tools for modern Salesforce development.",
+        "category": "Platform"
+    },
+    {
+        "id": "sam",
+        "name": "SAM",
+        "description": "AWS Serverless Application Model",
+        "category": "Tool"
+    },
+    {
+        "id": "sam+config",
+        "name": "SAM Config",
+        "description": "Serverless Application Model configuration",
+        "category": "DevOps"
+    },
+    {
+        "id": "sas",
+        "name": "SAS",
+        "description": "Statistical analysis software",
+        "category": "Tool"
+    },
+    {
+        "id": "sass",
+        "name": "Sass",
+        "description": "CSS preprocessor",
+        "category": "Language"
+    },
+    {
+        "id": "sbt",
+        "name": "SBT",
+        "description": "Scala build tool",
+        "category": "Tool"
+    },
+    {
+        "id": "scala",
+        "name": "Scala",
+        "description": "Functional programming language for JVM",
+        "category": "Language"
+    },
+    {
+        "id": "scheme",
+        "name": "Scheme",
+        "description": "Functional programming language",
+        "category": "Language"
+    },
+    {
+        "id": "scons",
+        "name": "SCons",
+        "description": "Build tool",
+        "category": "Tool"
+    },
+    {
+        "id": "scrivener",
+        "name": "Scrivener",
+        "description": "Writing software for authors",
+        "category": "Tool"
+    },
+    {
+        "id": "sdcc",
+        "name": "Sdcc",
+        "description": "Small Device C Compiler",
+        "category": "Tool"
+    },
+    {
+        "id": "seamgen",
+        "name": "SeamGen",
+        "description": "Code generator for Java EE applications",
+        "category": "Tool"
+    },
+    {
+        "id": "senchatouch",
+        "name": "Sencha Touch",
+        "description": "Mobile application framework",
+        "category": "Framework"
+    },
+    {
+        "id": "serverless",
+        "name": "Serverless",
+        "description": "Serverless application framework",
+        "category": "Framework"
+    },
+    {
+        "id": "shopware",
+        "name": "Shopware",
+        "description": "E-commerce platform",
+        "category": "Platform"
+    },
+    {
+        "id": "sigstore",
+        "name": "Sigstore",
+        "description": "Toolkit for secure software supply chains",
+        "category": "DevOps"
+    },
+    {
+        "id": "silverstripe",
+        "name": "Silverstripe",
+        "description": "PHP CMS and framework for web development.",
+        "category": "Framework"
+    },
+    {
+        "id": "sketchup",
+        "name": "SketchUp",
+        "description": "3D modeling software",
+        "category": "Tool"
+    },
+    {
+        "id": "slickedit",
+        "name": "SlickEdit",
+        "description": "Cross-platform code editor",
+        "category": "Tool"
+    },
+    {
+        "id": "smalltalk",
+        "name": "Smalltalk",
+        "description": "Object-oriented programming language",
+        "category": "Language"
+    },
+    {
+        "id": "snap",
+        "name": "Snap",
+        "description": "Snapcraft package system",
+        "category": "Tool"
+    },
+    {
+        "id": "snapcraft",
+        "name": "Snapcraft",
+        "description": "Package management system",
+        "category": "Tool"
+    },
+    {
+        "id": "snyk",
+        "name": "Snyk",
+        "description": "Developer security platform",
+        "category": "Tool"
+    },
+    {
+        "id": "solidity",
+        "name": "Solidity",
+        "description": "Contract-oriented programming language",
+        "category": "Language"
+    },
+    {
+        "id": "soliditytruffle",
+        "name": "Solidity + Truffle",
+        "description": "Smart contract development framework for Ethereum.",
+        "category": "Tool"
+    },
+    {
+        "id": "solidjs",
+        "name": "SolidJS",
+        "description": "Declarative JavaScript library for building UIs",
+        "category": "Framework"
+    },
+    {
+        "id": "sonar",
+        "name": "Sonar",
+        "description": "Code quality tool",
+        "category": "Tool"
+    },
+    {
+        "id": "sonarqube",
+        "name": "SonarQube",
+        "description": "Platform for code quality analysis",
+        "category": "Tool"
+    },
+    {
+        "id": "sourcepawn",
+        "name": "SourcePawn",
+        "description": "Scripting language for Source engine",
+        "category": "Language"
+    },
+    {
+        "id": "spark",
+        "name": "Spark",
+        "description": "Apache Spark data processing",
+        "category": "Framework"
+    },
+    {
+        "id": "specflow",
+        "name": "SpecFlow",
+        "description": "BDD framework for .NET",
+        "category": "Tool"
+    },
+    {
+        "id": "splunk",
+        "name": "Splunk",
+        "description": "Log analysis tool",
+        "category": "Tool"
+    },
+    {
+        "id": "spreadsheet",
+        "name": "Spreadsheet",
+        "description": "Spreadsheet file formats",
+        "category": "Tool"
+    },
+    {
+        "id": "spring-batch",
+        "name": "Spring Batch",
+        "description": "Framework for batch processing in enterprise applications",
+        "category": "Framework"
+    },
+    {
+        "id": "spring-boot",
+        "name": "Spring Boot",
+        "description": "Framework for creating stand-alone, production-grade Spring based Applications",
+        "category": "Framework"
+    },
+    {
+        "id": "spring-cloud",
+        "name": "Spring Cloud",
+        "description": "Provides tools for developers to quickly build distributed systems",
+        "category": "Framework"
+    },
+    {
+        "id": "spring-data",
+        "name": "Spring Data",
+        "description": "Provides a consistent approach to data access",
+        "category": "Framework"
+    },
+    {
+        "id": "spring-graphql",
+        "name": "Spring GraphQL",
+        "description": "Official GraphQL support for Spring applications",
+        "category": "Framework"
+    },
+    {
+        "id": "spring-integration",
+        "name": "Spring Integration",
+        "description": "Extends Spring for enterprise integration patterns (EIP)",
+        "category": "Framework"
+    },
+    {
+        "id": "spring-mvc",
+        "name": "Spring MVC",
+        "description": "Web framework built on the Servlet API",
+        "category": "Framework"
+    },
+    {
+        "id": "spring-rsocket",
+        "name": "Spring RSocket",
+        "description": "Reactive messaging protocol support for Spring applications",
+        "category": "Framework"
+    },
+    {
+        "id": "spring-security",
+        "name": "Spring Security",
+        "description": "Powerful and highly customizable authentication and access-control framework",
+        "category": "Framework"
+    },
+    {
+        "id": "spring-webflux",
+        "name": "Spring WebFlux",
+        "description": "Reactive web framework for non-blocking applications",
+        "category": "Framework"
+    },
+    {
+        "id": "ssh",
+        "name": "SSH",
+        "description": "Secure Shell protocol",
+        "category": "Tool"
+    },
+    {
+        "id": "standardml",
+        "name": "Standard ML",
+        "description": "General-purpose functional language",
+        "category": "Language"
+    },
+    {
+        "id": "stata",
+        "name": "Stata",
+        "description": "Statistical software",
+        "category": "Tool"
+    },
+    {
+        "id": "stdlib",
+        "name": "StdLib",
+        "description": "Standard library for various programming languages",
+        "category": "Framework"
+    },
+    {
+        "id": "stella",
+        "name": "Stella",
+        "description": "A framework for building web applications",
+        "category": "Framework"
+    },
+    {
+        "id": "stellar",
+        "name": "Stellar",
+        "description": "Platform for building financial products",
+        "category": "Tool"
+    },
+    {
+        "id": "storybookjs",
+        "name": "Storybook",
+        "description": "UI component explorer for frontend developers",
+        "category": "Tool"
+    },
+    {
+        "id": "strapi",
+        "name": "Strapi",
+        "description": "Open-source headless CMS for building APIs",
+        "category": "Platform"
+    },
+    {
+        "id": "sublimetext",
+        "name": "Sublime Text",
+        "description": "Sophisticated text editor",
+        "category": "Tool"
+    },
+    {
+        "id": "sugarcrm",
+        "name": "SugarCRM",
+        "description": "Customer relationship management system",
+        "category": "Platform"
+    },
+    {
+        "id": "supabase",
+        "name": "Supabase",
+        "description": "Open-source Firebase alternative with PostgreSQL",
+        "category": "Database"
+    },
+    {
+        "id": "surrealdb",
+        "name": "SurrealDB",
+        "description": "NewSQL database for real-time and collaborative apps",
+        "category": "Database"
+    },
+    {
+        "id": "svelte",
+        "name": "Svelte",
+        "description": "Component framework that compiles to highly efficient vanilla JS",
+        "category": "Framework"
+    },
+    {
+        "id": "svn",
+        "name": "SVN",
+        "description": "Apache Subversion version control",
+        "category": "Tool"
+    },
+    {
+        "id": "swc",
+        "name": "SWC",
+        "description": "Rust-based JavaScript/TypeScript compiler",
+        "category": "Tool"
+    },
+    {
+        "id": "swift",
+        "name": "Swift",
+        "description": "Apple programming language",
+        "category": "Language"
+    },
+    {
+        "id": "swiftpackagemanager",
+        "name": "Swift Package Manager",
+        "description": "Tool for managing Swift code dependencies.",
+        "category": "Tool"
+    },
+    {
+        "id": "swiftpm",
+        "name": "SwiftPM",
+        "description": "Swift Package Manager",
+        "category": "Tool"
+    },
+    {
+        "id": "symfony",
+        "name": "Symfony",
+        "description": "PHP web application framework",
+        "category": "Framework"
+    },
+    {
+        "id": "symphonycms",
+        "name": "Symphony CMS",
+        "description": "XSLT-based content management system",
+        "category": "Platform"
+    },
+    {
+        "id": "synopsysvcs",
+        "name": "Synopsys VCS",
+        "description": "Verilog simulator",
+        "category": "Tool"
+    },
+    {
+        "id": "tags",
+        "name": "Tags",
+        "description": "Tagging systems",
+        "category": "Tool"
+    },
+    {
+        "id": "tarmainstallmate",
+        "name": "Tarma InstallMate",
+        "description": "Tool to create software installers.",
+        "category": "Tool"
+    },
+    {
+        "id": "tekton",
+        "name": "Tekton",
+        "description": "Kubernetes-native CI/CD pipeline framework",
+        "category": "DevOps"
+    },
+    {
+        "id": "tensorflow",
+        "name": "TensorFlow",
+        "description": "Open-source machine learning framework",
+        "category": "Tool"
+    },
+    {
+        "id": "terraform",
+        "name": "Terraform",
+        "description": "Infrastructure as code software tool",
+        "category": "DevOps"
+    },
+    {
+        "id": "terragrunt",
+        "name": "Terragrunt",
+        "description": "Thin wrapper for Terraform",
+        "category": "DevOps"
+    },
+    {
+        "id": "test",
+        "name": "Test",
+        "description": "Testing frameworks",
+        "category": "Tool"
+    },
+    {
+        "id": "testcomplete",
+        "name": "TestComplete",
+        "description": "Automated testing tool for desktop, web, and mobile apps.",
+        "category": "Tool"
+    },
+    {
+        "id": "testinfra",
+        "name": "Testinfra",
+        "description": "Infrastructure testing framework",
+        "category": "Tool"
+    },
+    {
+        "id": "tex",
+        "name": "TeX",
+        "description": "Typesetting system",
+        "category": "Tool"
+    },
+    {
+        "id": "text",
+        "name": "Text",
+        "description": "Text processing tools",
+        "category": "Tool"
+    },
+    {
+        "id": "textmate",
+        "name": "TextMate",
+        "description": "Graphical text editor for macOS",
+        "category": "Tool"
+    },
+    {
+        "id": "textpattern",
+        "name": "Textpattern",
+        "description": "Content management system",
+        "category": "Platform"
+    },
+    {
+        "id": "theos-tweak",
+        "name": "THEOS Tweak",
+        "description": "iOS development framework",
+        "category": "Framework"
+    },
+    {
+        "id": "thinkphp",
+        "name": "ThinkPHP",
+        "description": "Chinese PHP framework",
+        "category": "Framework"
+    },
+    {
+        "id": "timescaledb",
+        "name": "TimescaleDB",
+        "description": "Time-series database optimized for PostgreSQL",
+        "category": "Database"
+    },
+    {
+        "id": "tinygo",
+        "name": "TinyGo",
+        "description": "Go compiler for microcontrollers and WASM",
+        "category": "Tool"
+    },
+    {
+        "id": "tla+",
+        "name": "TLA+",
+        "description": "Formal specification language",
+        "category": "Language"
+    },
+    {
+        "id": "toit",
+        "name": "Toit",
+        "description": "IoT programming language",
+        "category": "Language"
+    },
+    {
+        "id": "tortoisegit",
+        "name": "TortoiseGit",
+        "description": "Git client for Windows",
+        "category": "Tool"
+    },
+    {
+        "id": "tower",
+        "name": "Tower",
+        "description": "Git client",
+        "category": "Tool"
+    },
+    {
+        "id": "trivy",
+        "name": "Trivy",
+        "description": "Vulnerability scanner for containers and code",
+        "category": "Tool"
+    },
+    {
+        "id": "turbo",
+        "name": "Turbo",
+        "description": "Hotwire framework component",
+        "category": "Framework"
+    },
+    {
+        "id": "turbogears2",
+        "name": "TurboGears 2",
+        "description": "Python web framework",
+        "category": "Framework"
+    },
+    {
+        "id": "turborepo",
+        "name": "Turborepo",
+        "description": "High-performance build system for monorepos",
+        "category": "Tool"
+    },
+    {
+        "id": "twincat3",
+        "name": "TwinCAT 3",
+        "description": "Automation software from Beckhoff",
+        "category": "Tool"
+    },
+    {
+        "id": "tye",
+        "name": "Tye",
+        "description": "Developer tool for microservices",
+        "category": "Tool"
+    },
+    {
+        "id": "typescript",
+        "name": "TypeScript",
+        "description": "Strongly typed programming language that builds on JavaScript",
+        "category": "Language"
+    },
+    {
+        "id": "typings",
+        "name": "Typings",
+        "description": "TypeScript definition manager",
+        "category": "Tool"
+    },
+    {
+        "id": "typo3",
+        "name": "Typo3",
+        "description": "Content management system",
+        "category": "Platform"
+    },
+    {
+        "id": "typo3-composer",
+        "name": "TYPO3 Composer",
+        "description": "TYPO3 CMS projects managed with Composer.",
+        "category": "Platform"
+    },
+    {
+        "id": "ubuntu",
+        "name": "Ubuntu",
+        "description": "Popular Linux distribution based on Debian",
+        "category": "OS"
+    },
+    {
+        "id": "umbraco",
+        "name": "Umbraco",
+        "description": "Open-source .NET CMS",
+        "category": "Platform"
+    },
+    {
+        "id": "unity",
+        "name": "Unity",
+        "description": "Game engine",
+        "category": "Framework"
+    },
+    {
+        "id": "unrealengine",
+        "name": "Unreal Engine",
+        "description": "Advanced real-time 3D creation tool for games and experiences.",
+        "category": "Tool"
+    },
+    {
+        "id": "vlang",
+        "name": "V",
+        "description": "Simple, fast, compiled language for maintainable software",
+        "category": "Language"
+    },
+    {
+        "id": "vagrant",
+        "name": "Vagrant",
+        "description": "Tool for building and managing virtual environments",
+        "category": "DevOps"
+    },
+    {
+        "id": "valgrind",
+        "name": "Valgrind",
+        "description": "Programming tool for memory debugging",
+        "category": "Tool"
+    },
+    {
+        "id": "vapor",
+        "name": "Vapor",
+        "description": "Swift web framework",
+        "category": "Framework"
+    },
+    {
+        "id": "vcpkg",
+        "name": "vcpkg",
+        "description": "C++ package manager",
+        "category": "Tool"
+    },
+    {
+        "id": "venv",
+        "name": "venv",
+        "description": "Python virtual environment",
+        "category": "Tool"
+    },
+    {
+        "id": "vercel",
+        "name": "Vercel",
+        "description": "Cloud platform for frontend frameworks and static sites",
+        "category": "Platform"
+    },
+    {
+        "id": "vertx",
+        "name": "Vertx",
+        "description": "Toolkit for reactive apps",
+        "category": "Framework"
+    },
+    {
+        "id": "video",
+        "name": "Video",
+        "description": "Video processing tools",
+        "category": "Tool"
+    },
+    {
+        "id": "vim",
+        "name": "Vim",
+        "description": "Highly configurable text editor",
+        "category": "Tool"
+    },
+    {
+        "id": "virtualenv",
+        "name": "VirtualEnv",
+        "description": "Python virtual environment creator",
+        "category": "Tool"
+    },
+    {
+        "id": "virtuoso",
+        "name": "Virtuoso",
+        "description": "Universal server for data management",
+        "category": "Database"
+    },
+    {
+        "id": "visualbasic",
+        "name": "Visual Basic",
+        "description": "Programming language from Microsoft",
+        "category": "Language"
+    },
+    {
+        "id": "visualstudio",
+        "name": "Visual Studio",
+        "description": "Microsoft IDE for .NET and C++ development.",
+        "category": "Tool"
+    },
+    {
+        "id": "visualstudiocode",
+        "name": "Visual Studio Code",
+        "description": "Lightweight code editor with extensions support.",
+        "category": "Tool"
+    },
+    {
+        "id": "vite",
+        "name": "Vite",
+        "description": "Next generation frontend tooling with native ES modules",
+        "category": "Tool"
+    },
+    {
+        "id": "vlab",
+        "name": "VLab",
+        "description": "Virtual laboratory environment",
+        "category": "Platform"
+    },
+    {
+        "id": "vrealizeorchestrator",
+        "name": "vRealize Orchestrator",
+        "description": "VMware tool for automating workflows.",
+        "category": "Tool"
+    },
+    {
+        "id": "vs",
+        "name": "VS",
+        "description": "Visual Studio development environment",
+        "category": "Tool"
+    },
+    {
+        "id": "vscode",
+        "name": "VS Code",
+        "description": "Source-code editor developed by Microsoft",
+        "category": "Tool"
+    },
+    {
+        "id": "vue",
+        "name": "Vue",
+        "description": "Progressive JavaScript framework",
+        "category": "Framework"
+    },
+    {
+        "id": "vuejs",
+        "name": "Vuejs",
+        "description": "JavaScript framework",
+        "category": "Framework"
+    },
+    {
+        "id": "vvvv",
+        "name": "VVVV",
+        "description": "Visual programming environment",
+        "category": "Tool"
+    },
+    {
+        "id": "waf",
+        "name": "Waf",
+        "description": "Python-based build system",
+        "category": "Tool"
+    },
+    {
+        "id": "wakanda",
+        "name": "Wakanda",
+        "description": "JavaScript platform for enterprise applications",
+        "category": "Framework"
+    },
+    {
+        "id": "wasmer",
+        "name": "Wasmer",
+        "description": "Runtime for executing WASM outside the browser",
+        "category": "Platform"
+    },
+    {
+        "id": "wasmtime",
+        "name": "Wasmtime",
+        "description": "Standalone JIT-style runtime for WASM",
+        "category": "Platform"
+    },
+    {
+        "id": "web",
+        "name": "Web",
+        "description": "Web development technologies",
+        "category": "Platform"
+    },
+    {
+        "id": "web3js",
+        "name": "Web3.js",
+        "description": "JavaScript library for interacting with Ethereum",
+        "category": "Framework"
+    },
+    {
+        "id": "wasm",
+        "name": "WebAssembly",
+        "description": "Binary instruction format for stack-based virtual machines",
+        "category": "Platform"
+    },
+    {
+        "id": "webmethods",
+        "name": "webMethods",
+        "description": "Integration and API management platform",
+        "category": "Platform"
+    },
+    {
+        "id": "webpack",
+        "name": "Webpack",
+        "description": "Static module bundler for modern JavaScript applications",
+        "category": "Tool"
+    },
+    {
+        "id": "webstorm",
+        "name": "WebStorm",
+        "description": "JavaScript IDE by JetBrains",
+        "category": "Tool"
+    },
+    {
+        "id": "webstorm+all",
+        "name": "WebStorm (All)",
+        "description": "WebStorm IDE settings and configuration files.",
+        "category": "Tool"
+    },
+    {
+        "id": "webstorm+iml",
+        "name": "WebStorm (IML)",
+        "description": "WebStorm module configuration file.",
+        "category": "Tool"
+    },
+    {
+        "id": "werckercli",
+        "name": "Wercker CLI",
+        "description": "Command-line interface for Wercker CI/CD",
+        "category": "DevOps"
+    },
+    {
+        "id": "windows",
+        "name": "Windows",
+        "description": "Microsoft operating system",
+        "category": "OS"
+    },
+    {
+        "id": "wintersmith",
+        "name": "Wintersmith",
+        "description": "Static site generator",
+        "category": "Tool"
+    },
+    {
+        "id": "wordpress",
+        "name": "WordPress",
+        "description": "Content management system",
+        "category": "Platform"
+    },
+    {
+        "id": "wyam",
+        "name": "Wyam",
+        "description": "Static site generator",
+        "category": "Tool"
+    },
+    {
+        "id": "xamarinstudio",
+        "name": "Xamarin Studio",
+        "description": "IDE for developing cross-platform mobile apps with C#.",
+        "category": "Tool"
+    },
+    {
+        "id": "xcode",
+        "name": "Xcode",
+        "description": "Apple development environment",
+        "category": "Tool"
+    },
+    {
+        "id": "xcodeinjection",
+        "name": "Xcode Injection",
+        "description": "Inject code changes in running iOS apps during development.",
+        "category": "Tool"
+    },
+    {
+        "id": "xilinxise",
+        "name": "Xilinx ISE",
+        "description": "Integrated development environment for FPGA design",
+        "category": "Tool"
+    },
+    {
+        "id": "xilinxvivado",
+        "name": "Xilinx Vivado",
+        "description": "Design suite for FPGA development by Xilinx.",
+        "category": "Tool"
+    },
+    {
+        "id": "xill",
+        "name": "Xill",
+        "description": "Robot process automation",
+        "category": "Platform"
+    },
+    {
+        "id": "xmake",
+        "name": "xmake",
+        "description": "Build system",
+        "category": "Tool"
+    },
+    {
+        "id": "xojo",
+        "name": "Xojo",
+        "description": "Cross-platform development tool",
+        "category": "Tool"
+    },
+    {
+        "id": "xtext",
+        "name": "XText",
+        "description": "Language development framework",
+        "category": "Framework"
+    },
+    {
+        "id": "y86",
+        "name": "Y86",
+        "description": "Educational computer architecture",
+        "category": "Platform"
+    },
+    {
+        "id": "yalc",
+        "name": "yalc",
+        "description": "Local package manager",
+        "category": "Tool"
+    },
+    {
+        "id": "yarn",
+        "name": "Yarn",
+        "description": "JavaScript package manager",
+        "category": "Tool"
+    },
+    {
+        "id": "yii",
+        "name": "Yii",
+        "description": "PHP web application framework",
+        "category": "Framework"
+    },
+    {
+        "id": "yii2",
+        "name": "Yii2",
+        "description": "PHP framework version 2",
+        "category": "Framework"
+    },
+    {
+        "id": "zendframework",
+        "name": "Zend Framework",
+        "description": "Open-source PHP framework for web apps.",
+        "category": "Framework"
+    },
+    {
+        "id": "zephyr",
+        "name": "Zephyr OS",
+        "description": "Real-time operating system for IoT devices",
+        "category": "OS"
+    },
+    {
+        "id": "zig",
+        "name": "zig",
+        "description": "General-purpose programming language",
+        "category": "Language"
+    },
+    {
+        "id": "zsh",
+        "name": "Zsh",
+        "description": "Z Shell command interpreter",
+        "category": "Tool"
+    },
+    {
+        "id": "zukencr8000",
+        "name": "Zuken CR-8000",
+        "description": "PCB design software",
+        "category": "Tool"
+    }
 ]

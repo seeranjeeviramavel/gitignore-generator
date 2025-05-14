@@ -52,15 +52,28 @@ function App() {
     setError(null);
     setGitignoreContent("");
 
-    const prompt = `I'm using a stack that includes ${selectedTechs.join(
-      ", "
-    )} .Please provide a .gitignore file that ignores all unnecessary files and folders related to these tools and development in general.`;
+const prompt = `I'm using a stack that includes ${selectedTechs.join(", ")}. 
+Please provide only the content of a .gitignore file in a single code block like this:
 
-    let streamedText = "";
-    const onStreamUpdate = (chunk: string) => {
-      streamedText += chunk;
-      setGitignoreContent(streamedText);
-    };
+\`\`\`gitignore
+# content here
+\`\`\`
+Do not include any explanation.`;
+
+
+let streamedText = "";
+let extractedContent = "";
+
+const onStreamUpdate = (chunk: string) => {
+  streamedText += chunk;
+
+  const match = streamedText.match(/```(?:gitignore)?\n([\s\S]*?)```/);
+  if (match) {
+    extractedContent = match[1].trim();
+    setGitignoreContent(extractedContent);
+  }
+};
+
     await generate(prompt, onStreamUpdate);
     const historyItem = {
       techs: [...selectedTechs],
